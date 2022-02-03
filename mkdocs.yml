@@ -1,0 +1,19 @@
+site_name: MyPhotos
+site_description: Documentação MyPhotos.
+site_author: RF Solution IT
+
+#repo_url: https://github.com/rfsolutionit/myphotos
+edit_uri: ""
+
+nav:
+  - Home: index.md
+  - Básico: basico.md
+  - Cadastros: cadastros.md
+  - Tarefas: tarefas.md  
+  - Consultas: consultas.md  
+  - Sobre:
+    - Releases Notes: releases.md
+theme: flatly
+
+extra_css:
+    - css/extra.css
