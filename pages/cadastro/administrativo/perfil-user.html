@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,304 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#perfil-de-usuario" class="nav-link">Perfil de Usuário</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#formularios-segundarios" class="nav-link">Formularios Segundarios</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#contrato" class="nav-link">Contrato</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#estoque" class="nav-link">Estoque</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#operacional" class="nav-link">Operacional</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#gestor-de-vendas" class="nav-link">Gestor de Vendas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#administracao" class="nav-link">Administração</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#financeiro" class="nav-link">Financeiro</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="perfil-de-usuario">Perfil de Usuário</h1>
+<p><strong>Campo com a função de cadastrar novos perfis de usuário</strong></p>
+<hr />
+<h3 id="novo-perfil">Novo Perfil</h3>
+<p><img alt="" src="../../../img/novoPerfil.PNG" /></p>
+<ul>
+<li><code>Descrição</code> - Insira um nome</li>
+<li><strong>Este campo tem a função de cadastrar perfis para usuário, no caso cadastrar em qual local certo usuário trabalhará</strong></li>
+</ul>
+<hr />
+<ol>
+<li>Modulos<ul>
+<li><strong>Contrato</strong></li>
+<li><strong>Estoque</strong></li>
+<li><strong>Operacional</strong></li>
+<li><strong>Financeiro</strong></li>
+<li><strong>Gestor de Vendas</strong></li>
+<li><strong>Administrativo</strong></li>
+</ul>
+</li>
+</ol>
+<hr />
+<ul>
+<li><strong>Após escolher um modulo outras opções devem ser escolhida</strong></li>
+</ul>
+<hr />
+<ol>
+<li>Formularios Principais<ul>
+<li><strong>Cadastro</strong></li>
+<li><strong>Configuração</strong></li>
+<li><strong>Gerenciamento</strong></li>
+<li><strong>Relatório</strong></li>
+</ul>
+</li>
+<li>Formularios Extras<ul>
+<li><strong>Alguns modulos tem opções extras</strong></li>
+<li>Finaceiro<ul>
+<li><strong>Cobrança</strong></li>
+<li><strong>Conciliação</strong></li>
+<li><strong>Movimento</strong></li>
+</ul>
+</li>
+<li>Administrativo<ul>
+<li><strong>Dashboard</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="formularios-segundarios">Formularios Segundarios</h2>
+<ul>
+<li><strong>Todos os formularios principais tem formularios secundários e pelo menos um deve ser escolhido</strong></li>
+</ul>
+<h2 id="contrato">Contrato</h2>
+<hr />
+<p><br></p>
+<ol>
+<li>Contrato - Cadastro<ul>
+<li><strong>Contratos de Formaturas</strong></li>
+<li><strong>Cursos</strong></li>
+<li><strong>Faculdade</strong></li>
+<li><strong>Formando</strong></li>
+<li><strong>Representantes</strong></li>
+<li><strong>Temporadas</strong></li>
+<li><strong>Turma</strong></li>
+<li><strong>Usuários</strong></li>
+</ul>
+</li>
+<li>Contrato - Gerenciamento<ul>
+<li><strong>Avaliação de Proposta Contratual</strong></li>
+<li><strong>Clausualas Contratuais</strong></li>
+<li><strong>Formando Comercial</strong></li>
+<li><strong>Produto</strong></li>
+<li><strong>Proposta Comercial</strong></li>
+<li><strong>Turma comercial</strong></li>
+</ul>
+</li>
+<li>Contrato - Relatório<ul>
+<li><strong>Consulta Geral de Formandos</strong></li>
+<li><strong>Programação de Pagamentos</strong></li>
+<li><strong>Relatório de Custo de Comandos</strong></li>
+</ul>
+</li>
+</ol>
+<h2 id="estoque">Estoque</h2>
+<hr />
+<p><br></p>
+<ol>
+<li>Estoque - Cadastro<ul>
+<li><strong>Categoria</strong></li>
+<li><strong>Fornecedores</strong></li>
+<li><strong>Locais de Estoque</strong></li>
+<li><strong>Pedidos</strong></li>
+<li><strong>Produto</strong></li>
+<li><strong>Produto Item</strong></li>
+<li><strong>Saída de Produtos</strong></li>
+<li><strong>Serviços</strong></li>
+<li><strong>Tipos de Produtos</strong></li>
+<li><strong>Transferência de Produtos</strong></li>
+</ul>
+</li>
+<li>Estoque - Gerenciamento<ul>
+<li><strong>Gestão de Produtos</strong></li>
+<li><strong>Ordem de Movimento</strong> </li>
+<li><strong>Ordem de Movimento Avançada</strong></li>
+<li><strong>Planilha de Produtos</strong></li>
+</ul>
+</li>
+<li>Estoque - Relatório <ul>
+<li><strong>Relatório de Produtos</strong></li>
+</ul>
+</li>
+</ol>
+<h2 id="operacional">Operacional</h2>
+<hr />
+<p><br></p>
+<ol>
+<li>Operacional - Cadastro<ul>
+<li><strong>Acessória do Profissional</strong></li>
+<li><strong>Anotação do Evento</strong></li>
+<li><strong>Caracteristaca do Evento</strong></li>
+<li><strong>Despesas</strong></li>
+<li><strong>Evento Base</strong></li>
+<li><strong>Formandos do Evento</strong></li>
+<li><strong>Objetos de Cobertura</strong></li>
+<li><strong>Profissionais</strong></li>
+<li><strong>Profissionais Funcionários</strong></li>
+<li><strong>Tabela de Valores</strong></li>
+<li><strong>Tipo de Custo</strong></li>
+</ul>
+</li>
+<li>Operacional - Gerenciamento <ul>
+<li><strong>Brindes de Evento</strong></li>
+<li><strong>Eventos</strong></li>
+<li><strong>Execução de Contratos</strong></li>
+<li><strong>Planejamento de Reportagem</strong></li>
+<li><strong>Relatório de Reportagem Externo</strong></li>
+<li><strong>Reportagem</strong></li>
+<li><strong>Reportagem Externa</strong></li>
+</ul>
+</li>
+<li>Operacional - Relatório<ul>
+<li><strong>Calendario de Eventos Google</strong></li>
+<li><strong>Calendario de Eventos Interno</strong></li>
+<li><strong>Programação de Pagamentos</strong></li>
+<li><strong>Relatório de Reportagem</strong></li>
+</ul>
+</li>
+</ol>
+<h2 id="gestor-de-vendas">Gestor de Vendas</h2>
+<hr />
+<p><br></p>
+<ol>
+<li>Gestor - Cadastro<ul>
+<li><strong>Condições para Venda</strong></li>
+<li><strong>Configuração de Escala de Vendas</strong></li>
+<li><strong>Desconto Especiais</strong></li>
+<li><strong>Formas de Pagamentos</strong></li>
+<li><strong>Produtos para Venda</strong></li>
+<li><strong>Tabela de Comissões</strong></li>
+<li><strong>Vendedores</strong></li>
+<li><strong>Vendedores Funcionarios</strong></li>
+</ul>
+</li>
+<li>Gestor - Gerenciamento<ul>
+<li><strong>Comissão dos Vendores</strong></li>
+<li><strong>Comissões de Vendedores Geral</strong></li>
+<li><strong>Conferência de Retorno</strong></li>
+<li><strong>Escala de Vendedores</strong></li>
+<li><strong>Mapas de Venda</strong></li>
+<li><strong>Pedidos Extras</strong></li>
+<li><strong>Tabela de Vendas</strong></li>
+<li><strong>Venda Nova Visita</strong></li>
+</ul>
+</li>
+<li>Gestor - Relatório<ul>
+<li><strong>Análise de Vendas</strong></li>
+<li><strong>Conta Correte Vendedor</strong></li>
+<li><strong>Listagem de Vendas</strong></li>
+<li><strong>Pedidos Extras</strong></li>
+<li><strong>Relatório de Feedbacks</strong></li>
+<li><strong>Relatório de Produtos</strong></li>
+</ul>
+</li>
+</ol>
+<h2 id="administracao">Administração</h2>
+<hr />
+<p><br></p>
+<ol>
+<li>Administração - Cadastro<ul>
+<li><strong>Perfil de Usuário</strong></li>
+</ul>
+</li>
+<li>Administração - Configuração<ul>
+<li><strong>Empresa</strong></li>
+</ul>
+</li>
+<li>Administração - Dashboard<ul>
+<li><strong>Relatório Gera</strong></li>
+</ul>
+</li>
+<li>Administração - Relatório<ul>
+<li><strong>Acessos</strong></li>
+<li><strong>Busca Geral de Formandos</strong></li>
+</ul>
+</li>
+</ol>
+<h2 id="financeiro">Financeiro</h2>
+<hr />
+<p><br></p>
+<ol>
+<li>Financeiro - Cadastro<ul>
+<li><strong>Beneficiários</strong></li>
+<li><strong>Carteiras</strong></li>
+<li><strong>Centro de Custo X Area de Atuação</strong></li>
+<li><strong>Centro de Custo</strong></li>
+<li><strong>Cliente</strong></li>
+<li><strong>Contas Bancárias de Fornecedores</strong></li>
+<li><strong>Formas de Pagamento</strong></li>
+<li><strong>Fonecedor</strong></li>
+<li><strong>Plano de Contas</strong></li>
+<li><strong>Taxa de Cartões</strong></li>
+</ul>
+</li>
+<li>Financeiro - Cobrança<ul>
+<li><strong>Ambiente do Cobrador</strong></li>
+<li><strong>Clientes para Cobrança</strong></li>
+<li><strong>Detalhes Renegociação</strong></li>
+<li><strong>Relatório de Cobranças</strong></li>
+</ul>
+</li>
+<li>Financeiro - Conciliação<ul>
+<li><strong>Coferencia de Extrato Bancário</strong></li>
+</ul>
+</li>
+<li>Financeiro - Movimento<ul>
+<li><strong>Cheques</strong></li>
+<li><strong>Cobrança Bancária</strong></li>
+<li><strong>Contas a Pagar</strong></li>
+<li><strong>Contas a Receber</strong></li>
+<li><strong>Folha de Pagamento</strong></li>
+<li><strong>Movimento Financeiro</strong></li>
+<li><strong>Plataformas de Cartões</strong></li>
+<li><strong>Programação de Pagamento</strong></li>
+<li><strong>Receber Conta</strong></li>
+<li><strong>Transação</strong></li>
+</ul>
+</li>
+<li>Financeiro - Relatório<ul>
+<li><strong>Demonstrativo Plano Contas</strong></li>
+<li><strong>Provisionamneto Financeiro</strong></li>
+<li><strong>Relatório Conta Corrente</strong></li>
+<li><strong>Relatório de Fluxo de Recebimento de Cheque</strong></li>
+<li><strong>Relatório Recebimentos</strong></li>
+<li><strong>Saldo em Carteiras</strong></li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/perfilDeUsuario.PNG" /></p></div>
             </div>
         </div>
 

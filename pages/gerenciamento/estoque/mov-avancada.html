@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,57 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#movimentacao-avancada" class="nav-link">Movimentação Avançada</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#pos-vendas" class="nav-link">Pós Vendas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="movimentacao-avancada">Movimentação Avançada</h1>
+<p><strong>Campo com a função de cadastrar novas ordens de movimentação</strong></p>
+<hr />
+<h3 id="nova-ordem">Nova Ordem</h3>
+<p><img alt="" src="../../../img/novaOrdem.png" /></p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Ordem de Movimentação</code> - Campos sequencial </li>
+<li><code>Descrição</code> - Insira uma descrição para ordem</li>
+<li><code>Referencia</code> - Insira um referencia| <strong>Nota Fisca, Data e etc...</strong></li>
+<li><code>Local de Estoque Destino</code> - Selecione um novo local já cadastrado para destinos dos produtos</li>
+<li><code>Portador Destino</code> - Selecione um novo vendedor para os produtos</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroOrdemA.jpg" /></p>
+<ul>
+<li><strong>Após salvar novas abás irão aparecer</strong></li>
+</ul>
+<p><img alt="" src="../../../img/novaAba.png" /> </p>
+<ul>
+<li><strong>'Para iniciar a movimentção basta inserir o codigo de barras de cada produto, Depos da primeira movimentação aparacerá na tela uma opção para que possa continuar sua movimentação'</strong></li>
+</ul>
+<p><img alt="" src="../../../img/iniciarMovimentacao.jpg" /> </p>
+<ul>
+<li><strong>Logo após aparecerá os produtos que foram movimentados</strong></li>
+</ul>
+<p><img alt="" src="../../../img/movimentados.jpg" /></p>
+<h4 id="imprimir-comprovante-de-movimentacao">Imprimir comprovante de movimentação</h4>
+<p><img alt="" src="../../../img/comprovante.png" /></p>
+<ul>
+<li><strong>Após todos os produtos serem movidos, por segurança você deve gerar e imprimir um novo comprovante de movimentação</strong></li>
+</ul>
+<hr />
+<h2 id="pos-vendas">Pós Vendas</h2>
+<ul>
+<li><strong>Pós a vendas, caso alguns produtos não tenha vendidos, você deverá informar</strong></li>
+</ul>
+<p><img alt="" src="../../../img/sobras.jpg" /></p></div>
             </div>
         </div>
 

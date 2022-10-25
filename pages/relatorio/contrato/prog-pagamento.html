@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,35 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#programacao-de-pagamentos" class="nav-link">Programação de Pagamentos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="programacao-de-pagamentos">Programação de Pagamentos</h1>
+<p><strong>Tabela com a função de exibir pagamentos já cadastrado</strong></p>
+<hr />
+<h3 id="filtro-de-pesquisa">Filtro de pesquisa</h3>
+<p><img alt="" src="../../../img/filtroPesquisaPagamentos.png" /></p>
+<hr />
+<h4 id="campos-para-pesquisa"><strong>Campos para pesquisa</strong>:</h4>
+<ul>
+<li><code>Data de Vencimento Inicial</code> - Insira uma data de inicio para o vencimento do produto que deseja procurar</li>
+<li><code>Data de Vencimento Final</code> - Selecione uma data final para o vencimento do produto que deseja procurar</li>
+<li><code>Valor Inicial</code>- Insira um valor minimo para a pesquisa do produto</li>
+<li><code>Valor Final</code> - Insira um valor maximo para a pesquisa do produto</li>
+<li><code>Palavra Chave</code> - Informe uma palavra cheve para facilitação de procura do produto</li>
+<li><code>Situação da venda</code> - Informe a situação do pragamento| <strong>Pago e Em Abertos</strong></li>
+<li><code>Contratos</code> - Informe o contrato do produto</li>
+<li><code>Fornecedores</code> - Selecione o fornecedor do produto
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/pesquisasPagamentos.jpg" /></p></div>
             </div>
         </div>
 

@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,139 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#eventos" class="nav-link">Eventos</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#anotacoes" class="nav-link">Anotações</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#coberturas" class="nav-link">Coberturas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#custos" class="nav-link">Custos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#editar-evento" class="nav-link">Editar Evento</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="eventos">Eventos</h1>
+<p><strong>Este campo tem a função de gerenciar e cadastrar eventos</strong></p>
+<hr />
+<h3 id="novo-evento">Novo Evento</h3>
+<p><img alt="" src="../../../img/eventoNovo.png" /></p>
+<p>! Logo ao entrar, uma nova abá aparecerá em sua tela    </p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Contratos</code> - Selecione o contrato que deseja cadastrar o evento<ul>
+<li><strong>Após selecionar um contrato uma abá aparecerá</strong></li>
+<li><img alt="" src="../../../img/ai.jpg" /></li>
+</ul>
+</li>
+</ul>
+<hr />
+<ol>
+<li>Dados do Evento<ul>
+<li><code>Evento Base</code> - Selecione um evento base já cadastrado</li>
+<li><code>Nome do Evnto</code> - Insira um nome para o evento</li>
+<li><code>Situação do Evento</code> - Selecione a situação do evento| <strong>Previsto, Confirmando, Cancelado e etc...</strong></li>
+<li><code>Responsável</code> - Informe o responsável pelo o evento</li>
+<li><code>Data de Solicitação</code> - Insira uma data para a solicitação</li>
+<li><code>Data/hora de Inicio</code> - Informe uma data e hora para o inicio do evento</li>
+<li><code>Data/hora de Finalização</code> - Informe uma data e hora para a finalização do evento</li>
+<li><code>Liberação</code> - Informe a liberação do evento|  <strong>Aprovado, Sob aprovação e Reprovado</strong></li>
+<li><code>Status</code> - Infome o status do evento| <strong>Programado, Inativo, Executando e etc...</strong></li>
+<li><code>Organizador / Empresa</code> - Insira o nome do organizador ou da empresa que organizará o evento</li>
+<li><code>Contato</code> - Informe um meio de contato</li>
+<li><code>Contato da Comisão</code> - Insira o contato da comissão</li>
+<li><code>Observações</code> - De observaçãoes para o evento</li>
+</ul>
+</li>
+<li>Localização - <strong>Caso tenha</strong><ul>
+<li><code>Local do Evento</code> - Informe o local do evento</li>
+<li><code>Ponto de Referência</code> - Insira um ponto de referência para localizar</li>
+<li><code>CEP</code> - Insira o CEP do local</li>
+<li><code>Logradouro</code> - Nome da rua onde ocorrerá o evento</li>
+<li><code>Numero</code> - Digite o Nnumero de localização do local</li>
+<li><code>Complemento</code> - Insira um complemento para facilitar a localização do evento</li>
+<li><code>Bairro</code> - Insira o nome do bairro</li>
+<li><code>Estado</code> - Informe o estado onde acontecerá o evento</li>
+<li><code>Cidade</code> - Informe a cidade onde sucederá o evento
+<br></li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/eventoCadastro.png" /></p>
+<hr />
+<h2 id="anotacoes">Anotações</h2>
+<p><strong>Opção com a função de adicionar anotações para eveto</strong></p>
+<hr />
+<p><img alt="" src="../../../img/eventosAnota%C3%A7%C3%A3o.jpg" /></p>
+<p><br></p>
+<h2 id="coberturas">Coberturas</h2>
+<p><strong>Opção com a função de gerenciar coberturas do evento</strong></p>
+<hr />
+<p><img alt="" src="../../../img/eventosCoberturas.jpg" /></p>
+<h3 id="gerenciar-coberturas">Gerenciar coberturas</h3>
+<ul>
+<li><code>Objeto de Cobertura</code> - Selecione o tipo de cobertura</li>
+<li><code>Quantidade Mínima</code> - Informe uma quantidade mínima</li>
+</ul>
+<p><img alt="" src="../../../img/objetoCobertura.jpg" /></p>
+<hr />
+<p><br></p>
+<h2 id="custos">Custos</h2>
+<p><strong>Campo com a função de cadastrar e gerenciar custo para o evento</strong></p>
+<hr />
+<p><img alt="" src="../../../img/eventosCusto.jpg" /></p>
+<h4 id="novo-custo">Novo custo</h4>
+<p><img alt="" src="../../../img/novoCusto.png" /></p>
+<h5 id="campos-para-preencher_1"><strong>Campos para preencher</strong>:</h5>
+<ul>
+<li><code>Tipo de Entrega</code> - Escolha um tipo de entrega| <strong>Prevista ou Nova</strong></li>
+<li><code>Custo</code> - Selecione um tipo de custo para o evento</li>
+<li><code>Quantidade</code> - Quantidade do produto</li>
+<li><code>Custo Unitário</code> - Insira um custo por cada unidade</li>
+<li><code>Custo Total</code> - Valor total a ser pago</li>
+<li><code>Espécie de Pagamento</code> - Escolha um meio de pagamento| <strong>Produto ou dinheiro</strong></li>
+<li><code>Data Solicitação</code> - Insira a data de solicitação</li>
+<li><code>Data Programada para Entrega</code> - Insira uma data programada para entrega dos custos</li>
+<li><code>Conta à Pagar</code> - Caso a conta n foi paga assinale a opção</li>
+<li><strong>Tipo prevista</strong><ul>
+<li>Escolha uma descrição</li>
+</ul>
+</li>
+<li>
+<p><strong>Conta a Pagar</strong></p>
+<ul>
+<li><code>Data de Vencimento</code> - Insira uma data para o vencimento</li>
+<li><code>Fornecedor</code> - Escolha o fornecedor</li>
+<li><code>Conta Bancária Fornecedor</code> - Insira a conta bancária do fornecedor</li>
+<li><code>Carteira</code> - Selecione uma carteira para pagamento</li>
+<li><code>Formas de Pagamento</code> - Escolha um meio de pagamento</li>
+<li><code>Categoria</code> - Selecione uma categoria para forma de pagamento
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/contaPagar.png" /></p>
+</li>
+</ul>
+<hr />
+<p><img alt="" src="../../../img/cadastroEntrega.png" /></p>
+<p><br></p>
+<h2 id="editar-evento">Editar Evento</h2>
+<p><strong>Campo com a função de editar um evento já cadastrado</strong></p>
+<hr />
+<p><img alt="" src="../../../img/eventosEditar.jpg" /></p></div>
             </div>
         </div>
 

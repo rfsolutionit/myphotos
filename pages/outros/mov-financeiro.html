@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,69 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#movimento-financeiro" class="nav-link">Movimento Financeiro</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#fazer-o-movimento-manualmente" class="nav-link">Fazer o Movimento Manualmente</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#listagem-dos-movimentos" class="nav-link">Listagem dos Movimentos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="movimento-financeiro">Movimento Financeiro</h1>
+<p><strong>Campo com a função de gerenciar o movimento de pagamentos</strong></p>
+<hr />
+<h4 id="campos-para-filtro"><strong>Campos para filtro :</strong></h4>
+<ul>
+<li><code>Carteira</code> - Informe a carteira da conta que deseja procurar</li>
+<li><code>Forma de Pagamento</code> - Selecione a forma de pagamento da conta que procura</li>
+<li><code>Conta Contábil (Reduzida)</code> - Informe qual é o tipo da conta que deseja procurar</li>
+<li><code>Centro Custo</code> - Informe o tipo de centro de custo da conta que pretende procurar</li>
+<li><code>Palavra Chave</code> - Insira uma palavra chave para facilitar a procura da conta que deseja procurar</li>
+<li><code>Data de Movimento Inicio</code> - Informe a data de inicio de movimento das contas que pretende procurar</li>
+<li><code>Data de Movimento Fim</code> - Informe a data final dos movimentos da contas</li>
+<li><code>Valor Inicial</code> - Insira um valor mínimo das contas que deseja procurar</li>
+<li><code>Valor Final</code> - Insira o valor máximo das contas</li>
+<li><code>Operação</code> - Informe a operação da conta| <strong>Crédito e Débito</strong></li>
+<li><code>Situação</code> - Selecione a situação das contas| <strong>Compensado e À Compensar</strong></li>
+<li><code>Conferidos?</code> - Informe se a conta é ou não conferidos</li>
+</ul>
+<p><img alt="" src="../../img/filtroMovimento.png" /></p>
+<hr />
+<h2 id="fazer-o-movimento-manualmente">Fazer o Movimento Manualmente</h2>
+<p><img alt="" src="../../img/botaoMovimento.png" /></p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher :</strong></h4>
+<ul>
+<li><code>Descrição</code> - Dê uma descrição para o movimento</li>
+<li><code>Operação</code> - Selecione o tipo de pagamento da conta| <strong>Crédito e Débito</strong></li>
+<li><code>Valor</code> - Insira o valor da conta</li>
+<li><code>Data de Movimento</code> - Informe a data de movimento</li>
+<li><code>Data de Conciliação</code> - Informe a data de Conciliação da conta</li>
+<li><code>Carteira</code> - Informe a carteira da conta  </li>
+<li><code>Formas de Pagamento</code> - Selecione o meio de pagamento da conta</li>
+<li><code>Conta Contábil</code> - Selecione o tipo da conta</li>
+<li><code>Fornecedor</code> - Insira o fornecedor da conta</li>
+<li><code>Cliente</code> - Informe o cliente da conta</li>
+<li><code>Centro Custo</code> - Selecione o tipo do centro de custo da conta</li>
+</ul>
+<p><img alt="" src="../../img/movimentoPage.png" /></p>
+<hr />
+<h2 id="listagem-dos-movimentos">Listagem dos Movimentos</h2>
+<p><br>
+<img alt="" src="../../img/listagemMovimento%20.png" /></p>
+<ul>
+<li><code>Campos em Azul</code> - <strong>Campos em Azul são pagamentos feitos em Crédito</strong></li>
+<li><code>Campos em Vermelho</code> - <strong>Campos em Vermelho são pagamento feitos em Débito</strong></li>
+</ul></div>
             </div>
         </div>
 

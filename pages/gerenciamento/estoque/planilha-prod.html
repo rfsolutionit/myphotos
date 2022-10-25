@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,52 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#planilha-de-producao" class="nav-link">Planilha de Produção</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#gerar-etiquetas" class="nav-link">Gerar Etiquetas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="planilha-de-producao">Planilha de Produção</h1>
+<p><strong>Campo com a função de gerenciar contratos que já tiveram um cadastro para uma ordem de produtos</strong></p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Contratos</code> - Selecione um ou vários contratos| <strong>Unico Campo Obrigatório</strong></li>
+<li><code>Turma</code> - Selecione a turma que deseja procurar</li>
+<li><code>Estado</code> - Selecione o estado onde ocorreu o contrato</li>
+<li><code>Cidade</code> - Selecione a cidade onde ocorreu o contrato</li>
+<li><code>Data Prevista de Inicio das Vendas</code> - Insira a data privista para vendas dos produtos</li>
+<li><code>Data Prevista para a Finalizção das Vendas</code> - Informe uma data prevista para o fim das vendas</li>
+<li><code>Local de Estoque</code> - Informe o local de estoque dos produtos</li>
+<li><code>Portador</code> - Selecione um fornecedor / vendedor dos produtos</li>
+<li><code>Status Produto</code> - Selecione o status do produto </li>
+<li><code>Palavra Chave</code> - Insira uma palavra cheve pra encontrar o contrato</li>
+<li><code>Romaneio</code> - Selecione o romaneio do contrato<ul>
+<li><strong>Apenas o campo de contratos é obrigatório</strong></li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../../../img/planilhaDeProdutos.png" /></p>
+<hr />
+<p><br></p>
+<h4 id="resultado">Resultado</h4>
+<p><img alt="" src="../../../img/resultado.jpg" />
+<br>
+<br></p>
+<h2 id="gerar-etiquetas">Gerar Etiquetas</h2>
+<p><img alt="" src="../../../img/gerarEtiquetas.png" /></p>
+<ul>
+<li><strong>Esta opção é opcional, ela tem a capacidade gerar etiquetas para facilitção de encontrar produtos no estoque, caso queria basta assinlar estás opçoões</strong></li>
+</ul>
+<p><img alt="" src="../../../img/resultadoSeta.jpg" /></p></div>
             </div>
         </div>
 

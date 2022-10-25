@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,79 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#programacao-de-pagamento" class="nav-link">Programação de Pagamento</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#pagar-em-lote" class="nav-link">Pagar em Lote:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#pagamento-individualmente" class="nav-link">Pagamento Individualmente:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="programacao-de-pagamento">Programação de Pagamento</h1>
+<p><strong>Campo com a função de gerenciar e realizar pagamentos</strong></p>
+<hr />
+<h4 id="campos-para-pesquisa"><strong>Campos para Pesquisa :</strong></h4>
+<ul>
+<li><code>Data Inicial</code> - Informe uma data mínima de pagamentos</li>
+<li><code>Data Final</code> - Informe uma data máxima para os pagamentos</li>
+<li><code>Carteira</code> - Selecione a carteira do pagamento</li>
+<li><code>Formas de Pagamento</code> - Informe a forma de pagamento</li>
+<li><code>Fornecedores</code> - Selecione o fornecedor do pagamentos que deseja procurar</li>
+<li><code>Conta Contábil (Reduzida)</code> - Informe o tipo de pagamento</li>
+<li><code>Centro de Custo</code> - Informe o centro de custo do pagamento que deseja procurar</li>
+<li><code>Bancos</code> - Selecione o banco do pagamento</li>
+</ul>
+<p><img alt="" src="../../img/filtroPagamento.png" /></p>
+<hr />
+<h2 id="pagar-em-lote">Pagar em Lote:</h2>
+<p><img alt="" src="../../img/pagamentoEmLote.png" /></p>
+<p><img alt="" src="../../img/pagamentosSeta.jpg" /></p>
+<ul>
+<li><strong>Asinale os pagamentos que deseja fazer e logo após clique em pagar em lote, após isso uma nova abá aparacerá</strong></li>
+</ul>
+<h3 id="novo-pagamento">Novo Pagamento</h3>
+<p><img alt="" src="../../img/novoPagamento.png" /></p>
+<h4 id="campos-para-preencher"><strong>Campos para Preencher :</strong></h4>
+<ul>
+<li><code>Portador</code> - Informe a carteira para o pagamneto</li>
+<li><code>Forma de Pagamento</code> - Selecione a forma de pagamento</li>
+<li><code>Valor</code> - Insira o valor que será pago</li>
+<li><code>Data</code> - Informe a data do pagamento</li>
+</ul>
+<p><img alt="" src="../../img/pagamentoPage.png" /></p>
+<hr />
+<h2 id="pagamento-individualmente">Pagamento Individualmente:</h2>
+<p><br>
+<img alt="" src="../../img/pagamentoIndividual.jpg" /></p>
+<ul>
+<li><strong>Após Entrar você sera encaminhado para uma nova abá com informações do pagamento</strong></li>
+</ul>
+<p><img alt="" src="../../img/pagamentosPage2.png" /></p>
+<h3 id="novo-pagamento_1">Novo Pagamento</h3>
+<p><img alt="" src="../../img/novoPagamento2.png" /></p>
+<h4 id="campos-para-verificar"><strong>Campos para verificar :</strong></h4>
+<ul>
+<li><code>Carteira</code> - Informe a Carteira do pagamento</li>
+<li><code>Conta do Fornecedor</code> - Informe a conta do fornecedor</li>
+<li><code>Data Agendada</code> - Data do agendamento</li>
+<li><code>Valor Restante</code> - Valor ainda restante</li>
+<li><code>Data do Pagamento</code> - Insira a data que ocorreu o pagamento</li>
+<li><code>valor Pago</code> - Informe o valor do pagamento ocorrido</li>
+<li><code>Valor Juros</code> - Insira um valor de juros| <strong>Caso Precise</strong></li>
+<li><code>Valor Desconto</code> - Insira um valor para desconto| <strong>Caso Precise</strong></li>
+<li><code>Forma de Pagamento</code> - Selecio o meio de pagamento| <strong>Antecipação, Boleto e etc...</strong></li>
+</ul>
+<p><img alt="" src="../../img/fazerPagamento.png" /></p></div>
             </div>
         </div>
 

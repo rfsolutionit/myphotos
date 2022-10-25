@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,78 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#cheques" class="nav-link">Cheques</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#pesquisa-de-cheques" class="nav-link">Pesquisa de Cheques</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="cheques">Cheques</h1>
+<p><strong>Campo com a função de cadastrar e gerenciar cheques</strong></p>
+<hr />
+<h3 id="novo-cheque">Novo Cheque</h3>
+<p><img alt="" src="../../img/novoCheque.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro :</strong></h4>
+<ul>
+<li><code>Compensação</code> - Insira o código que identifica o banco de compensação</li>
+<li><code>Banco</code> - Selecione qual banco pertence o titular do cheque</li>
+<li><code>Agência</code> - Informe o numero da agência</li>
+<li><code>C1</code> - Insira o digito verificador correspondente ao tipo da conta</li>
+<li><code>Conta</code> - Informe o numero da conta</li>
+<li><code>C2</code> - Insira o digito verificador correspondente a serie do cehque</li>
+<li><code>Série</code> - Informe o numero de serie do cheque</li>
+<li><code>Cliente</code> - Selecione um cliente que deseja fazer o cheque</li>
+<li><code>Conta a Receber</code> - Informe qual conta receberá o cehque</li>
+<li><code>Cheque Numero</code> - Insira o numero do cheque</li>
+<li><code>C3</code> - Insira o digito verificador do cheque</li>
+<li><code>Valor</code> - Informe o valor do cheque</li>
+<li><code>Data de Emissão</code> - Informe a data de emissão do cheque</li>
+<li><code>Data de Vencimento</code> - Informe a data de vencimento do cheque</li>
+<li><code>Titular</code> - Insira o titular do cheque</li>
+<li><code>Documento</code> - Informe o tipo do documento do titular do cheque</li>
+<li><code>CPF/CNPJ</code> - Insira o numero do documento do titular</li>
+<li><code>Portador</code> - Selecione uma carteira </li>
+<li><code>Descrição</code> - Dê uma descrição do cheque</li>
+</ul>
+<p><img alt="" src="../../img/cadastroCheque.png" /></p>
+<h2 id="pesquisa-de-cheques">Pesquisa de Cheques</h2>
+<p><strong>Função de encontrar o os cheques que deseja</strong></p>
+<hr />
+<h4 id="campos-para-preencher"><strong>Campos para preencher :</strong></h4>
+<ol>
+<li>Data<ul>
+<li><code>Data Vencimento Inicial</code> - Informe uma data de vencimento mínima</li>
+<li><code>Data Vencimento Final</code> - Insira uma data máxima para o vencimento do cheque que deseja procurar</li>
+<li><code>Data Emissão Inicial</code> - Insira uma data mínima para a emissão do cheque que deseja procurar</li>
+<li><code>Data Emissão Final</code> - Insira a data de emissão máxima dos cheques</li>
+<li><code>Data Movimento Inicial</code> - Informe uma data mínima para a ocorrência de movimento para o cheques </li>
+<li><code>Data Movimento Final</code> - Informe uma data máxima para o movimentos dos cheques</li>
+<li><code>Data Registro Inicial</code> - Insira uma data mínima para registro dos cheques</li>
+<li><code>Data Registro Final</code> - Informe uma data máxima para os registros dos cheques</li>
+</ul>
+</li>
+<li>Outros Campos<ul>
+<li><code>Palavra Chave</code> - Informe uma palavra chave para a facilitação da procura de um cheque</li>
+<li><code>Situação</code> - Informe a situção do cheque que deseja procurar| <strong>Todos, Em Aberto e Recebidos/Pagos</strong></li>
+<li><code>Status</code> - Selecione o status do cheque</li>
+<li><code>Valor Inicial</code> - Informe um valor mínimo para a pesquisa dos cheques</li>
+<li><code>Valor Final</code> - Insira um valor máximo para a procura dos cheques</li>
+<li><code>Em Trânsito</code> - Infome se está em transito| <strong>Sim ou Não</strong></li>
+<li><code>Carteira</code> - Informe a carteira do cheque</li>
+<li><code>Fornecedor</code> - Selecione um fornecedor dos cheques que procura</li>
+<li><code>Vendedor</code> - Informe um vendedor</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../img/filtroCheque.png" /></p></div>
             </div>
         </div>
 

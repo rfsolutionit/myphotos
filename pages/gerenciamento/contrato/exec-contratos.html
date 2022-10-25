@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,134 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#execucao-de-contrato" class="nav-link">Execução de Contrato</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#vizualizar-contrto" class="nav-link">Vizualizar contrto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="execucao-de-contrato">Execução de Contrato</h1>
+<p><strong>Campo com a função de gerenciar e informar a situação dos contratos</strong></p>
+<hr />
+<h3 id="filtro-de-pesquisa">Filtro de pesquisa</h3>
+<p><img alt="" src="../../../img/filtroPesquisa.png" /></p>
+<ul>
+<li><code>Temporada</code> - Temporada que ocorrerá evento que procura</li>
+<li><code>Representante</code> - Representante do evento que procura</li>
+<li><code>Estado</code> - Estado onde acontecerá a formatura que procura</li>
+<li><code>Cidade</code> - Cidade onde acontecerá a formatura que procura</li>
+<li><code>Situção</code> - Situação de como está o evento que procura</li>
+<li><code>Data inicial da execução</code> - Dia da execução do evento</li>
+<li><code>Data final da execução</code> - Dia da final do evento</li>
+<li><code>Data de inicio da assinatura</code> - Data para o inicio da assinatura </li>
+<li><code>Data de termino da assinatura</code> - Data para o fim da assinatura</li>
+<li><code>Padrão</code> - Qualidade do evento</li>
+</ul>
+<h3 id="lista-de-contratos">Lista de contratos</h3>
+<p><img alt="" src="../../../img/execu%C3%A7%C3%A3oContrato.jpg" /></p>
+<h2 id="vizualizar-contrto">Vizualizar contrto</h2>
+<p><strong>Função com o objetivo de vizualizar o contrato</strong></p>
+<p><img alt="" src="../../../img/vizuContrato.jpg" /></p>
+<hr />
+<h3 id="dados-do-contrato">Dados do Contrato</h3>
+<p><img alt="" src="../../../img/dadosContrato.jpg" /></p>
+<ul>
+<li><code>Ver Turmas</code> - Opção com a função de gerenciar turmas cadastradas no contrato</li>
+<li><code>Ver Produtos para Venda</code> - Campo com a função de gerenciar as vendas de produtos</li>
+<li><code>Ver Cláusulas Contratuais</code> - Campo que possibilita gerenciar cláusulas do contrato</li>
+</ul>
+<h3 id="opcoes-do-contrato">Opções do Contrato</h3>
+<p><img alt="" src="../../../img/opcaoDeContrato.png" /></p>
+<hr />
+<h3 id="formandos">Formandos</h3>
+<p><strong>Abá Com a função de getar formandos já cadastrado</strong>
+<img alt="" src="../../../img/gerenciarFormandos.jpg" /></p>
+<h4 id="vizualizar-formando">Vizualizar Formando</h4>
+<p><img alt="" src="../../../img/vizuFormando.jpg" /></p>
+<h3 id="custo-do-contrato">Custo do Contrato</h3>
+<p><strong>Campo capaz de gestar adicionar e editar produtos</strong></p>
+<hr />
+<p><img alt="" src="../../../img/custoDeContratoVizu.png" /></p>
+<h4 id="nova-entregua">Nova entregua</h4>
+<h5 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h5>
+<ul>
+<li><code>Tipo de Entrega</code> - Escolha um tipo de entrega| <strong>Prevista ou Normal</strong></li>
+<li><code>Custo</code> - Selecione um tipo de custo para a entrega</li>
+<li><code>Quantidade</code> - Quantidade do produto</li>
+<li><code>Custo Unitário</code> - Insira um custo por cada unidade</li>
+<li><code>Custo Total</code> - Valor total a ser pago</li>
+<li><code>Espécie de Pagamento</code> - Escolha um meio de pagamento</li>
+<li><code>Data Solicitação</code> - Insira a data de solicitação</li>
+<li><code>Data Programada para Entrega</code> - Insira uma data programada para entrega</li>
+<li><code>Conta à Pagar</code> - Caso a conta n foi paga assinale a opção</li>
+<li><strong>Tipo prevista</strong><ul>
+<li>Escolha uma descrição</li>
+</ul>
+</li>
+<li>
+<p><strong>Conta a Pagar</strong></p>
+<ul>
+<li><code>Data de Vencimento</code> - Insira uma data para o vencimento</li>
+<li><code>Fornecedor</code> - Escolha o fornecedor</li>
+<li><code>Conta Bancária Fornecedor</code> - Insira a conta bancária do fornecedor</li>
+<li><code>Formas de Pagamento</code> - Escolha um meio de pagamento</li>
+<li><code>Conta Contábil (Reduzida)</code> - Selecione uma opção
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/contaPagar.png" /></p>
+</li>
+</ul>
+<hr />
+<p><img alt="" src="../../../img/cadastroEntrega.png" /></p>
+<hr />
+<h3 id="pedidos-de-produtos">Pedidos de Produtos</h3>
+<p><strong>Campo com a função de gerenciar e cadastrar produtos</strong></p>
+<hr />
+<h4 id="novo-pedido">Novo Pedido</h4>
+<p><img alt="" src="../../../img/novoPedido.png" /></p>
+<h5 id="campos-de-cadastro"><strong>Campos de cadastro</strong></h5>
+<ul>
+<li><code>Tipo</code> - Selecione um tipo para o produto| <strong>Normal ou Pedido Extra</strong></li>
+<li><code>Produto</code> - Selecione um produto já cadastrado</li>
+<li><code>Quantidade</code> - Informe a quantidade do produto</li>
+<li><code>Custo Unitário</code> - Insira um valor para cada unidade</li>
+<li><code>Data Solicitação</code> - Insira a data de solicitação</li>
+<li><code>Data Programação</code> - Selecione uma data programada</li>
+<li><code>Custo Total</code> - Custo total por cada unidade</li>
+<li>
+<p>Conta á Pagar</p>
+<ul>
+<li><strong>Campos para preencher</strong></li>
+<li>Caso o pedido não foi pago assinale a opção </li>
+<li><code>Data de vencimento</code> - Insira uma data de vencimento para o pagamento</li>
+<li><code>Fornecedor</code> - Escolha um fornecedor já cadastrado</li>
+<li><code>Conta Bancária do Fornecedor</code> - Insira a conta do fornecedor</li>
+<li><code>Conta contábil (Reduzida)</code> - Selecione uma opção</li>
+<li><code>Carteira</code> - Selecione uma carteira</li>
+<li><code>Centro de Custo</code> - Escolha um meio de custo<br />
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/pagamentoPedido.png" /></p>
+</li>
+</ul>
+<hr />
+<p><img alt="" src="../../../img/cadastroPedido.png" /></p>
+<hr />
+<h3 id="eventos">Eventos</h3>
+<p><strong>Abá com a função de gerenciar e facilitar o cadastro de novos eventos</strong></p>
+<hr />
+<p><img alt="" src="../../../img/eventos.png" /></p>
+<h3 id="resumo">Resumo</h3>
+<p><strong>Campo com a função de gerenciar o total de gastos</strong></p>
+<p><img alt="" src="../../../img/resumo.png" /></p></div>
             </div>
         </div>
 

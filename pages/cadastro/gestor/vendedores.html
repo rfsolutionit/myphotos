@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,82 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#vendedores-e-empresa" class="nav-link">Vendedores e empresa</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="vendedores-e-empresa">Vendedores e empresa</h1>
+<p><strong>Campo com a função de cadastrar e gerenciar empresas e vendedores para vendas dos produtos</strong></p>
+<hr />
+<h3 id="novo-vendedor">Novo vendedor</h3>
+<p><img alt="" src="../../../img/novoVendedor.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Tipo do Documento</code> - Informe o tipo do documento do vendedor</li>
+<li><code>Numero do Documento</code> - Insira o numero do documento</li>
+<li><code>Nome</code> - Inforeme o nome completo do vendedor</li>
+<li><code>Nome Fantasia</code> - Insira o nome fantasia| <strong>Nome de fachada</strong></li>
+<li><code>Telefone Fixo</code> - Digite o numero de um telefone fixo para contato</li>
+<li><code>Telefone Celular</code> - Insira um telefone celular para contato</li>
+<li><code>E-mail</code> - Digite um email para contato</li>
+<li><code>Área de Atuação</code> - Informe a sua área de atuação</li>
+</ul>
+<hr />
+<ol>
+<li>Endereço<ul>
+<li><code>CEP</code> - Digite o CEP</li>
+<li><code>Logradouro</code> - Insira o nome da rua</li>
+<li><code>Numero</code> - Insira o nome da casa ou apartamento</li>
+<li><code>Complemento</code> - Insira um complemento para facilitar a localização</li>
+<li><code>Bairro</code> - Informe o nome do bairro</li>
+<li><code>Estado</code> - Selecione o Estado</li>
+<li><code>Cidade</code> - Selecione a Cidade
+<br></li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/cadastroVendedores.png" />
+* <strong>Abaixo você tera uma opção para cadastrar vendores</strong></p>
+<h3 id="novo-vendedor_1">Novo Vendedor</h3>
+<p><img alt="" src="../../../img/vendedor.png" /></p>
+<h4 id="campos-para-cadastro_1"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Função</code> - Selecione uma função para o vendedor| <strong>Responsável ou Vendedor</strong></li>
+<li><code>CPF</code> - Insira o CPF do vendedor</li>
+<li><code>Nome</code> - Informe o nome do vendedor</li>
+<li><code>Login</code> - Insira um e-mail/login para o vendedor</li>
+<li><code>Senha</code> - Insira uma senha para o vendedor</li>
+<li><code>Repita a Senha</code> - Repita a senha</li>
+</ul>
+<p><img alt="" src="../../../img/vendedorCadastro.png" /></p>
+<h3 id="conta-corrente-do-vendedor">Conta corrente do vendedor</h3>
+<p><img alt="" src="../../../img/contaCorrente.jpg" /></p>
+<ul>
+<li><strong>Selecione um Vendedor</strong></li>
+</ul>
+<hr />
+<h4 id="resgate">Resgate</h4>
+<p><img alt="" src="../../../img/resgate.png" /></p>
+<h5 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h5>
+<ul>
+<li><code>Valor Resgate</code> - Insira um valor para resgate</li>
+<li><code>Data Agendada</code> - Insira uma data agendada para o pagamento cair</li>
+<li><code>Forma de Pagamento</code> - Informe um meio de pagamento</li>
+<li><code>Descrição</code> - De uma descrição do pagamento</li>
+<li><code>Conta Bancária</code> - Selecione a conta bancária do vendedor</li>
+<li><code>Categoria</code> - Selecione uma categoria para o pagamento
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/cadastroResgate.png" /></p>
+<ul>
+<li><strong>!!! Um vendedor também é um fornecedor</strong></li>
+</ul></div>
             </div>
         </div>
 

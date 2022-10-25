@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,43 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#tabela-de-comissao" class="nav-link">Tabela de Comissão</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="tabela-de-comissao">Tabela de Comissão</h1>
+<p><strong>Tabela com a função de editar e cadastrar tabelas de comissões</strong></p>
+<h3 id="nova-tabela">Nova Tabela</h3>
+<p><img alt="" src="../../../img/novaTabelaComicao.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Codigo da Comissão</code> - Insira um codigo para comissão</li>
+<li><code>Nome da Tabela de Comissão</code> - De um nome para tabela</li>
+<li><code>Tipo de Venda</code> - Informe o tipo de venda da tabela</li>
+</ul>
+<p><img alt="" src="../../../img/tabelaComissao.png" />
+* <strong>Após salvar um novo campo aparecerá</strong>
+<img alt="" src="../../../img/formasDePagamento.png" /></p>
+<hr />
+<h3 id="formas-de-pagamento">Formas de pagamento</h3>
+<p><strong>Campo com a função de adicionar formas de pagamento para está comissão, você pode adicionar várias formas</strong></p>
+<hr />
+<h4 id="nova">Nova</h4>
+<p><img alt="" src="../../../img/novaForma.png" /></p>
+<h5 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h5>
+<ul>
+<li><code>Data de Inicio de Pagamento</code> - Insira um mês para o inicio do pagamneto</li>
+<li><code>Data Final de Pagamento</code> - Informe o máximo de meses para o pagamento</li>
+<li><code>Forma de Pagamento</code> - Insira uma forma de pagamento já cadastrada| <strong>Moeda, Cheque, Boleto e etc...</strong></li>
+<li><code>Comissão</code> - Insira um valor percentual para comissão</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroPagamento.png" /></p></div>
             </div>
         </div>
 

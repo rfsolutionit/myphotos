@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="temporadas.html" class="dropdown-item">Curso</a>
+    <a href="temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,39 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#faculdades" class="nav-link">Faculdades</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="faculdades">Faculdades</h1>
+<p>Campos com a Função de cadastrar a faculdade dos formandos</p>
+<hr />
+<h3 id="cadastrar-nova-faculdade">Cadastrar nova Faculdade</h3>
+<p><img alt="" src="../../../img/novaFaculdade.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Nome</code> - Insira o Nome da faculdade</li>
+<li><code>Sigla</code> - Insira a Sigla da faculdade</li>
+<li><code>Campus</code> - Insira o Campus dos alunos formantes</li>
+<li><code>CNPJ</code> - Insira o CNPJ da faculdade</li>
+<li><code>CEP</code> - Insira o CEP da faculdade</li>
+<li><code>Logradouro</code> - Insira a rua da faculdade que deseja cadastrar</li>
+<li><code>Numero</code> - Insira o numero da faculdade</li>
+<li><code>Complemento</code> - Descreva um complemento para a localização da faculdade</li>
+<li><code>Bairro</code> - Insira o nome do bairro onde a faculdade se está localizada</li>
+<li><code>Estado</code> - Insira o nome do estado onde se esta localizada</li>
+<li><code>Cidade</code> -  Insira o nome da cidadae que a faculdade se localiza</li>
+<li><code>Telefone fixo</code> - Insira o telefone fixo para contato com a faculdade</li>
+<li><code>Telefone celular</code> - Insira telefone celular para contato</li>
+<li><code>E-mail</code> - Insira o E-mail para contato</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroFaculdade.png" /></p></div>
             </div>
         </div>
 

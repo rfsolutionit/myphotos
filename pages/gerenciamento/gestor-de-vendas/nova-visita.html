@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="nova-visita.html" class="dropdown-item active">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -539,7 +544,7 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="pedidos-extras.html" class="nav-link">
+                                <a rel="prev" href="mapa-vendas.html" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
@@ -565,12 +570,53 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#segunda-visita" class="nav-link">Segunda Visita</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="segunda-visita">Segunda Visita</h1>
+<p><strong>Campo com a função de gerenciar formandos e sua quantidades de fotos</strong></p>
+<hr />
+<h4 id="campos-para-filtro"><strong>Campos para filtro</strong>:</h4>
+<ul>
+<li><code>Contrato</code> - Selecione o contrato que deseja pesquisar</li>
+<li><code>Vendedores</code> - Selecione o vendedor do contrato</li>
+<li><code>Estado</code> - Selecione o estado onde ocorrerá o contrato</li>
+<li><code>Cidade</code> - Selecione a cidade onde ocorrerá o contrato</li>
+<li><code>Tabela de comissão</code> - Informe a tabela de comssião do contrato</li>
+<li><code>Quantidade de Fotos Mínimas</code> - Insira uma quantidade mínima de fotos</li>
+<li><code>Quantidade de Fotos Máxima</code> - Informe a quantidade máxima de fotos</li>
+<li><code>Data de feedback Inicial</code> - Insira uma data mínima para os feedbacks</li>
+<li><code>Data de feedback Final</code> - Insira uma data máxima para procura por feedbacks</li>
+<li><code>Palavra Chave</code> - Digite uma palavra chave para a procura do formando que deseja
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/campoFiltro.png" /></p>
+<hr />
+<p><img alt="" src="../../../img/vistaTabela.jpg" />
+<br>
+<br></p>
+<hr />
+<h3 id="selecionar-formando">Selecionar Formando</h3>
+<p><img alt="" src="../../../img/selecionarFormando.png" /></p>
+<p><img alt="" src="../../../img/selecionarFormandoOP.jpg" /></p>
+<ul>
+<li>
+<p><strong>Para que possa selecionar abrir a abá de selecionar formando,pelo menos um formando deve ter a opção ativada</strong></p>
+</li>
+<li>
+<p><code>Selecione o Romaneio</code> - Selecione um romaneio para distribuição dos produtos
+<br></p>
+</li>
+</ul>
+<p><img alt="" src="../../../img/gerarSegundaVisita.jpg" /></p>
+<hr /></div>
             </div>
         </div>
 

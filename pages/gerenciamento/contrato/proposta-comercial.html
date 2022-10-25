@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,283 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#proposta-comercial" class="nav-link">Proposta Comercial</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#membros-comissao" class="nav-link">Membros Comissão</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#custo-brindes" class="nav-link">Custo / Brindes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#editar-proposta" class="nav-link">Editar Proposta</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#avaliar-proposta" class="nav-link">Avaliar proposta</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#contratuais-e-de-execucao" class="nav-link">Contratuais e de Execução</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#operacionais" class="nav-link">Operacionais</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#fabricacao-de-produtos" class="nav-link">Fabricação de produtos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#outras-despesas" class="nav-link">Outras Despesas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#venda" class="nav-link">Venda</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#receitas" class="nav-link">Receitas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#resultados" class="nav-link">Resultados</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#expectativa-de-resultado" class="nav-link">Expectativa de resultado</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="proposta-comercial">Proposta Comercial</h1>
+<p><strong>Função opcional para o cadastro de propostas comerciais</strong></p>
+<hr />
+<h3 id="cadastrar-nova-proposta">Cadastrar nova proposta</h3>
+<p><img alt="" src="../../../img/novaProposta.png" /></p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Nome Proposta</code> - Insira um nome para a localização de sua proposta</li>
+<li><code>Estado</code> - Estado onde ocorrerá a propota</li>
+<li><code>Cidade</code> - Cidade onde ocorrerá a proposta</li>
+<li><code>Temporada</code> Escolha uma temporada para que ocorra a proposta</li>
+<li><code>Representante</code> - Insira o nome do representante</li>
+<li><code>Membro Comissão</code> - Insira o nome do representante da turma</li>
+<li><code>Contato Comição</code> - Insira um meio de contato do representante da turma</li>
+<li><code>Quantidade de Formandos</code> - Insira um numero de formandos</li>
+<li><code>Data Provável de Assinatura</code> - Insira uma data provavel para a assinatura</li>
+<li><code>Data da Formatura</code> - Insira uma data para a formatura</li>
+<li><code>Data Prevista de Venda</code> - Data prevista para vendas de produtos| <strong>Campo não modificavel</strong></li>
+<li><code>Tempo de Execução do contrato</code> - Insira o tempo em meses para a execução do contrato</li>
+<li><code>Faculdade</code> - Escolha a faculdade onde ocorreá a proposta</li>
+<li><code>Cerimonial</code> - Escolha um cerimonial já cadastrado para fornecer a formatura</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroProposta.png" /></p>
+<h5 id="campos-opcionais"><strong>Campos opcionais</strong>:</h5>
+<ul>
+<li><code>Fotos</code> - Caso queira produzir as fotos para o evento ative a opção</li>
+<li><code>Videos</code> - Caso queira produzir videos para o evento ative a opção</li>
+<li><code>Organização</code> - Caso outra empresa organize a formatura deixe a opção desativada
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/camposOp.png" /></p>
+<hr />
+<h2 id="membros-comissao">Membros Comissão</h2>
+<p><strong>Logo após salvar a proposta o campo tem a função de adicionar novos membros de comissão</strong></p>
+<hr />
+<h3 id="cadastrar-novo-membro">Cadastrar novo membro</h3>
+<p><img alt="" src="../../../img/novaComiss%C3%A3o.png" /></p>
+<h4 id="campos-para-preencher_1"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Papel Comissão</code>- Escolha o papel do membro a ser cadastrado| <strong>Presidente, vice-presidente e etc...</strong> </li>
+<li><code>Nome Membro</code> - Insira o nome complento do membro</li>
+<li><code>RG</code> - Insira o RG do membro que deseja cadastrar</li>
+<li><code>CPF</code> - Insira o CPF do membro que deseja cadastrar</li>
+<li><code>Curso</code> - Escolha um curso já cadastrado para o membro</li>
+<li><code>Turma</code> - Insira a turma de seu membro que deseja cadastrar</li>
+<li><code>Telefone 1</code> - Insira um telefone para o contato com o membro| <strong>Campo obrigatorio</strong></li>
+<li><code>Telefone 2</code> - Insira um segundo telefone para contato| <strong>Campo opicional</strong></li>
+<li><code>E-mail</code> - Insira um E-mail para contato</li>
+<li><code>CEP</code> - Insira o CEP do membro</li>
+<li><code>Logradouro</code> - Insira o nome da rua do membro a cadastrar</li>
+<li><code>Numero</code> - Insira o numero da casa ou apartamento</li>
+<li><code>Complemento</code> - Insira um complemento para localização </li>
+<li><code>Bairro</code> - Insira o nome do Bairro </li>
+<li><code>Estado</code> - Insira o estado do membro</li>
+<li><code>Cidade</code> - Insira a cidade do membro</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroComiss%C3%A3o.png" /></p>
+<hr />
+<h2 id="custo-brindes">Custo / Brindes</h2>
+<p><strong>Campo com a função de cadastrar brindes para o evento</strong></p>
+<hr />
+<h3 id="cadastrar-brinde">Cadastrar Brinde</h3>
+<p><img alt="" src="../../../img/novoBrinde.png" /></p>
+<h4 id="campos-que-devem-ser-preenchidos"><strong>Campos que devem ser preenchidos</strong>:</h4>
+<ul>
+<li><code>Custo / Brinde</code> - Escolha um tipo de brinde já cadastrado</li>
+<li><code>Quantidade</code> - Insira a quantidade de brindes</li>
+<li><code>Contabilização</code> - Escolha o tipo de contabilização| <strong>Por formando ou Por produto</strong></li>
+<li><code>Data Entrega</code> - Insira uma data de entrga para os brindes</li>
+<li><code>Descrição Custo</code> - De uma descrição do custo| <strong>campo não obrigatório</strong></li>
+<li><strong>Por Formando</strong><ul>
+<li>Numero de brindes sera igual ao numero formando</li>
+</ul>
+</li>
+<li><strong>Por produto</strong><ul>
+<li>Numero de brindes sera a quantidade</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroBrinde.png" /></p>
+<hr />
+<h2 id="editar-proposta">Editar Proposta</h2>
+<p><strong>Logo ao entrar no campo de porposta comercial sera redirecionado para uma pagina de gerenciamento com a possibilidade de editar propostas</strong></p>
+<hr />
+<p><img alt="" src="../../../img/propostaEditar.jpg" /></p>
+<h2 id="avaliar-proposta">Avaliar proposta</h2>
+<p><strong>Alem da opção de editar também podemos avaliar a proposta para que ela possa continuar em frente</strong></p>
+<hr />
+<p><img alt="" src="../../../img/propostaAvaliar.jpg" /></p>
+<hr />
+<h5 id="logo-ao-clicar-voce-sera-redirecionado-para-uma-nova-aba-que-descendo-pode-encontrar">Logo ao clicar você será redirecionado para uma nova aba, que descendo pode encontrar:</h5>
+<h2 id="contratuais-e-de-execucao">Contratuais e de Execução</h2>
+<p><strong>Esta campo tem a função de criar e gerenciar brindes</strong></p>
+<hr />
+<h4 id="campos"><strong>Campos</strong>:</h4>
+<ul>
+<li><code>Quantidade</code> - Campo pode ser alterado</li>
+<li><code>Valor Unidade</code> - Insira um valor para cada unidade
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/contratuais.jpg" /></p>
+<hr />
+<h2 id="operacionais">Operacionais</h2>
+<p><strong>Campo com a função de adicionar e gerenciar novos operacionais</strong></p>
+<hr />
+<h3 id="cadastrar-operacional">Cadastrar Operacional</h3>
+<p><img alt="" src="../../../img/novoEvento.png" /></p>
+<h4 id="campos-para-preencher_2"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Evento</code> - Escolha o evento que deseja realizar</li>
+<li><code>Quantidade de Formandos</code> - Insira o numero de formandos</li>
+<li><code>Quantidade de Profissionais</code> - Insira a quantidade de profissionais que vão trabalhar nesse evento</li>
+<li><code>Custo por profissional</code> - Insira um custo para os funcionarios</li>
+<li><code>Outras Despesas</code> - Insira um valor estimado de despesas</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroEvento.png" /></p>
+<h4 id="campos-alteraveis"><strong>Campos Alteraveis</strong>:</h4>
+<ul>
+<li><code>Profissionais</code> - Numero de profissionais que irão trabalhar no evento</li>
+<li><code>Custo por Profissional</code> - Valor a ser pago por funcionario</li>
+<li><code>Outras Despesas</code> - Valor de possiveis despesas</li>
+</ul>
+<p><img alt="" src="../../../img/operacionaisGestao.jpg" /></p>
+<hr />
+<h2 id="fabricacao-de-produtos">Fabricação de produtos</h2>
+<p><strong>Campo com a função de criar e gerenciar produtos</strong></p>
+<hr />
+<h3 id="cadastrar-produto">Cadastrar produto</h3>
+<p><img alt="" src="../../../img/novoProduto.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Produto</code> - Escolha um produto já cadastrado</li>
+<li><code>Quantidade Média</code> - Insira uma quantidade média de produtos</li>
+<li><code>Descarte</code> - Insira uma porcentagem de quantos produtos podem ser descartado</li>
+<li><code>Valor Unidade</code> - Insira um valor médio para cada unidade</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroProduto.png" /></p>
+<h4 id="campos-alteraveis_1"><strong>Campos alteraveis</strong>:</h4>
+<ul>
+<li><code>Quantidade Média</code> - Quantidade média de produtos</li>
+<li><code>Valor Unidade</code> - Valor médio por produto
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/produtosGest%C3%A3o.jpg" /></p>
+<h2 id="outras-despesas">Outras Despesas</h2>
+<p>Campo com a função de cadastrar e gestar despesas</p>
+<h3 id="cadastrar-nova-despesa">Cadastrar nova despesa</h3>
+<p><img alt="" src="../../../img/novaDespesa.png" /></p>
+<h4 id="campos-para-preencher_3"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Nome da Despesa</code> - Insira um nome para indentificação da despesa</li>
+<li><code>Contabilização</code> - Escolha o tipo de contabilização</li>
+<li><code>Quantidade</code> - Insira um valor para a quantidade</li>
+<li><code>Valor Unidade</code> - Insira um valor minimo para cada unidade
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/cadastroDespesa.png" /></p>
+<h2 id="venda">Venda</h2>
+<p><strong>Campo com a função de gerenciar as vendas dos produtos</strong></p>
+<hr />
+<h4 id="campos-para-preencher_4"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Quantidade de vendedores</code> - Insira uma quantidade de vendedores</li>
+<li><code>Despesa Romaneio por vendedor</code> - Insira um valor para despesas de romaneio para cada vendedor</li>
+<li><code>Tabela de Comissões</code> - Escolha uma tabela já cadastrada</li>
+<li><code>Perc. Comissão Média</code> - Insira uma porcentagem média para comissão</li>
+<li><code>Bonificação Média por Venda</code> - Insira um valor bônus para cada venda
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/venda.png" /></p>
+<hr />
+<h2 id="receitas">Receitas</h2>
+<p><strong>Campo com a função de gestar seus metodos de lucros|receitas</strong></p>
+<hr />
+<p><img alt="" src="../../../img/receitas.png" /></p>
+<ul>
+<li>Campo posibilita a alterção de produtos, modificar preços e quantidades, além da função de cadastrar um novo produto</li>
+</ul>
+<h3 id="condicao-de-pagamento">Condição de pagamento</h3>
+<p>Função com o objetivo de adicionar uma condição de pagamento</p>
+<hr />
+<p><img alt="" src="../../../img/condi%C3%A7%C3%A3oDePagamento.png" /></p>
+<h4 id="campos-para-o-cadastro"><strong>Campos para o cadastro</strong>:</h4>
+<ul>
+<li><code>Parcelamento Minimo</code> - Insira um numero minimo de parcelas</li>
+<li><code>Parcelamento Maximo</code> - Insira um numero maximo de parcelas</li>
+<li><code>Percentual de juros</code> - Insira um valor porcentual para juros
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/pagamento.png" /></p>
+<h4 id="campos-alteraveis_2"><strong>Campos alteraveis</strong>:</h4>
+<ul>
+<li><code>Quantidade Média</code> - Quantidade média do produto</li>
+<li><code>Valor Unidade</code> - Valor por unidade
+<br></li>
+</ul>
+<h2 id="resultados">Resultados</h2>
+<p><strong>Campo com a função de gerenciar os resultado e receitas para a aprovação e rejeição</strong></p>
+<hr />
+<h4 id="expectativa-de-venda">Expectativa de venda:</h4>
+<p><strong>Tabela com a função de criar uma expectativa de vendas</strong></p>
+<p><img alt="" src="../../../img/cadastroExpectativaDeVenda.png" /></p>
+<h5 id="campos-para-cadastro_1"><strong>Campos para cadastro</strong>:</h5>
+<ul>
+<li><code>Expectativa de Venda</code> - Insira um porcentual para uma expectativa de vendas</li>
+<li><code>Prazo Médio de pagamento</code> - Insira um tempo médio de pagamanto por mês</li>
+<li><code>Forma de Pagamento</code> - Escolha o metodo de pagamento</li>
+</ul>
+<h3 id="despesas-e-receitas">Despesas e Receitas</h3>
+<p><strong>Tabelas com a função de analisar quais serão suas despesas e suas receitas</strong></p>
+<hr />
+<p><img alt="" src="../../../img/tabelaDeDespesas.png" /></p>
+<ul>
+<li><code>Nenhum campo deve ser cadastrado</code></li>
+</ul>
+<hr />
+<h2 id="expectativa-de-resultado">Expectativa de resultado</h2>
+<p><strong>Ao canto inferior direito poderá ser encontrado uma tabela com o objetivo de mostrar uma expectativa do resultado além da opção de comfirmar ou rejeitar a proposta</strong></p>
+<p><img alt="" src="../../../img/resultado.png" /></p></div>
             </div>
         </div>
 

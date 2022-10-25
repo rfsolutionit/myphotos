@@ -8,7 +8,7 @@
         <meta name="author" content="RF Solution IT">
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
-        <title>Fornecedores - MyPhotos</title>
+        <title>Fornecedor - MyPhotos</title>
         <link href="../../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../../css/base.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -104,7 +114,7 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Estoque <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -145,7 +155,7 @@
 </li>
             
 <li>
-    <a href="fornecedores.html" class="dropdown-item active">Fornecedores</a>
+    <a href="fornecedores.html" class="dropdown-item">Fornecedores</a>
 </li>
             
 <li>
@@ -258,7 +268,7 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Financeiro <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="fornecedores.html" class="dropdown-item active">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -539,12 +544,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="categoria.html" class="nav-link">
+                                <a rel="prev" href="../financeiro/pag-form.html" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="locais-estoque.html" class="nav-link">
+                                <a rel="next" href="../financeiro/custo-e-atuacao.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -565,12 +570,139 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#fornecedores" class="nav-link">Fornecedores</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#editar-fornecedor" class="nav-link">Editar Fornecedor</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#cadastro-conta-bancaria" class="nav-link">Cadastro conta bancária</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="fornecedores">Fornecedores</h1>
+<p><strong>Campo com a função de gerenciar e principalmente cadastrar novos fornecedores</strong></p>
+<h3 id="novo-fornecedor">Novo Fornecedor</h3>
+<p><img alt="" src="../../../img/novoFornecedor.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro</strong></h4>
+<ul>
+<li><code>CPF/CNPJ</code> - Selecione <strong>CPF</strong> ou <strong>CNPJ</strong></li>
+<li><code>Centro Custo</code> - Selecione um centro de custo</li>
+<li><code>E-mail</code> - Insira um E-mail para contato| <strong>Campo Obrigatório</strong></li>
+<li><code>E-mail Alternativo</code> - Insira um E-mail para contato| <strong>Campo não Obrigatório</strong></li>
+<li><code>Telefone</code> - Informe um telefone para contato| <strong>Campo Opcional</strong></li>
+<li><code>Celular / Outro</code> - Informe um telefone celular para contato| <strong>Campo Opcional</strong></li>
+<li><code>Nome Contato</code> - Insira um nome para contato</li>
+<li><code>Área de Atuação</code> - Informe a Área de atuação do fornecedor</li>
+<li><code>Reduzidas</code> - Selecione uma reduzida já cadastrada</li>
+<li><code>Padrão</code> - Função para se tornar vendedor ou fornecedor padrão</li>
+</ul>
+<hr />
+<ol>
+<li><strong>CNPJ</strong><ul>
+<li><code>Numero</code> - Insira o numero do CNPJ do fornecedor</li>
+<li><code>Razão Social</code> - Nome social da empresa do fornecedor</li>
+<li><code>Nome Fantasia</code> - Nome fantasia da empresa| <strong>Nome de fachada</strong></li>
+<li><code>IE</code> - Insira o IE do fornecedor</li>
+</ul>
+</li>
+<li><strong>CPF</strong> <ul>
+<li><code>Numero</code> - Insira o numero do CPF do fornecedor</li>
+<li><code>Nome Completo</code> - Informe o nome completo do fornecedor</li>
+<li><code>Apelido</code> - Insira o apelido para encontrar o fornecedor</li>
+<li><code>RG</code> - Insira o RG do fornecedor</li>
+<li><code>Data Nascimento</code> - Insira a data de nascimento do fornecedor</li>
+</ul>
+</li>
+<li><strong>Endereço</strong><ul>
+<li><code>CEP</code> - Informe o CEP do fornecedor</li>
+<li><code>Logradouro</code> - Insira o nome da rua</li>
+<li><code>Numero</code> - Insira o numero da casa ou do apartamento para localização</li>
+<li><code>Complemento</code> - Informe um complemento para facilitar a localização</li>
+<li><code>Bairro</code> - Insira o nome do bairro</li>
+<li><code>Estado</code> - Insira o estado</li>
+<li><code>Cidade</code> - Selecione a cidade de residencia do fornecedor
+<br>
+<br></li>
+</ul>
+</li>
+</ol>
+<hr />
+<p><img alt="" src="../../../img/cadastroFornecedor.png" /></p>
+<hr />
+<p><br>
+<br></p>
+<h2 id="editar-fornecedor">Editar Fornecedor</h2>
+<p><strong>Opção com a função de editar dados do fornecedor</strong></p>
+<hr />
+<p><img alt="" src="../../../img/fornecedorEditar.jpg" /></p>
+<ul>
+<li><strong>Descendo a pagina deparar-se com uma área que posibilita gerenciar caracteristicas e o histórico do fornecedor</strong></li>
+</ul>
+<p><img alt="" src="../../../img/caracteristica.png" /></p>
+<hr />
+<h3 id="caracteristica">Caracteristica</h3>
+<p><strong>Campo com a função de gerenciar e casdastrar caracteriticas de um produtos</strong></p>
+<hr />
+<p><img alt="" src="../../../img/novaCaracteristica.png" /></p>
+<ul>
+<li><code>Descrição</code> - De uma descrição</li>
+<li><code>Tipo</code> - Selecione um tipo| <strong>Produto, Serviço ou Outros</strong></li>
+<li><code>Quantidade</code> - Informe a quantidade</li>
+<li><code>Valor</code> - Informe um valor
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/cadastroCaracteristica.png" /></p>
+<hr />
+<h3 id="historico">Histórico</h3>
+<p><strong>Tabela com a função de exibir gastos</strong></p>
+<hr />
+<p><img alt="" src="../../../img/historico.jpg" /></p>
+<hr />
+<h3 id="extrato-cc">Extrato C/C</h3>
+<ul>
+<li><strong>Campo com a função de gerenciar gastos e ganhos de clientes, fornecedores e etc</strong></li>
+</ul>
+<hr />
+<p><br>
+<br></p>
+<h2 id="cadastro-conta-bancaria">Cadastro conta bancária</h2>
+<p><strong>Opção para cadastrar uma conta bancária</strong></p>
+<hr />
+<p><img alt="" src="../../../img/fornecedorBancaria.jpg" />
+<br>
+<br></p>
+<h3 id="cadastra-conta">Cadastra Conta</h3>
+<p><img alt="" src="../../../img/novaConta.png" /></p>
+<h4 id="campos-para-cadastro_1"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Banco</code> - Selecione o banco do fornecedor</li>
+<li><code>Tipo Documento</code> - Informe o tipo do documento do fornecedor</li>
+<li><code>Numero Documento do Titular</code> - Insira o numero do documento do fornecedor</li>
+<li><code>Nome do Titular</code> - Insira o nome titular do fornecedor</li>
+<li><code>Numero da agência</code> - Insira o numero da agência do bando do fornecedor</li>
+<li><code>DV ag</code> - Insira o digito verificador da agência</li>
+<li><code>Operação</code> - Informe a operação da conta</li>
+<li><code>Numero da Conta</code> - Insira o numero da conta do fornecedor</li>
+<li><code>DV ct.</code> - Insira o digito verificador da conta</li>
+<li><code>Tipo Titular</code> - Selecione o tipo do titular| <strong>Principal, Salario, Pendências e Outros</strong></li>
+<li><code>Tipo Conta</code> - Selecione o tipo da conta| <strong>Conta Corrente, Poupança e PIX</strong></li>
+<li><code>Conta preferencial</code> - Caso for uma conta preferencial ative a opção| <strong>Está opção te dá preferencia na hora do pagamento</strong></li>
+</ul>
+<p><img alt="" src="../../../img/contasFornecedores.png" /></p>
+<hr />
+<h3 id="gerenciar-contas">Gerenciar contas</h3>
+<p><strong>A função deste campo é gerenciar e editar contas bancárias do fornecedor</strong>
+<br></p>
+<p><img alt="" src="../../../img/contaBancaria.jpg" /></p></div>
             </div>
         </div>
 

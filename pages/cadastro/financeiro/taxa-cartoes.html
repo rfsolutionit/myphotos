@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,43 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#taxa-de-cartoes" class="nav-link">Taxa de Cartões</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="taxa-de-cartoes">Taxa de Cartões</h1>
+<p><strong>Campo com a função de vizualizar e cadastrar taxas para os cartões</strong></p>
+<hr />
+<ul>
+<li>
+<h5 id="selecione-uma-conta"><strong>Selecione uma conta</strong></h5>
+</li>
+</ul>
+<h3 id="nova-taxa">Nova Taxa :</h3>
+<p><img alt="" src="../../../img/novaTaxa.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro :</strong></h4>
+<ul>
+<li><code>Modalidade</code> - Selecione uma modalidade para taxa</li>
+<li><code>Parcelas</code> - Informe um valor para parcelas</li>
+<li><code>Taxa</code> - Insira um valor percentual para a taxa do cartão</li>
+</ul>
+<p><img alt="" src="../../../img/configuracaoDeTaxa.png" /></p>
+<h3 id="vizualizar-detalhes-da-taxa">Vizualizar Detalhes da Taxa</h3>
+<hr />
+<p><br>
+<img alt="" src="../../../img/detalhes.jpg" /></p>
+<p><img alt="" src="../../../img/vizuDetalhes.jpg" /></p>
+<hr />
+<h3 id="listagem-das-taxas"><strong>Listagem das taxas :</strong></h3>
+<p><br>
+<img alt="" src="../../../img/listagemTaxa.jpg" /></p>
+<hr /></div>
             </div>
         </div>
 

@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,84 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#profissionais" class="nav-link">Profissionais</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="profissionais">Profissionais</h1>
+<p><strong>Campo com a função de gestar e cadastrar profissionais que irão trabalhar em eventos  </strong></p>
+<hr />
+<h3 id="novo-profissional">Novo Profissional</h3>
+<p><img alt="" src="../../../img/novoProfissional.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Tipo do documento</code> - Selecione o tipo do documento</li>
+<li><code>E-mail</code> - Insira um email para contato</li>
+<li><code>E-mail alternativo</code> - Informe um email alternativo| <strong>Campo opcional</strong></li>
+<li><code>Telefone</code> - Informe um telefone para um meio de contato</li>
+<li><code>Celular / Outro</code> - Insira um celular ou outro meio para contato</li>
+<li><code>Nome contato</code> - Informe o nome do contato</li>
+</ul>
+<hr />
+<ol>
+<li>Tipo CNPJ<ul>
+<li><code>Numero</code> - Insira o numero do cnpj da empresa</li>
+<li><code>Nome fantasia</code> - Informe o nome fantasia da empresa| <strong>Nome de fachada</strong></li>
+<li><code>Razão social</code> - Insira a razão social da empresa| <strong>Nome formal da empresa</strong></li>
+<li><code>IE</code> - Insira o IE do documento</li>
+</ul>
+</li>
+<li>Tipo CPF<ul>
+<li><code>Numero</code> -Insira o numero do CPF do profissional</li>
+<li><code>Nome</code> - Informe o nome completo do profissional</li>
+<li><code>RG</code> - Insira o RG do documento</li>
+<li><code>Data de nascimento</code> - Informe a data de nascimento do profissional</li>
+</ul>
+</li>
+<li>Endereço<ul>
+<li><code>CEP</code> - Digite o CEP do profissional ou da empresa</li>
+<li><code>Logradouro</code> - Informe o nome da rua da empresa ou da moradia do profissinal</li>
+<li><code>Numero</code> - Numero de localizão da empresa ou da moradia do profissional</li>
+<li><code>Complememto</code> - Informe um complemento para facilitar a localização</li>
+<li><code>Bairro</code> - Digite o nome do bairro da localização da empresa ou do profissional</li>
+<li><code>Estado</code> - Selecione o Estado</li>
+<li><code>Cidade</code> - Selecione a cidade
+<br>
+<br></li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/cadastroProfissional.png" /></p>
+<ul>
+<li><strong>Após salvar a empresa ou você mesmo deve cadastrar os funcionarios, caso seja uma empresa deve-se cadastrar todos os funcionarios, caso seja apenas uma pessoa precisa-se cadastrar apenas uma pessoa</strong></li>
+</ul>
+<hr />
+<h3 id="novo-funcionario">Novo Funcionario</h3>
+<p><img alt="" src="../../../img/novoFuncionario.png" /></p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Nome</code> - Insira o nome do funcionario</li>
+<li><code>CPF</code> - Informe o CPF do funcionario</li>
+<li><code>Login</code> - Crie um login para o funcionario</li>
+<li><code>Senha</code> - Crie uma senha para ele</li>
+<li><code>Ranking</code> - Informe o nivel do funcionario</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p><strong>!!! Profissionais também são fornecedores</strong></p>
+</li>
+<li>
+<p><strong>Logo ao entrar na abá, você terá a opção de adicionar uma conta bancaria</strong></p>
+</li>
+</ul>
+<p><a href="http://127.0.0.1:8000/pages/cadastro/estoque/fornecedores.html#cadastro-conta-bancaria">Cadastro de conta bancária</a></p></div>
             </div>
         </div>
 

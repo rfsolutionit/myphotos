@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,54 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#usuario" class="nav-link">Usuário</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="usuario">Usuário</h1>
+<p><strong>Campo com a função de cadastrar novos usuários no sistema</strong></p>
+<hr />
+<h3 id="novo-usuario">Novo Usuário</h3>
+<p><img alt="" src="../../../img/novoUsuario.PNG" /></p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Nome</code> - Insira o nome do usuário a ser cadastrado</li>
+<li><code>Data de Nascimento</code> - Informe a data de nascimento do usuário</li>
+<li><code>Sexo</code> - Informe o sexo do usuário</li>
+<li><code>CPF</code> - Insira o numero do CPF do usuario</li>
+<li><code>RG</code> - Insira o numerio do RG do novo usuário</li>
+<li><code>CNH</code> - Informe a CNH do usuario</li>
+<li><code>Cargo</code> - Informe o cargo do usuario</li>
+</ul>
+<hr />
+<ol>
+<li>Endereço<ul>
+<li><code>CEP</code> - Informe o CEP do usuário</li>
+<li><code>Logradouro</code> - Insira o nome da rua de moradia do usuário</li>
+<li><code>Numero</code> - Insira o numero da casa ou do apartamento do usuário</li>
+<li><code>Complemento</code> - Informe um complemento para facilitar a localização do usuario</li>
+<li><code>Bairro</code> - Informe o nome do Bairro de moradia do usuário</li>
+<li><code>Estado</code> - Selecione o Estado</li>
+<li><code>Cidade</code> - Selecione a cidade</li>
+</ul>
+</li>
+<li>Informações extras<ul>
+<li><code>Telefone Fixo</code> - Informe o telefone fixo do usuario</li>
+<li><code>Telefone Celular</code> - Informe o telefone celular</li>
+<li><code>E-mail</code> - Informe o E-mail do usuário</li>
+<li><code>Perfil Usuario</code> - Selecione o perfil de usuário já cadastrado</li>
+<li><code>Senha</code> - Informe a senha do usuário</li>
+<li><code>Confirmar Senha</code> - Confirme a senha do usuário</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/cadastroUsuario.PNG" /></p></div>
             </div>
         </div>
 

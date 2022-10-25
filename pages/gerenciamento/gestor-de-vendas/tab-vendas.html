@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,145 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#tabela-de-vendas" class="nav-link">Tabela de Vendas</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#relatorio-de-vendas" class="nav-link">Relatório de Vendas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="tabela-de-vendas">Tabela de Vendas</h1>
+<p><strong>Campo com a função de cadastrar e gerenciar tabelas de vendas</strong></p>
+<hr />
+<h3 id="nova-tabela">Nova Tabela</h3>
+<p><img alt="" src="../../../img/novaTabelaVendas.png" /></p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Id Interno</code> - Insira um ID para se localizado</li>
+<li><code>Nome</code> - Insira um nome para tabela</li>
+<li><code>Contrato</code> - Escolha um contrato para essa tabela</li>
+<li><code>Tipo</code> - Informe o tipo do contrato| <strong>Venda Normal, Antecipada, Pos Contrato e Vituais</strong></li>
+</ul>
+<p><img alt="" src="../../../img/cadastroTabelaVendas.png" /></p>
+<p><img alt="" src="../../../img/seUmDia.jpg" /></p>
+<hr />
+<h3 id="produtos-para-venda">Produtos para Venda</h3>
+<p><strong>Opção com o objetivo de exibir e gerenciar ou cadastrar produtos de certo formando</strong></p>
+<hr />
+<ul>
+<li><strong>Selecione um formando</strong></li>
+</ul>
+<h4 id="novo-produto">Novo Produto</h4>
+<p><img alt="" src="../../../img/novoProduto2.png" /></p>
+<h5 id="campos-para-cadastro"><strong>Campos para cadastro</strong>:</h5>
+<ul>
+<li><code>Pedido Extra</code> - Caso for um pedido extra assinale a opção</li>
+<li><code>Produto</code>- Digite o produto que desejá cadastrar</li>
+<li><code>Quantidade</code> - Quantidade do Produto</li>
+<li><code>Descarte</code> - Informe um numero percentual para descarte| <strong>Campo Opcional</strong></li>
+<li><code>Quantidade Mínima</code> - Insira uma quantidade mínima para o produto</li>
+<li><code>Valor de Venda</code> - Insira um valor de venda para o produto</li>
+<li><code>Desconto</code> - Insira um numero em percentual para desconto| <strong>Campo Opcional</strong></li>
+</ul>
+<p><img alt="" src="../../../img/cadastroProduto3.png" /></p>
+<p><strong>Tabela de Produtos</strong>
+<img alt="" src="../../../img/tabelaProdutos2.jpg" /></p>
+<hr />
+<h3 id="formas-de-pagamento">Formas de Pagamento</h3>
+<p><strong>Opção com o objetivo de gerenciar e cadastrar pagamentos para certo formando</strong></p>
+<hr />
+<h4 id="nova-forma-de-pagamento">Nova Forma de Pagamento</h4>
+<p><img alt="" src="../../../img/novaFormaDePagamento.png" /></p>
+<h5 id="campos-para-cadastro_1"><strong>Campos para cadastro</strong>:</h5>
+<ul>
+<li><code>Forma de Pagamento</code> - Selecione um meio de pagamento</li>
+<li><code>Valor Máximo para Compra Unica</code> - Insira um valor máximo para compra</li>
+<li><code>Limite Máximo de escala</code> - Insira um limite máxima</li>
+<li><code>Quantidade Máxima de Parcela</code> - Insira um numero maximo para parcelas</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroFormaDePagamento.png" /></p>
+<p><strong>Tabela de Pagamentos</strong>
+<img alt="" src="../../../img/tabelapagamento2.jpg" /></p>
+<hr />
+<h3 id="condicao-de-pagamento">Condição de Pagamento</h3>
+<p><strong>Campo com a função de gerenciar de cadastrar condições de pagamentos</strong></p>
+<hr />
+<h4 id="nova-condicao-de-pagamento">Nova Condição de Pagamento</h4>
+<p><img alt="" src="../../../img/novaCondicaoDePagamento.png" /></p>
+<h5 id="campos-para-preencher_1"><strong>Campos para preencher</strong>:</h5>
+<ul>
+<li><code>À Vista</code> - Assinale a opção caso o pagamento seja a vista</li>
+<li><code>Condições de Pagamento</code> - Insira um prazo para o pagamento| <strong>De certo mês até certo mês</strong></li>
+<li><code>Margem de Juros para Venda</code> - Insira uma margem de juros para o pagamento</li>
+<li><code>Carência</code> - Informe um numero de dias para carêcia do pagamento</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroCondicaoPagamento.png" /></p>
+<p><img alt="" src="../../../img/tabelaCondicao.jpg" /></p>
+<h3 id="descontos-especiais">Descontos Especiais</h3>
+<p><strong>Campo com o objetivo de gerenciar e cadastrar descontos especiais para certo formando</strong></p>
+<hr />
+<h4 id="novo-desconto">Novo Desconto</h4>
+<p><img alt="" src="../../../img/novoDesconto.png" /></p>
+<h5 id="campos-para-cadastro_2"><strong>Campos para cadastro</strong>:</h5>
+<ul>
+<li><code>Descrição</code> - Dê uma descrição do desconto</li>
+<li><code>Objeto de Desconto</code> - Selecione um objeto para desconto</li>
+</ul>
+<hr />
+<ol>
+<li>Desconto Membros Comissão<ul>
+<li><code>Desconto</code> - Insira o valor do desconto</li>
+</ul>
+</li>
+<li>Desconto produto Especifico<ul>
+<li><code>Produto especifico do Desconto</code> - Selecione o produto especifico para desconto</li>
+<li><code>Desconto</code> - Insira um valor para desconto</li>
+</ul>
+</li>
+<li>Desconto Valor Fixo <ul>
+<li><code>Desconto</code> - Informe um valor para desconto</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/cadastroDesconto.png" /></p>
+<p><img alt="" src="../../../img/tabelaDesconto.jpg" /></p>
+<hr />
+<h3 id="configuracoes">Configurações</h3>
+<p><strong>Campo com a função de configurar descontos especiais</strong></p>
+<hr />
+<h4 id="campos"><strong>Campos</strong></h4>
+<ul>
+<li><code>Tipo de Tolerancia do Limite de Desconto</code> - Selecione o tipo de tolerancia</li>
+<li><code>Margem de Tolerancia</code> - Informe um porcentual para tolerancia</li>
+</ul>
+<p><img alt="" src="../../../img/configura%C3%A7%C3%A3o.jpg" /></p>
+<hr />
+<h3 id="expectativa-de-venda">Expectativa de Venda</h3>
+<p><strong>Opção com o objetivo de gerenciar a expectativa de venda de certo contrato</strong></p>
+<hr />
+<p><img alt="" src="../../../img/tabelaVendas.jpg" /></p>
+<h4 id="vizualizar-tabela-de-venda"><strong>Vizualizar tabela de Venda</strong>:</h4>
+<p><br>
+<img alt="" src="../../../img/vendaVizu.jpg" /></p>
+<p><img alt="" src="../../../img/editaPora.jpg" /></p>
+<hr />
+<h2 id="relatorio-de-vendas">Relatório de Vendas</h2>
+<p><strong>Opção com a função de exibir um relatório de vendas para análise</strong></p>
+<hr />
+<h4 id="vizualizar-relatorio">Vizualizar Relatório:</h4>
+<p><br>
+<img alt="" src="../../../img/verRelat%C3%B3rio.jpg" /></p>
+<hr />
+<h4 id="relatorio-da-tabela-de-vendas">Relatório da Tabela de Vendas:</h4>
+<p><br>
+<img alt="" src="../../../img/reltVendas.jpg" /></p></div>
             </div>
         </div>
 

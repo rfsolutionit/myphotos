@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="temporadas.html" class="dropdown-item">Curso</a>
+    <a href="temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -566,8 +571,36 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#teste" class="nav-link">Teste</a>
+            <li class="nav-item" data-level="1"><a href="#cadastro-de-formaturas" class="nav-link">Cadastro de Formaturas</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#turmas" class="nav-link">Turmas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#adicionar-formandos" class="nav-link">Adicionar formandos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#cadastrar-formandos" class="nav-link">Cadastrar Formandos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#produtos-de-vendas" class="nav-link">Produtos de vendas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#clausulas-contratuais" class="nav-link">Clausulas contratuais</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#custos-brindes" class="nav-link">Custos / Brindes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#formaturas-ja-cadastradas" class="nav-link">Formaturas já Cadastradas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -575,7 +608,229 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="teste">Teste</h1></div>
+<h1 id="cadastro-de-formaturas">Cadastro de Formaturas</h1>
+<p><strong>Campo para inserir uma nova formatura no sistema</strong></p>
+<hr />
+<h3 id="nova-formatura">Nova formatura</h3>
+<p><img alt="" src="../../../img/novaFormatura.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Id Interno</code> - Id para localização no sistema</li>
+<li><code>Estado</code> - Escolha o estado onde ocorrerá a formatura</li>
+<li><code>Cidade</code> - Escolha a cidade onde acontecerá a formatura </li>
+<li><code>Situação</code> - Descreva a situação de como anda a formatura| aprovado ou aguardando aprovação e etc...</li>
+<li><code>Orçamento Estimado</code> - Insira o gasto estimado para a formatura</li>
+<li><code>Padrão</code> - Qualidade do evento</li>
+<li><code>Comarca</code> - Insira a comarca do local onde ocorrerá</li>
+<li><code>Temporada</code> - Insira a temporada em que acontecerá o evento</li>
+<li><code>Representante</code> Escolha o representante do evento</li>
+<li><code>Centro de Custo</code> - Escolha o centro de custo já cadastrado</li>
+<li><code>Data da Assinatura</code> - Insira a daata de inicio da assinatura</li>
+<li><code>Data de previsão de execução</code> - Insira a data planejada para a execução do evento</li>
+<li><code>Data de previsão de venda</code> - Insira a data de previsão para vendas de produtos</li>
+<li><code>Cerimonial</code> - Escolha o fornecedor para que ocorra o evento
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/cadastroFormatura.png" />
+<br></p>
+<h5 id="campos-opcionais"><strong>Campos opcionais</strong>:</h5>
+<ul>
+<li><code>Fotos</code> - Caso queira produzir as fotos para o evento ative a opção</li>
+<li><code>Videos</code> - Caso queira produzir videos para o evento ative a opção</li>
+<li><code>Organização</code> - Caso outra empresa organize a formatura deixe a opção desativada
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/camposOp.png" /></p>
+<hr />
+<ul>
+<li><strong>Logo após o salvamento do cadastro, aparecerá um nova abá com os campos turmas, produtos de vendas, clausulas contratuais, custos e brindes, anexos</strong></li>
+</ul>
+<p><img alt="" src="../../../img/op%C3%A7%C3%A3oDeContrato.png" /></p>
+<h2 id="turmas">Turmas</h2>
+<p><strong>Campo com a função de gerenciar e cadastrar turmas que irão participar da formatura</strong></p>
+<hr />
+<h3 id="cadastra-nova-turma">Cadastra nova turma</h3>
+<p><img alt="" src="../../../img/novaTurma.png" />
+<br></p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Instituição</code> - Insira o nome da instuição já cadastrado</li>
+<li><code>Nome do Curso</code> - Insira nome do cursos dos formandos</li>
+<li><code>Cursos</code> - Escolha um curso já cadastrado no sistema </li>
+<li><code>Numero da Turma</code> - Insira o numero da turma</li>
+<li><code>Nome da turma</code> - Insira o nome da turma</li>
+<li><code>Turno</code> - Insira o turno de aula dos formandos</li>
+<li><code>Cor do Canudo</code> - Descreva a cor do canudo</li>
+<li><code>Cor da Faixa</code> - Descreva a cor da faixa</li>
+<li><code>Contato</code> - Insira um metodo de contato</li>
+<li><code>Formandos Informados</code> - Insira o numero de formandos
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/cadastroTurmas.png" /></p>
+<hr />
+<h2 id="adicionar-formandos">Adicionar formandos</h2>
+<ul>
+<li><strong>Logo após a criação de turmas, entre em editar para adicionar a lista de formandos</strong>
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/editarFormandos.jpg" /></p>
+<hr />
+<h3 id="cadastrar-lista-de-formandos">Cadastrar lista de formandos</h3>
+<p><img alt="" src="../../../img/listFormandos.png" /></p>
+<h4 id="campos-para-preencher_1"><strong>Campos para preencher</strong></h4>
+<ul>
+<li><code>Contrato</code> - Informe o contrato</li>
+<li><code>Nome Formando</code> - Insira o nome do formando</li>
+<li><code>E-mail</code> - Insira o E-mail para contato</li>
+<li><code>Estado</code> - Escolha o estado do formando</li>
+<li><code>Cidade</code> - Insira a cidade do formando
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/cadastroLista.png" /></p>
+<hr />
+<h2 id="cadastrar-formandos">Cadastrar Formandos</h2>
+<p><img alt="" src="../../../img/novoFormando.png" /></p>
+<h4 id="campos-para-cadastro_1"><strong>Campos para cadastro</strong>:</h4>
+<ol>
+<li>
+<p><strong>Dados do formando</strong></p>
+<ul>
+<li><code>Contrato</code> - Informe o contrato</li>
+<li><code>Nome</code> - Insira o nome do formando</li>
+<li><code>Comissão</code>- Escolha uma comissão para o formando</li>
+<li><code>Curso</code> - Curso do formando</li>
+<li><code>CPF</code> - Insira o CPF da pessoa</li>
+<li><code>RG</code> - Informe o RG do formando</li>
+<li><code>Org. Emissor</code> - Informe o orgão emissor do RG</li>
+<li><code>UF.</code> - Insira a unidade federativa do formando</li>
+<li><code>Data de Nascimento</code> - Insira a data do formando a ser cadastrado</li>
+<li><code>Sexo</code> - Informe o sexo do informando</li>
+<li><code>Portador de Necessidade Especiais</code> - Descreva se o formando precisa de atendimentos especiais </li>
+<li><code>Naturalidade</code> - Informe a naturalidade do formando</li>
+<li><code>Identificação</code> - Informe se o formando estará presente na formatura</li>
+<li><code>CEP</code> - Informe o CEP do formando</li>
+<li><code>Logradouro</code> - Insira a rua do formando</li>
+<li><code>Numero</code> - Informe o numero da casa ou aparetamento do formandp</li>
+<li><code>Complemento</code> - Descreva um complemento para facilitar a localização</li>
+<li><code>Bairro</code> - Insira o nome do bairro</li>
+<li><code>Estado</code> - Informe o estado do formando</li>
+<li><code>Cidade</code> - Informe a cidade do formando</li>
+<li><code>Telefone Fixo</code> - Insira o telefone fixo para contato| <strong>Campo não obrigatório</strong></li>
+<li><code>Telefone Celular</code> - Informe um telefone celular para contato| <strong>Campo obrigatório</strong></li>
+<li><code>E-mail</code> - Insira um E-mail para contato com o formando</li>
+<li><code>Ponto de Referência</code> - Descreva um ponto de referencia para o formando
+<br>
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/dadosFormando.png" /></p>
+</li>
+<li>
+<p><strong>Dados do Trabalho</strong></p>
+<ul>
+<li>Caso o formando tenha algum trabalho deve-se informar</li>
+<li><code>Não Trabalho</code> - Assinale a opção caso o formando sejá desempregado</li>
+<li><code>Empresa</code> - Insira o nome da empresa</li>
+<li><code>Cargo</code> - Informe o cargo do formando na empresa</li>
+<li><code>CEP</code> - Insira o CEP de loaclização da empresa em que o formando trabalha</li>
+<li><code>Logradouro</code> - Insira a rua de localização da empresa</li>
+<li><code>Numero</code> - Informe o numero de localização da empresa</li>
+<li><code>Complemento</code> - Descreva um complemento para facilitar a localização</li>
+<li><code>Bairro</code> - Informe o bairro onde se está localizada a empresa</li>
+<li><code>Estado</code> - Estado de localização da empresa</li>
+<li><code>Cidade</code> - Cidade de localização da empresa
+<br>
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/localTrabalho.png" /></p>
+</li>
+<li>
+<p><strong>Dados dos Familiares</strong></p>
+<ul>
+<li>Deve-se cadastrado dados de familiares</li>
+<li><code>Grau de parentesco</code> - Informe o grau de parentesco do familiar que deseja cadatrar</li>
+<li><code>Nome</code> - Insira o nome da pessoa</li>
+<li><code>CPF</code> - Insira o CPF da pessoa</li>
+<li><code>CEP</code> - Insira o CEP da pessoa</li>
+<li><code>Logradouro</code> - Insira a rua da pessoa</li>
+<li><code>Numero</code> - Informe o numero da casa ou apartamento da pessoa que deseja cadastrar</li>
+<li><code>Complemento</code> - Informe um complemento para facilira a localização</li>
+<li><code>Bairro</code> - Insira o nome dobairro da pessoa</li>
+<li><code>Estado</code> - Insira o estado da pessoa</li>
+<li><code>Cidade</code>- Insira a cidade da pessoa</li>
+<li><code>Telefone Fixo</code> - Insira um telefone fixo para contato com a pessoa</li>
+<li><code>Telefone Celular</code> - Insira um telefone celular para contato com a pessoa
+<br>
+<br></li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/dadosFamiliarews.png" /></p>
+<hr />
+<h2 id="produtos-de-vendas">Produtos de vendas</h2>
+<p><strong>Campo com a função de cadastrar produtos para vendas</strong></p>
+<hr />
+<h3 id="novo-produto">Novo Produto</h3>
+<p><img alt="" src="../../../img/novoProduto.png" /></p>
+<h4 id="campos-para-cadastro_2"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Produto</code> - Escolha um produto já cadastrado</li>
+<li><code>Valor Contratado</code> - Insira um valor para o produto</li>
+<li><code>Quantidade minima</code> - Insira uma quantidade minima para o produto a ser vendido</li>
+<li><code>Índice de Reajuste</code> - Escolha um índice já cadastrado</li>
+</ul>
+<p><img alt="" src="../../../img/produtosFormatura.png" /></p>
+<hr />
+<h2 id="clausulas-contratuais">Clausulas contratuais</h2>
+<p><strong>Campo com a funçãp de criar clausulas contratuais</strong></p>
+<hr />
+<h3 id="nova-clausula">Nova Clausula</h3>
+<p><img alt="" src="../../../img/novaClausula.png" /></p>
+<h4 id="campos"><strong>Campos</strong></h4>
+<ul>
+<li><code>Assunto</code> - Descreva o assunto da clausula</li>
+<li><code>Especificação</code> - Insira uma especificação para o contrato
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/cadastroClausula.png" /></p>
+<hr />
+<h2 id="custos-brindes">Custos / Brindes</h2>
+<p><strong>Campo com a função de cadastrar brindes para a formatura</strong></p>
+<hr />
+<h3 id="cadastrar-brindes">Cadastrar Brindes</h3>
+<p><img alt="" src="../../../img/novoCusto.png" /></p>
+<h4 id="campos-que-devem-ser-preenchidos"><strong>Campos que devem ser preenchidos</strong>:</h4>
+<ul>
+<li><code>Brinde ou Patrocínio</code> - Escolha um brinde ou patrocínio já cadastrado</li>
+<li><code>Custo Unitário</code> - Valor já definido do produto</li>
+<li><code>Quantidade</code> - Insira a quantidade de produtos</li>
+<li><code>Data Programada Para Entrega</code> - Insira uma data para a entrega dos brindes</li>
+<li><code>Data Solicitação</code> - Escolha uma data para realizar o pedidos dos produtos</li>
+<li><code>Data de Vencimento</code> - Data de vencimento</li>
+<li><code>Custo Total</code> - Valor total a ser gasto
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/brindeFormatura.png" /></p>
+<hr />
+<h2 id="formaturas-ja-cadastradas">Formaturas já Cadastradas</h2>
+<hr />
+<p><br></p>
+<h3 id="filtro-de-pesquisa">Filtro de Pesquisa</h3>
+<p><img alt="" src="../../../img/filtroPesquisa.png" /></p>
+<h4 id="campos-para-preencher_2"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Temporada</code> - Temporada que ocorrerá evento que procura</li>
+<li><code>Representante</code> - Representante do evento que procura</li>
+<li><code>Estado</code> - Estado onde acontecerá a formatura que procura</li>
+<li><code>Cidade</code> - Cidade onde acontecerá a formatura que procura</li>
+<li><code>Situção</code> - Situação de como está o evento que procura</li>
+<li><code>Data inicial da execução</code> - Dia da execução do evento</li>
+<li><code>Data final da execução</code> - Dia da final do evento</li>
+<li><code>Data de inicio da assinatura</code> - Data para o inicio da assinatura </li>
+<li><code>Data de termino da assinatura</code> - Data para o fim da assinatura</li>
+<li><code>Padrão</code> - Qualidade do evento
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/formaturasSalvas.jpg" /></p></div>
             </div>
         </div>
 

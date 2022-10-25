@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,99 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#gestao-de-produtos" class="nav-link">Gestão de Produtos</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#cadastrar-produto-para-o-formando" class="nav-link">Cadastrar Produto para o Formando</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#gerenciar-tabela" class="nav-link">Gerenciar tabela</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="gestao-de-produtos">Gestão de Produtos</h1>
+<p><strong>Campo com a função de castrar novas ordens de produção para contratos</strong></p>
+<hr />
+<h3 id="nova-ordem">Nova Ordem</h3>
+<p><img alt="" src="../../../img/novaOrdem.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Nome</code> - Insira um nome para identificação</li>
+<li><code>Contrato</code> - Selecione um contrato sem uma ordem cadastrada
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/ordemDeProdu%C3%A7%C3%A3o.png" /></p>
+<ul>
+<li><strong>Logo após salvar nome e dados dos alunos irão aparecer</strong></li>
+</ul>
+<hr />
+<p><img alt="" src="../../../img/totalizadores.jpg" /></p>
+<hr />
+<p><br></p>
+<h5 id="para-cadastrarmos-uma-nova-ordem-para-producao-presisamo-assinalar-a-opcao"><strong>Para cadastrarmos uma nova ordem para produção presisamo assinalar a opção</strong></h5>
+<p><img alt="" src="../../../img/opcaoTodos.png" /></p>
+<ul>
+<li>
+<p><strong>Para facilitar seu trabalho existe uma opção que possibilita criar uma ordem de produção para todos os formandos</strong></p>
+</li>
+<li>
+<p><strong>Caso nem todos os formandos seja preciso cadastrar uma ordem de produção, você pode ativar a opção para que todos sejam ativados e dessativar apenas aqueles que não serão utilizados ou assinalar um de cada vez</strong></p>
+</li>
+</ul>
+<p><img alt="" src="../../../img/totalizadoresSeta.jpg" /></p>
+<ul>
+<li><strong>Depois de ativar a opção aparecerá uma nova opção para cadastrar produtos</strong></li>
+</ul>
+<p><img alt="" src="../../../img/bot%C3%A3oProdu%C3%A7%C3%A3o.jpg" /></p>
+<h2 id="cadastrar-produto-para-o-formando">Cadastrar Produto para o Formando</h2>
+<p><strong>Neste campo sua função é cadastrar quais produtos foram comprado pelo formando</strong></p>
+<hr />
+<h4 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h4>
+<ul>
+<li><code>Produto</code> - Selecione um produto já cadastrado</li>
+<li><code>Codigo de Barras</code> - Informe o codigo de barra do produto</li>
+<li><code>Quantidade</code> - Insira a quantidade do produto disponivel do formand| <strong>Recomendado insirir apenas 1 para que possa exportar para outro formandos, depôis altere manualmente</strong></li>
+</ul>
+<p><img alt="" src="../../../img/cadastroPordutoFormando.jpg" /></p>
+<hr />
+<h4 id="exportar"><strong>Exportar</strong></h4>
+<p><img alt="" src="../../../img/exportar.png" /></p>
+<ul>
+<li><strong>Campo com a função de exportar os produtos para todos os formandos selecionados</strong></li>
+</ul>
+<p><img alt="" src="../../../img/exportarFormandos.jpg" /></p>
+<h4 id="gerenciar-movimento"><strong>Gerenciar Movimento</strong></h4>
+<p><strong>Campo com a função de gerenciar a movimentação do produto</strong></p>
+<hr />
+<p><img alt="" src="../../../img/movimenta%C3%A7%C3%A3o.jpg" /></p>
+<ul>
+<li><code>Local</code> - Local onde o produto se está armarzenar</li>
+<li><code>Portador</code> - Fornecedor / Vendedor do produto</li>
+<li><code>Status</code> - Status do produto| <strong>Disponivel, Descartado, Extraviado, Vendido, Bonificado</strong></li>
+<li>
+<p><code>Quantidade</code> - Quantidade do produto</p>
+<ul>
+<li><strong>Todos os campos podem ser alterado</strong></li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../../../img/gerenciarProdutoFormando.png" /></p>
+<hr />
+<h2 id="gerenciar-tabela">Gerenciar tabela</h2>
+<p><strong>Depois de realizar todos os passos a cima, você porderá gerenciar todos os formantes, agora você poderá alterar manualmente a quantidade de produtos para cada formando</strong></p>
+<p><img alt="" src="../../../img/gerenciaProdutosrFormandos.jpg" /></p>
+<ul>
+<li><strong>Caso queria apagar um campo de um formando, você pode ir na lupa e apagar o produto ou apenas alterar o campo deixando vazio e salve</strong>
+    <img alt="" src="../../../img/apagarCampo.jpg" /></li>
+</ul></div>
             </div>
         </div>
 

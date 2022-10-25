@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,67 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#folha-de-pagamento" class="nav-link">Folha de Pagamento</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#lancar-credito" class="nav-link">Lançar Crédito</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="folha-de-pagamento">Folha de Pagamento</h1>
+<p><strong>Campo com a função de gerenciar a folha de pagamentos e lançar creditos para o fornecedor</strong></p>
+<hr />
+<h4 id="campos-para-pesquisa"><strong>Campos para Pesquisa :</strong></h4>
+<ul>
+<li><code>Área de Atuação</code> - Informe a área de atuação do fornecedor que deseja procurar| <strong>Fonecedor, Vendedor e etc...</strong></li>
+<li><code>Status Envio</code> - Informe o status de envio do fornecedor que deseja procurar</li>
+<li><code>Reduzida</code> - Selecione o tipo de custo do fornecedor</li>
+<li><code>Centro de Custo</code> - Selecione um centro de custo do fornecedor que procura</li>
+<li><code>Fornecedor</code> - Selecione o fornecedor que deseja procurar</li>
+<li><code>Data de Vencimento Inicial</code> - Informe uma data mínima de vencimento do pagamento que deseja procurar</li>
+<li><code>Data de Vencimento Final</code> -Insira uma data máxima de vencimento do pagamento que deseja procurar</li>
+<li><code>Competencia Inicial</code> - Insira uma data de competencia mínima</li>
+<li><code>Competencia Final</code> - Insira uma data de competencia máxima</li>
+<li><code>Saldo</code> - Selecione o tipo de saldo| <strong>Todos, Positivo ou Negativo</strong></li>
+</ul>
+<p><img alt="" src="../../img/filtroPagamentoFornecedores.png" /></p>
+<hr />
+<h2 id="lancar-credito">Lançar Crédito</h2>
+<p><strong>Selecione um fornecedor e vá em Lançar Crédito Em Lote</strong></p>
+<hr />
+<p><img alt="" src="../../img/mlkSeta.jpg" /></p>
+<p><img alt="" src="../../img/lancarCredto.png" /></p>
+<h4 id="campos-para-envio"><strong>Campos para envio :</strong></h4>
+<ul>
+<li><code>Competencia</code> - Insira uma data para a competencia </li>
+<li><code>Operação</code> - Selecione um meio da operação| <strong>Débito ou Crédito</strong></li>
+<li><code>Descrição dos Créditos</code> - Dê uma descrição para o lançamento do crédito</li>
+<li><code>Total</code> - Total a ser pago</li>
+</ul>
+<hr />
+<ol>
+<li>Fornecedor<ul>
+<li><code>Valor</code> - Insira um valor do crédito a ser lançado para certo fornecedor</li>
+<li><code>Data de Efetivação</code>  - Informe a data de efetivação do lançamento do crédito</li>
+<li><code>Conta Contabíl</code> - Informe o tipo de gasto do fornecedor</li>
+<li><code>Centro de Custo</code> - Selecione o centro de custo do fornecedro</li>
+<li><code>Inserir Movimento</code> -Informe se a movimento</li>
+</ul>
+</li>
+<li>Inserir Movimento<ul>
+<li><code>Carteira</code> - Selecione uma carteira</li>
+<li><code>Forma de Pagamento</code> - Informe um meio de pagamento</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../img/cadastroLancarCredto.png" /></p></div>
             </div>
         </div>
 

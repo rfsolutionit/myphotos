@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,205 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#listagem-de-vendas" class="nav-link">Listagem de Vendas</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#alterar-dados" class="nav-link">Alterar dados</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#feedbacks-da-venda" class="nav-link">Feedbacks da Venda</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#agendamento" class="nav-link">Agendamento</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#detalhes-da-venda" class="nav-link">Detalhes da Venda</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="listagem-de-vendas">Listagem de Vendas</h1>
+<p><strong>Campo com a função de gerenciar e exibir a lista de vendas</strong></p>
+<hr />
+<h4 id="campos-para-pesquisa"><strong>Campos para pesquisa</strong>:</h4>
+<ul>
+<li><code>Contrato</code> - Selecione o contrato que deseja pesquisar</li>
+<li><code>Escala de Vendedores</code> - Selecione a escala do vendedor</li>
+<li><code>Status de Venda</code> - Informe o status da venda| <strong>Venda em Andamento, Finalizada com sucesso e etc...</strong></li>
+<li><code>Conferida</code> - Informe se já está conferido| <strong>Sim ou Não</strong></li>
+<li><code>Com Feedback</code></li>
+<li><code>Com Agendamento</code></li>
+<li><code>Data de Conclusão inicial</code> - Informe a data de conclusão inicial</li>
+<li><code>Data de Conclusão Final</code> - Informe a data de conclusão final</li>
+<li><code>Valor Previsto Inicial</code> - Insira o valor previsto inicialmente</li>
+<li><code>Valor Previsto Final</code> - Insira o valor previsto para o final</li>
+<li><code>Formando/Cliente</code> - Insira o formando/cliente</li>
+<li><code>Valor de Venda Inicial</code> - Insira o valor da venda inicial</li>
+<li><code>Valor de Venda Final</code> - Insire o valor da venda final</li>
+<li><code>Data de Movimento Inicio</code> - Informe a data de inicio do movimento</li>
+<li><code>Data de Movimento Fim</code> - Informe a data final do movimento</li>
+<li><code>Vendedor</code> - Selecione o vendedor que deseja procurar</li>
+<li><code>Tabela Comissão</code> - Informe a tabela de comissão do vendedor</li>
+</ul>
+<p><img alt="" src="../../../img/listagemDeVendasFiltro.png" /></p>
+<p><img alt="" src="../../../img/tabelaResultado.jpg" /></p>
+<h2 id="alterar-dados">Alterar dados</h2>
+<p><strong>Função com o objetivo de alterar dados da venda de um certo formando escolhido</strong></p>
+<hr />
+<p><img alt="" src="../../../img/alterarDados.png" /></p>
+<p><img alt="" src="../../../img/pessoaSetaE.jpg" /></p>
+<h4 id="campos-para-alterar"><strong>Campos para alterar</strong>:</h4>
+<ul>
+<li><code>Vendedor</code> - Selecione o novo vendedor</li>
+<li><code>Status da Venda</code> - Informe o novo status da venda</li>
+<li><code>Tabela de Comissão</code> - Insira a nova tabela de comissão</li>
+<li><code>Conferida</code> - Informe se a venda está ou não comferida</li>
+</ul>
+<p><img alt="" src="../../../img/alterarDadosPage.png" /></p>
+<hr />
+<h2 id="feedbacks-da-venda">Feedbacks da Venda</h2>
+<p><strong>Opção com a função de exibir o relatório de feedbacks da venda</strong></p>
+<hr />
+<p><img alt="" src="../../../img/pessoaFeedback.jpg" /></p>
+<p><img alt="" src="../../../img/feedbackTabela.jpg" /></p>
+<hr />
+<h2 id="agendamento">Agendamento</h2>
+<p><strong>Objetivo de exibir um relatório de agendaas para venda de um certo formando</strong></p>
+<hr />
+<p><img alt="" src="../../../img/agendamento.jpg" /></p>
+<h4 id="campos-com-informacao"><strong>Campos com informação</strong>:</h4>
+<ul>
+<li><code>Tabela de Vendas</code> - Nome da Tabela dessa venda</li>
+<li><code>Contrato</code> - Nome do contrato</li>
+<li><code>Formando</code> - Nome do formando</li>
+<li><code>Venda</code> - Numero da Venda</li>
+<li><code>Status</code> - Status da Venda</li>
+<li><code>Vendedor</code> - Nome do vendedor</li>
+</ul>
+<hr />
+<h2 id="detalhes-da-venda">Detalhes da Venda</h2>
+<p><strong>Opção com o objetivo de gerenciar a venda para o formando</strong></p>
+<hr />
+<p><img alt="" src="../../../img/pessoaVendaDetalhe.jpg" /></p>
+<p><img alt="" src="../../../img/detalheDaVenda.jpg" /></p>
+<h4 id="campos"><strong>Campos</strong>:</h4>
+<ul>
+<li><code>Tabela de Vendas</code> - Tabela de vendas do formando</li>
+<li><code>Contrato</code> - Contrato do formando</li>
+<li><code>Formando</code> - Nome do formando</li>
+<li><code>Venda</code> - Numero da Venda</li>
+<li><code>Data Movimento</code> - Data de movimento da venda| <strong>Campo alteravel</strong></li>
+<li><code>Data de Conclusão</code> - Data de conclusão da venda| <strong>Campo alteravel</strong></li>
+<li><code>Vendedor</code> - Vendedor do contrato| <strong>Campo alteravel</strong></li>
+<li><code>Tabela de Comissão</code> - Tabela de comissão do contrato| <strong>Campo alteravel</strong></li>
+<li><a href="http://127.0.0.1:8000/pages/cadastro/contrato/cadastro-de-formatura.html#cadastrar-formandos">Editar Formando</a></li>
+</ul>
+<h3 id="produtos">Produtos</h3>
+<p><strong>Campo com a função de adicionar e gerenciar um produto na lista</strong></p>
+<h4 id="novo-produto">Novo Produto</h4>
+<ul>
+<li><code>Produto</code> - Selecione o produto </li>
+<li><code>Quantidade</code> - Informe a quantidade do produto</li>
+<li><code>Ativo</code> - Informe se ele está ativo| <strong>Em Uso</strong></li>
+<li><code>Pedido Extra</code> - Informe se este produto é um produto extra</li>
+<li><code>Refazer</code> - Informe se este produto sera refeito</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroDeProduto.png" /></p>
+<h4 id="tabela-dos-produtos">Tabela dos produtos</h4>
+<p><img alt="" src="../../../img/tabelaProdutos.jpg" /></p>
+<h4 id="tabela-de-desconto">Tabela de Desconto</h4>
+<p><img alt="" src="../../../img/tabelaDesconto.png" /></p>
+<h4 id="condicoes-de-pagamento">Condicões de Pagamento</h4>
+<p><img alt="" src="../../../img/condicaoDePagamento.png" /></p>
+<h3 id="compradores">Compradores</h3>
+<h4 id="novo-comprador">Novo Comprador</h4>
+<p><img alt="" src="../../../img/compradores.png" /></p>
+<h5 id="campos-para-preencher"><strong>Campos para preencher</strong>:</h5>
+<ul>
+<li><code>Papel</code> - Informe o papel do novo comprador| <strong>Comprador ou Avalista</strong></li>
+<li><code>Nome</code> - Insira o nome completo da pessoa a ser cadastrada</li>
+<li><code>Tipo do Documento</code> - Informe o tipo do documento da pessoa</li>
+<li><code>CPF/CNPJ</code> - Insira o numero do documento</li>
+<li><code>Data de Nascimento</code> - Informe a data de nascimento do comprador</li>
+<li><code>RG</code> - Informe o rg do documento</li>
+<li><code>OG. Emissor</code> - Informe o orgão emissor</li>
+<li><code>UF Org. Emissor</code> - Informe a unidade federa do orgão emssior</li>
+<li><code>Sexo</code> - Insira o sexo do emissor</li>
+<li><code>Nome do Pai ou Mãe</code> - Insira o nome completo da mãe ou do pai do comprador a ser cadastrado</li>
+<li><code>E-mail</code> - Informe um email para contato</li>
+<li><code>Telefone 1</code> - Insira um numero de telefone para contato| <strong>Campo Obrigatório</strong></li>
+<li><code>Telefone 2</code> - Insira um segundo numero de telefone para contato</li>
+<li><code>Codigo Protocolo Serasa</code> - Insira o codigo de protocolo do Serasa</li>
+</ul>
+<hr />
+<ol>
+<li>Endereço<ul>
+<li><code>CEP</code> - Informe o CEP do comprador</li>
+<li><code>Logradouro</code> - Insira o nome da rua do comprador</li>
+<li><code>Numero</code> - Insira o numero da casa ou do apartamento</li>
+<li><code>Complemento</code> - Insira um complemento para facilitar a localização</li>
+<li><code>Bairro</code> - Informe o nome do bairro</li>
+<li><code>Estado</code> - Insira o Estado de moradia do comprador</li>
+<li><code>Cidade</code> - Informe a cdidade de moradia do comprador</li>
+<li><code>Referencia</code> - Dê uma referencia</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/cadastroCompradores.png" /></p>
+<p><img alt="" src="../../../img/compradoresLista.jpg" /></p>
+<h3 id="formas-de-pagamento">Formas de Pagamento</h3>
+<h4 id="novo-pagamento">Novo Pagamento</h4>
+<p><img alt="" src="../../../img/novoPagamento.png" /></p>
+<h5 id="campos-para-o-cadastro"><strong>Campos para o cadastro</strong>:</h5>
+<ul>
+<li><code>Metodo de Pagamneto</code></li>
+<li>Moeda<ul>
+<li><code>Valor</code> - Insira o valor do pagamento</li>
+</ul>
+</li>
+<li>Cheque<ul>
+<li><code>Nome do Titular</code> - Informe o nome do titular</li>
+<li><code>CPF/CNPJ</code> - Insira o numero do documento</li>
+<li><code>Banco</code> - Informe o banco da pessoa</li>
+<li><code>Agencia</code> - Informe a agencia da pessoa</li>
+<li><code>Agência DV</code> - Insira o Dv da agencia da pessoa</li>
+<li><code>Conta</code> - Informe a conta da pessoa</li>
+<li><code>Conta DV</code> - Insira o Dv da conta</li>
+<li><code>Selecione a Quantidade de Cheques</code> - Selecione a quantidade de cheques para o pagamento| <strong>De 1 a 24 Cheques</strong></li>
+</ul>
+</li>
+<li>Cartão de Crédito<ul>
+<li><code>Nome Titular</code> - Informe o nome titular da pessoa</li>
+<li><code>CPF / CNPJ</code> - Insira o numero do CPF ou CNPj da pessoa</li>
+<li><code>Valor</code> - Insira o valor do pagamento</li>
+<li><code>Parcelas</code> - Insira um numero de parcelas para o pagamento</li>
+<li><code>Codigo Protocolo</code> - Informe o codigo de protocolo</li>
+<li><code>Código Maquininha</code> - Informe o codigo da maquininha</li>
+<li><code>Data Hora Ocorrência</code> - Insira a data e a hora da operação</li>
+</ul>
+</li>
+<li>Desconto<ul>
+<li><code>Valor</code> - Valor do pagamento</li>
+</ul>
+</li>
+<li>Boleto<ul>
+<li><code>Nome Titular</code> - Insira o nome titular</li>
+<li><code>CPF / CNPJ</code> - Insira o nome do CPF / CNPJ</li>
+<li><code>Selecione a Quantidade de Boletos</code> - Selecione a quantidade de boletos para o pagamento| <strong>De 1 a 24 Boletos</strong></li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../../../img/pagamentos.png" /></p>
+<p><img alt="" src="../../../img/tabelaPagamento.jpg" /></p></div>
             </div>
         </div>
 

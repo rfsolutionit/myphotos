@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,47 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#carteiras" class="nav-link">Carteiras</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="carteiras">Carteiras</h1>
+<p><strong>Campo com a função de editar e cadastrar novos tipos carteiras</strong></p>
+<hr />
+<h3 id="nova-carteira">Nova Carteira</h3>
+<p><img alt="" src="../../../img/novaCarteira.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro :</strong></h4>
+<ul>
+<li><code>ID Interno</code> - Insira um ID para identificação interna</li>
+<li><code>Nome</code> - Insira um nome para identificação da Conta</li>
+<li><code>Banco</code> - Selecione um banco</li>
+<li><code>Beneficiário</code> - Selecione um beneficiário já cadastrado</li>
+<li><code>Ativo</code> - Informe se a carteira ainda está ativa</li>
+<li><code>Agência</code> - Insira o número a agência</li>
+<li><code>DV</code> - Informe o digito verificador da agencia| <strong>Se SICREDI infomar o posto</strong></li>
+<li><code>Operação</code> - Informe o codigo da operação</li>
+<li><code>Conta</code> - Digite o numero da conta</li>
+<li><code>DV conta</code> - Informe o digito verificado da conta</li>
+<li><code>Convênio</code> - Informe o número do convênio| <strong>Se o SICREDI informar a conta sem o digito verficador</strong></li>
+<li><code>Carteira</code> - Informe a carteira</li>
+<li><code>Var. Cart</code> - Informe a variação da carteira</li>
+<li><code>Limite de Cheque Especial</code> - Insira um limite em reais para o cheque especial</li>
+<li><code>Tarifa Automática</code> - Insira um valor percentual para tarifa automática</li>
+<li><code>Pagamento</code> - Informe se a carteira faz pagamentos</li>
+<li><code>Recebimentos</code> - Informe se a carteira recebe pagamentos</li>
+<li><code>Carteira Recebimento</code> - Informe qual é a carteira de recebimento</li>
+<li><code>Quantidade de dias por Crédito</code> - Insira uma quantidade de dias por crédito</li>
+<li><code>Informações</code> - Dê informações adicionais</li>
+<li><code>Saldo Inicial</code> - Informe um valor inicial</li>
+<li><code>Data Saldo Inicial</code> - Informe uma data para o saldo inicial</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroCarteira.png" /></p></div>
             </div>
         </div>
 

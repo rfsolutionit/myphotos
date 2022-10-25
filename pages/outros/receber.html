@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../../index.html">MyPhotos</a>
+                <a class="navbar-brand" href="../..">MyPhotos</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,8 +34,18 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../../index.html" class="nav-link">Home</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
@@ -50,7 +60,7 @@
 </li>
             
 <li>
-    <a href="../cadastro/contrato/temporadas.html" class="dropdown-item">Curso</a>
+    <a href="../cadastro/contrato/temporadas.html" class="dropdown-item">Cursos</a>
 </li>
             
 <li>
@@ -271,7 +281,7 @@
 </li>
             
 <li>
-    <a href="../cadastro/financeiro/fornecedor.html" class="dropdown-item">Fornecedor</a>
+    <a href="../cadastro/estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
 </li>
             
 <li>
@@ -428,6 +438,10 @@
 </li>
             
 <li>
+    <a href="../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
     <a href="../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
 </li>
             
@@ -521,15 +535,6 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../releases.html" class="dropdown-item">Releases Notes</a>
-</li>
-                                </ul>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -565,12 +570,88 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#contas-a-receber" class="nav-link">Contas a Receber</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#listagem-das-contas" class="nav-link">Listagem das Contas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#recebimento-de-conta" class="nav-link">Recebimento de Conta</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="contas-a-receber">Contas a Receber</h1>
+<p><strong>Campos com a função de gerenciar e cadastrar contas a receber</strong></p>
+<hr />
+<h3 id="nova-conta">Nova Conta</h3>
+<p><img alt="" src="../../img/novaContaReceber.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para Cadastro :</strong></h4>
+<ul>
+<li><code>Valor</code> - Insira o valor que reberá</li>
+<li><code>Data de Vencimento</code> - Informe a data de vencimento da conta</li>
+<li><code>Descrião</code> - Dê uma descrição para a conta</li>
+<li><code>Data de Movimento</code> - Informe uma data para o movimento</li>
+<li><code>Taxas/Juros</code> - Insira uma taxa de juros| <strong>Caso Precise</strong></li>
+<li><code>Descontos</code> - Insira um valor para desconto| <strong>Caso Precise</strong></li>
+<li><code>Tarifas</code> - Insira um valor de tarifas</li>
+<li><code>Cliente</code> - Selecione um cliente</li>
+<li><code>Contrato</code> - Informe o contrato do cliente que deseja fazer a cobrança</li>
+<li><code>Carteira</code> - Informe uma carteira para o recebimento</li>
+<li><code>Centro de Custo</code> - Selecione o centro de custo da conta</li>
+<li><code>Forma de Recebimento</code> - Selecione uma forma de recebimento| <strong>Moeda, Cheque, Boleto e etc..</strong></li>
+<li><code>Categoria</code> - Informe o tipo de gasto / Categoria</li>
+<li><code>Parcela da Venda</code> - Selecione uma pessoa</li>
+<li><code>Recebido</code> - Informe se já foi recebido</li>
+</ul>
+<p><img alt="" src="../../img/cadastroContaAReceber.png" /></p>
+<hr />
+<h4 id="filtros-de-pesquisa"><strong>Filtros de Pesquisa :</strong></h4>
+<ol>
+<li>Datas<ul>
+<li><code>Data de Vencimento Inicio</code> -     </li>
+<li><code>Data de Vencimento Final</code></li>
+<li><code>Data de Recebimento Inicial</code></li>
+<li><code>Data de Recebimento Final</code></li>
+<li><code>Data de Movimento Inicial</code></li>
+<li><code>Data de Movimento Final</code></li>
+</ul>
+</li>
+<li>Outros Campos<ul>
+<li><code>Forma à Receber</code> - Insira qual é a forma de recebimeto da conta que deseja| <strong>Moeda, Cheque, Boleto e etc...</strong></li>
+<li><code>Valor Inicial</code> - Insira uma valor mínimo para das contas</li>
+<li><code>Valor Final</code> - Informe o valor máximo das contas que desejá procurar</li>
+<li><code>Forma Recebida</code> - Selecione a forma que o pagamento foi recebido| <strong>Moeda, Cheque, Boleto e etc...</strong></li>
+<li><code>Carteira</code> - Informe a carteira da conta que deseja procurar</li>
+<li><code>Palavra Chave</code> - Insira uma palavra chave para a busca</li>
+<li><code>Vendedores</code> - Informe o vendedor</li>
+<li><code>Situação</code> - Informe qual é a situação da conta| <strong>Todos, Recebido e Em Abertos</strong></li>
+<li><code>Status</code> - Informe o status da conta| <strong>Ativas ou Inativas</strong></li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../img/filtroContasAReceber.png" /></p>
+<hr />
+<p><br></p>
+<h2 id="listagem-das-contas">Listagem das Contas</h2>
+<p><img alt="" src="../../img/listagemDeContas2.png" /></p>
+<ul>
+<li><strong>Contas que estiverem em vermelho significa que o pagamento está atrasado</strong></li>
+</ul>
+<h2 id="recebimento-de-conta">Recebimento de Conta</h2>
+<p><img alt="" src="../../img/contaSeta.png" /></p>
+<ul>
+<li><strong>Logo após clicar você será redirecionado ao uma nova abá</strong></li>
+<li><strong>Vá em adicionar para o recebimento ser feito</strong></li>
+</ul>
+<p><img alt="" src="../../img/adicionar.png" /></p></div>
             </div>
         </div>
 
