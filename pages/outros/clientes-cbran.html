@@ -578,12 +578,238 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#renegociacao-de-contas" class="nav-link">Renegociação de Contas</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#listagem-de-cobrancas-por-clientes" class="nav-link">Listagem de Cobranças por Clientes:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#listagem-de-cobranca-por-contas" class="nav-link">Listagem de Cobrança por Contas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#nova-renegociacao" class="nav-link">Nova Renegociação :</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#parcelas" class="nav-link">Parcelas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#protocolo" class="nav-link">Protocolo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#histotico" class="nav-link">Histótico</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#vendas" class="nav-link">Vendas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#mais-informacoes" class="nav-link">Mais Informações</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="renegociacao-de-contas">Renegociação de Contas</h1>
+<p><strong>Campo com a principal função de renegociação das contas</strong></p>
+<hr />
+<h4 id="campos-para-filtros"><strong>Campos para filtros :</strong></h4>
+<ul>
+<li><code>Palavra Chave</code> - Insira uma palavra chave para facilitar a procura</li>
+<li><code>Carteira</code> - Informe uma carteira</li>
+<li><code>Data Vencimento Inicio</code> Insira uma data mínima de vencimentos</li>
+<li><code>Data Vencimento Final</code> - Insira uma data máxima de vencimentos</li>
+<li><code>Data de Emissão Início</code> - Informe uma data mínima das emissões</li>
+<li><code>Data de Emissão Final</code> - Informe a data máxima de emissõs</li>
+<li><code>Data de Recebimento Inicio</code> - Selecione uma data mínima de recebimentos</li>
+<li><code>Data de Recebimento Final</code> - Selecione uma data máxima de recebimentos</li>
+<li><code>Situação</code> - Informe a situação da cobrança| <strong>Pendente, Cliente não Retornou e etc...</strong></li>
+<li><code>Negativos</code> - Informe se deseja buscar negativados| <strong>Sim ou Não</strong></li>
+<li><code>Tipo</code> - Selecione o tipo da cobrança| <strong>Original ou Renegociadas</strong></li>
+</ul>
+<hr />
+<ol>
+<li>
+<p>Configuração de Renegociação</p>
+<p><img alt="" src="../../img/engrenagem.png" /></p>
+<ul>
+<li><code>Formas de Pagamento</code> Insira o meio de pagamentos das cobranças</li>
+<li><code>Carteira</code> - Informe as carteiras que deseja procurar</li>
+<li><code>Dias Vencimento</code> - Insira a quantidade de dias para o vencimento</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../img/filtroRenegociacao.png" /></p>
+<hr />
+<h4 id="totalizadores"><strong>Totalizadores</strong></h4>
+<p><img alt="" src="../../img/totalizadoresRenegociacao.jpg.png" /> </p>
+<ul>
+<li><code>Total Vencido</code> - Valor total de pagamentos vencidos</li>
+<li><code>Total à Vencer</code> - Valor que ainda não passou do vencimento</li>
+<li><code>Total Renegociado</code> - Valor total de renegociações</li>
+<li><code>Total Renegociado Pago:</code> - Valor to de renegociações já pago</li>
+<li><code>Total Original Pago</code> - Valor total pago sem renegociações</li>
+<li><code>Quantidade de Clientes</code> - Quantidade de clientes</li>
+<li><code>Quantidade de Clientes Atendidos</code> - Quantidade de clientes já atendidos</li>
+</ul>
+<hr />
+<h2 id="listagem-de-cobrancas-por-clientes"><strong>Listagem de Cobranças por Clientes:</strong></h2>
+<p><img alt="" src="../../img/listagemCobranca.png" /></p>
+<ul>
+<li><strong>Campos que estão em vermelho já estão negativados</strong></li>
+</ul>
+<hr />
+<h2 id="listagem-de-cobranca-por-contas"><strong>Listagem de Cobrança por Contas</strong></h2>
+<p><img alt="" src="../../img/listagemCobrancaConta.png" /></p>
+<ul>
+<li><strong>As duas tabelas tem a mesma função a unica diferença é o meio de busca</strong></li>
+</ul>
+<hr />
+<h2 id="nova-renegociacao">Nova Renegociação :</h2>
+<hr />
+<p><img alt="" src="../../img/novaRenegociacao.png" /></p>
+<p><strong>Após clicar você será redirecionado par uma nova abá com informações da cobrança</strong></p>
+<p><img alt="" src="../../img/infoCobranca.png" /></p>
+<ul>
+<li><code>Negativado</code> - Informe se a cobrança está negativado</li>
+<li><code>Falecido</code> - Assilane essa opção caso o cliente venha a falecer</li>
+<li><code>Não Consta</code> - Assinale caso o cliente não consta</li>
+<li><code>Situação</code> - Informe qual é a siuação do cliente| <strong>Cliente não atende, Cliente não Retornou e etc...</strong></li>
+</ul>
+<hr />
+<p><img alt="" src="../../img/contatoExtra.png" /></p>
+<ol>
+<li>Contato<ul>
+<li><strong>Caso queira adicionar um contato extra</strong></li>
+<li><code>Contato</code> Insira o contato que deseja adicionar| <strong>Numero de Telefone, E-mail e etc..</strong></li>
+<li><code>Chat</code> - Caso for número esta opção será ativada</li>
+</ul>
+</li>
+</ol>
+<hr />
+<ul>
+<li><strong>Logo abaixo tem outras abás</strong></li>
+</ul>
+<h2 id="parcelas"><strong>Parcelas</strong></h2>
+<p><strong>Função de gerenciar parcelas e criar renegociações</strong></p>
+<p><img alt="" src="../../img/listagemParcelas.png" /></p>
+<p><strong>Contas a Reber Originais</strong></p>
+<ul>
+<li><code>Saldo Vencido</code> - Valor total das contas que não foram pagas</li>
+<li><code>Saldo Corrigido</code> - Saldo dos pagamentos vencidos com a correção com juros</li>
+<li><code>Saldo à Vencer</code></li>
+<li><code>Total Pendente</code> - Valor a ser pago</li>
+<li><code>Saldo Quitado</code> - Valor pago</li>
+</ul>
+<p><strong>Contas à Recber Negociadas</strong></p>
+<p><img alt="" src="../../img/contasAReceberNegociadas.png" /></p>
+<ul>
+<li><strong>Após uma nova proposta for aprovada, novos pagamentos irão aparecer aqui</strong></li>
+</ul>
+<p><strong>Contas Recebidas</strong></p>
+<p><img alt="" src="../../img/contasRecebidas.png" /></p>
+<hr />
+<h3 id="renegociar"><strong>Renegociar</strong></h3>
+<p><img alt="" src="../../img/renegociar.png" /></p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher :</strong></h4>
+<ul>
+<li><code>Valor da Parcelas</code> - Valor total das parcelas escolhidas</li>
+<li><code>Tarifa</code> - Insira um valor de tarifa</li>
+<li><code>Valor Recalculado</code> - Valor recalculado com o valor das tarifas</li>
+<li><code>Parcelas</code> - Insira um numero de parcelas</li>
+<li><code>Juros</code> - Insira o valor de juros</li>
+<li><code>Valor por Parcela</code> - Valor atual das pracelas</li>
+<li><code>Valor Atualizado</code> - Valor total atualizado</li>
+</ul>
+<hr />
+<ol>
+<li>Entrada<ul>
+<li><strong>Assinale a opção caso tenha uma entrada</strong></li>
+<li><code>Valor Entrada</code> - Insira o valor da entrada</li>
+<li><code>Data Entrada</code> - Informe a data da entrada</li>
+<li><code>Valor à Parcelar</code> - Valor total a pagar menos o valor de entrada</li>
+</ul>
+</li>
+<li>
+<p>Simular</p>
+<p><img alt="" src="../../img/simularBtn.png" /></p>
+<ul>
+<li><strong>Opção para o cliente analisar a proposta e concluir se vale a pena</strong></li>
+<li><code>Data</code> - Insira uma data para o pagamento das parcelas</li>
+<li><code>Valor</code> - Valor de cada parcela</li>
+<li><code>Carteira de Recebimento</code> - Carteira de recebimento das parcelas</li>
+<li><code>Protocolo</code> - Codigo criado para o cliente verificar qual é sual proposta</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../img/propostaDeNegociacao.png" /></p>
+<p><img alt="" src="../../img/mods.png" /></p>
+<hr />
+<h3 id="propostas-anteriores"><strong>Propostas Anteriores</strong></h3>
+<p><strong>Após salvar uma proposta ela ficará slava nesta opção</strong></p>
+<hr />
+<p><img alt="" src="../../img/Proposta.png" /></p>
+<p><strong>Para aprovar uma proposta basta apenas ir em editar e efetivar proposta</strong></p>
+<hr />
+<p><img alt="" src="../../img/parcelasAmarelas.png" /></p>
+<p><strong>Parcelas que estão amarelas são aquelas que sofreram renegociação</strong></p>
+<hr />
+<p><a href="https://rfsolutionit.github.io/myphotos/pages/outros/receber.html#recebimento-de-conta">Realizar o Pagamento|</a>
+<strong>O processo de realizar pagamento é o mesmo de recebimento de conta</strong></p>
+<hr />
+<h3 id="quebrar-contrato"><strong>Quebrar Contrato</strong></h3>
+<p><img alt="" src="../../img/quebraAcordo.png" /></p>
+<p><strong>Após clicar uma nova abá aparecerá para confirmar se realmente quer quebrar o contrato</strong></p>
+<p><strong>Depois da quebra do contato as contas antigas que foram negociadas e não forma pagas continuaram em amarelo mas agora estão ativas, já as contas criadas da renegociação serão apagadas</strong></p>
+<hr />
+<h2 id="protocolo"><strong>Protocolo</strong></h2>
+<p><strong>Campo com a função de criar protocolos para o atendimento com o cliente</strong></p>
+<hr />
+<h3 id="novo-protocolo"><strong>Novo Protocolo</strong></h3>
+<p><img alt="" src="../../img/novoProtocolo.png" /></p>
+<p><strong>Após criar um novo protocolo você tem a opção de criar novos registro</strong></p>
+<hr />
+<h4 id="registros"><strong>Registros</strong></h4>
+<p><img alt="" src="../../img/registro.png" /></p>
+<h4 id="campos-para-preencher_1"><strong>Campos para preencher :</strong></h4>
+<ul>
+<li><code>Data / Hora</code> - Data e hora do registro</li>
+<li><code>Contato</code> - Insira o nome do contato</li>
+<li><code>Assunto</code> - Informe o assunto do registro</li>
+<li><code>Detalhamento</code> - Insira detalhes do registro</li>
+<li><code>Definir Lembrete</code> - Definir uma data para lembrete</li>
+</ul>
+<p><img alt="" src="../../img/cadastroProtocolo.png" /></p>
+<hr />
+<h4 id="listagem-de-protocolos"><strong>Listagem de Protocolos</strong></h4>
+<p><br>
+<img alt="" src="../../img/protocolo.png" /></p>
+<hr />
+<h2 id="histotico"><strong>Histótico</strong></h2>
+<p><strong>Campo com a função de gerenciar o histórico de acontecimentos desta conta</strong></p>
+<hr />
+<p><img alt="" src="../../img/historicoConta.jpg.png" /></p>
+<hr />
+<h2 id="vendas"><strong>Vendas</strong></h2>
+<p><strong>Campo com a função de gernciar a venda que gerou as parcelas</strong></p>
+<p><img alt="" src="../../img/vendas.png" /></p>
+<ul>
+<li><strong>A opção da lupa tem a função de vizualizar a venda</strong></li>
+</ul>
+<hr />
+<h2 id="mais-informacoes"><strong>Mais Informações</strong></h2>
+<p><strong>Campo com a função de gerenciar outras informações</strong></p>
+<p><img alt="" src="../../img/maisInforma%C3%A7%C3%B5es.png" /></p></div>
             </div>
         </div>
 
