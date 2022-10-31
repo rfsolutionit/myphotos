@@ -578,12 +578,262 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#reportagens" class="nav-link">Reportagens</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#nova-reportagem" class="nav-link">Nova Reportagem</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#previsao-de-reportagem" class="nav-link">Previsão de Reportagem</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#planejamento-de-reportagem" class="nav-link">Planejamento de Reportagem</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#despesas-de-reportagem" class="nav-link">Despesas de Reportagem</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="reportagens">Reportagens</h1>
+<p><strong>Campo com a função de gerenciar e cadastrar novas reportagens</strong></p>
+<hr />
+<h2 id="nova-reportagem"><strong>Nova Reportagem</strong></h2>
+<p><img alt="" src="../../../img/novaReportagem.png" /></p>
+<h4 id="campos-para-preencher"><strong>Campos para preencher :</strong></h4>
+<ul>
+<li><code>Data de Inicio</code> - Insira uma data de inicio da reportagem</li>
+<li><code>Data de Finalização</code> - Informe a data de finalização da reportagem</li>
+<li><code>Situação</code> - Selecione a situação da reportagem| <strong>Em Aberto, Em Andamento e etc...</strong></li>
+<li><code>Referências</code> - Insira um referêncial para a reportagem</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroReportagem.png" /></p>
+<p><strong>Após Salvar, novas opção irão aparecer</strong></p>
+<hr />
+<h3 id="evento">Evento</h3>
+<p><strong>Campo com a função de cadastrar onde a reportagem aconterá</strong></p>
+<hr />
+<p><img alt="" src="../../../img/cadastroEventoReportagem.png" /></p>
+<ul>
+<li><code>Contrato / Evento</code> - Selecio um evento que ocorra no mesmo dia da reportagem</li>
+</ul>
+<p><strong>Selecione um Evento que esteja ocorrendo ao mesmo dia da reportagem</strong></p>
+<h4 id="listagem-de-eventos-cadastrados">Listagem de Eventos Cadastrados</h4>
+<p><img alt="" src="../../../img/listagemEventoReportagem.png" /></p>
+<hr />
+<h3 id="profissionais">Profissionais</h3>
+<p><strong>Campo com a função de cadastrar funcionario que irão fazer parte da reportagem</strong></p>
+<hr />
+<p><img alt="" src="../../../img/cadastroProfissionaisReportagem.png" /></p>
+<ul>
+<li><code>Profissional</code> - Selecione o profissional que participará da reportagem</li>
+<li><code>Evento</code> - Selecione qual evento em que o profissional participará</li>
+<li><code>Função</code> - Informe qual será a função do profissional </li>
+</ul>
+<h4 id="listagem-dos-profissionais">Listagem dos Profissionais</h4>
+<p><img alt="" src="../../../img/listagemProfissionaisReportagem.png" /></p>
+<hr />
+<h2 id="previsao-de-reportagem"><strong>Previsão de Reportagem</strong></h2>
+<p><strong>Campo com a função de criar uma previsão de gastos na reportagem</strong></p>
+<hr />
+<p><img alt="" src="../../../img/reportagem.png" /></p>
+<h3 id="nova-previsao">Nova Previsão</h3>
+<p><img alt="" src="../../../img/novaPrevisao.png" /></p>
+<hr />
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro :</strong></h4>
+<ol>
+<li>Combustivel<ul>
+<li><code>Descrição</code> - Dê uma descrição para a despesa</li>
+<li><code>Nome do Veiculo</code> - Informe o nome do veiculo que será usado</li>
+<li><code>Placa</code> - Insira a placa do veiculo que será usado</li>
+<li><code>Proprietário</code> - Informe o nome do proprietario do carro que será usado para locomoção</li>
+<li><code>Distancia (KM)</code> - Insira a distacia por quilômetro que provavelmente será percorrido</li>
+<li><code>Valor (KM)</code> - Insira o valor que será fasto por quilometro</li>
+<li><code>Valor Total</code> - Valor total da despesa </li>
+<li><code>Detalhes da Despesa</code> - Dê detalhes da despesas</li>
+</ul>
+</li>
+<li>Outros<ul>
+<li><code>Descirção</code> - Dê uma descrição da despesa</li>
+<li><code>Quantidade</code> - Insira um numero de quantidade</li>
+<li><code>Valor Unitario</code> - Informe o valor por unidade desta despesa</li>
+<li><code>Valor Total</code> - Valor total da despesa</li>
+<li><code>Detalhes da Despesa</code> - Insira detalhes da despesa</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/lancarDespesa.png" /></p>
+<h4 id="listagem-das-despesas">Listagem das Despesas</h4>
+<p><img alt="" src="../../../img/listagemDespesasReportagem.png" /></p>
+<p><strong>Após criar a previsão de despesas clique em Gerar Adiantamento, um nova abá aparacerá com a função de escolher um Responsavel</strong></p>
+<ul>
+<li><code>Selecione o Profissional</code> - Selecione o profissonal que será responsavel para receber o adiantamento</li>
+<li><code>Forma de Pagamento</code> - Insira um meio de pagamento| <strong>Moeda, Boleto, Cheque e etc..</strong></li>
+<li><code>Data do Pagamento</code> - Informe a data que houve o pagamento</li>
+<li><code>Conta Bancária</code> - Selecioene uma conta bancária do responsavel</li>
+</ul>
+<p><img alt="" src="../../../img/profissionalResponsavel.png" /></p>
+<hr />
+<h2 id="planejamento-de-reportagem"><strong>Planejamento de Reportagem</strong></h2>
+<p><strong>Campo com a função principal de revisar e finalizar o planejamento</strong></p>
+<hr />
+<p><img alt="" src="../../../img/reportagemPlanejamento.png" /></p>
+<h3 id="vizualizar-evento">Vizualizar Evento</h3>
+<p><strong>Campo com a função de gerencia o evento</strong> </p>
+<p><img alt="" src="../../../img/eventoSla.png" /></p>
+<h3 id="enviar-planejamento">Enviar Planejamento</h3>
+<p><strong>Este campo tem a função de enviar um link para o responsalvel preencher</strong></p>
+<p><img alt="" src="../../../img/EnviarPlanejamento.png" /></p>
+<h4 id="campos-para-envio"><strong>Campos para envio</strong></h4>
+<ul>
+<li><code>E-mail</code> - Selecione o E-mail que deseja enviar o planejamento</li>
+</ul>
+<p><img alt="" src="../../../img/EnviarPlanejamentoEmail.png" /></p>
+<h4 id="campos-de-planejamento-para-preencher"><strong>Campos de planejamento para preencher</strong></h4>
+<ul>
+<li><code>Check-in</code> - Insira a data e hora de chegadas dos funcionários</li>
+<li><code>Check-out</code> - Insira a data e hora de saida dos funcionarios</li>
+<li><code>Assinado Por</code> - Informe quem foi o responsavel que preencheu o planejamento</li>
+<li><code>Formandos Presentes</code> - Valor de quantos formandos estavam presentes</li>
+</ul>
+<hr />
+<ol>
+<li>Funcionários<ul>
+<li><code>Valor Contrato</code> - Insira qual é o valor pago para o funcionario</li>
+<li><code>Acessórios</code> - Informe quais acessorios foram usados pelo funcionário</li>
+<li><code>Valor Adicional</code> - Valor adicional</li>
+<li><code>Valor Total</code> - Valor total </li>
+<li><code>Presente</code> - Informe se o funcionário esteve presente no evento</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/checkEFunc.png" /></p>
+<h4 id="ficha-tecnica">Ficha Técnica</h4>
+<p><strong>Campo com função de dizer quantas fotos ou videos foram feitas e o tamnho dos arquivos</strong></p>
+<hr />
+<p><img alt="" src="../../../img/novaFichaTecnica.png" /></p>
+<h4 id="campos-para-preencher_1"><strong>Campos para preencher :</strong></h4>
+<ul>
+<li><code>Atividade</code> - Informe qual é a atividade da ficha| <strong>Foto ou Vídeo</strong></li>
+<li><code>Houve Identificação</code> - Caso tenha identificação insira o numero de formandos</li>
+<li><code>Quantidade de Arquivos</code> - Informe qual é a quantidade de fotos ou videos feitos por funcionario</li>
+<li><code>Tamanho Físico dos Arquivos</code> - Informe o tamanho em GB dos arquivos</li>
+<li><code>Avaliação</code> - Dê uma avaliação para o funcionario</li>
+</ul>
+<p><img alt="" src="../../../img/sextou.png" /></p>
+<h5 id="listagem-de-fitas">Listagem de fitas</h5>
+<p><img alt="" src="../../../img/fichaTecnicaSextou.png" /></p>
+<hr />
+<h3 id="caracteristicas">Características</h3>
+<p><strong>Campo com a função de verificar se foi realizado ou não cada caracterista do evento</strong></p>
+<hr />
+<p><img alt="" src="../../../img/caracteristicaReportagem.png" /></p>
+<hr />
+<p><br></p>
+<h5 id="todos-os-campos">Todos os Campos</h5>
+<p><img alt="" src="../../../img/planejamnetoReportagem.png" /></p>
+<h3 id="despesas-da-reportagem"><strong>Despesas da Reportagem</strong></h3>
+<p><strong>Campo com a função de conferir se realmente houve as despesas ou adicionar despesas</strong></p>
+<hr />
+<p><img alt="" src="../../../img/despesasDaReportagem.png" /></p>
+<ul>
+<li><code>Status</code> - Informe qual é o status da despesa| <strong>Pendente, Aprovado, Reprovado e etc..</strong> </li>
+<li><code>Checkado</code> - Assinale a opção caso a despesa realmente aconteceu</li>
+</ul>
+<hr />
+<h4 id="nova-despesa">Nova Despesa</h4>
+<p><img alt="" src="../../../img/novaDespesa.png" /></p>
+<h4 id="campos-para-preencher_2"><strong>Campos para preencher :</strong></h4>
+<ul>
+<li><code>Tipo da despesa</code> - Insira qual é o tipo de despesa que deseja cadastrar</li>
+<li><code>Descrição</code> - Dê uma descrição para a despesa</li>
+<li><code>Data</code> - Insira a data da despesa</li>
+<li><code>Valor</code> - Insira o valor da despesa</li>
+<li><code>Status</code> - Informe qua é o status da despesa| <strong>Pendente, Aprovada, Reprovada e etc..</strong></li>
+<li><code>Estado</code> - Insira um Estado</li>
+<li><code>Cidade</code> - Selecione uma cidade</li>
+</ul>
+<p><img alt="" src="../../../img/cadastroDespesa3.png" /></p>
+<hr />
+<h3 id="resumo"><strong>Resumo</strong></h3>
+<p><strong>Campo com a função de gerenciar os gastos da reportagem</strong></p>
+<hr />
+<p><img alt="" src="../../../img/resumoReportagem.png" /></p>
+<hr />
+<h3 id="finalizar-reportagem"><strong>Finalizar Reportagem</strong></h3>
+<p><strong>Após todo o planejamento ser preenchido e analisado você deve finalizar a reportagem</strong></p>
+<hr />
+<p><img alt="" src="../../../img/finalizarReportagem.png" /></p>
+<ul>
+<li><code>Valor da Reportagem</code> - Valor dos gastos da reportagem como brindes e com os funcionarios</li>
+<li><code>Valor das Despesas</code> - Valor gasto com o adiantamento</li>
+<li><code>Valor Adiantado Fora da Reportagem</code> - Valor extra atiantado fora da reportagem por algum motivo</li>
+<li><code>Custo da Reportagem</code> - Valor total da somas de todos os produtos</li>
+</ul>
+<p><strong>Após clicar em finalizar, uma nova abá aparecerá. Após selecionar o recebedor novos campos surgirá</strong></p>
+<ul>
+<li><code>Selecione o Recebedor</code> - Selecione o recebedor</li>
+<li><code>CPF / CNPJ</code> - Numero do CPF ou CNPJ do Recebedor</li>
+<li><code>Cidade</code> - Cidade do Recebedor</li>
+<li><code>Saldo da Conta Anterio</code> - Saldo da conta antes da reportagem</li>
+<li><code>Saldo da Conta Recalculado</code> - Saldo da conta após a reportagem</li>
+<li><code>Lançamento na Conta Corrente</code> - Assinale a opção para a conta ser lançada</li>
+<li><code>Forma de Pagameto</code> - Insira o meio de pagamento</li>
+<li><code>Data Pagamento</code> - Insira data de pagamento</li>
+</ul>
+<p><img alt="" src="../../../img/finalizarReportagem2.png" /></p>
+<hr />
+<h2 id="despesas-de-reportagem"><strong>Despesas de Reportagem</strong></h2>
+<p><strong>Campo com a função de gerenciar as despesas e caso seja preciso adicionar novas despesas fora da Reportagem</strong></p>
+<hr />
+<p><img alt="" src="../../../img/reportagemDespesas.png" /></p>
+<h3 id="nova-despesa_1"><strong>Nova Despesa</strong></h3>
+<p><img alt="" src="../../../img/novaDespesa.png" /></p>
+<h4 id="campos-para-preencher_3"><strong>Campos para preencher</strong></h4>
+<ul>
+<li><code>Tipo de Despesa</code> - Selecione o tipo da despesa que deseja cadastrar  </li>
+<li><code>Status</code> - Informe qual é o status da despesa</li>
+<li><code>Numero de Registro</code> - Insira o numero de registro</li>
+<li><code>Razão Social</code> - Insira a Razão Social da pessoa responsavel da despesja| <strong>Nome Formal</strong></li>
+<li><code>CPF / CNPJ</code> - Informe o numero do documento</li>
+<li><code>Descrição</code> - Dê uma descrição para a despesa</li>
+<li><code>Estado</code> - Insira um Estado</li>
+<li><code>Cidade</code> - Selecione uma Cidade</li>
+<li><code>Data da Despesa</code> - Insira a data da despesa</li>
+<li><code>Valor</code> - Insira o valor da despesa</li>
+</ul>
+<hr />
+<ol>
+<li>Responsabilidade<ul>
+<li><code>Evento</code> - Selecione para qual evento esta despesa pertence</li>
+<li><code>Contrato</code> - Insira qual contrato essa despesa pertence</li>
+<li><code>Profissional</code> -Informe qual é o responsavel desta despesa</li>
+</ul>
+</li>
+<li>Conta à pagar<ul>
+<li><code>Data de Vencimento</code> - Insira a data de vencimento</li>
+<li><code>Fornecedor</code> - Informe o fornecedor da conta</li>
+<li><code>Conta Bacária do Fornecedor</code> - Informe a conta banacária do fornecedor</li>
+<li><code>Formas de Pagamento</code> - Insira o meio de pagamento da despesa</li>
+<li><code>Conta Contábil (Reduzida)</code> - Informe qual é o tipo de gasto da conta</li>
+<li><code>Centro de Custo</code> - Informe qual é o centro de custo</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../../../img/cadastroDespesa4.png" /></p>
+<hr />
+<p><br></p>
+<h4 id="listagem-de-despesas"><strong>Listagem de Despesas</strong></h4>
+<p><img alt="" src="../../../img/listagemDespesas.png" /></p></div>
             </div>
         </div>
 
