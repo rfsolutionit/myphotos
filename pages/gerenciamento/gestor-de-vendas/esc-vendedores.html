@@ -525,6 +525,26 @@
             
             <li class="nav-item" data-level="1"><a href="#escala-de-vendedores" class="nav-link">Escala de Vendedores</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#alocacao-de-vendas" class="nav-link">Alocação de Vendas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#selecao-de-vendedores" class="nav-link">Selecão de Vendedores</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#comissoes" class="nav-link">Comissões</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#bonus" class="nav-link">Bônus</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#despesas" class="nav-link">Despesas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#conferencia-de-retorno" class="nav-link">Conferência de Retorno</a>
               <ul class="nav flex-column">
               </ul>
@@ -541,69 +561,106 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="escala-de-vendedores">Escala de Vendedores</h1>
-<p><strong>Tabela com a função de gerenciar e cadastrar escalas de vendedores</strong></p>
+<p><strong>Campo com a função de liberar produtos para a venda</strong></p>
 <hr />
-<h3 id="nova-escala">Nova Escala</h3>
+<h3 id="nova-escala"><strong>Nova Escala</strong></h3>
 <p><img alt="" src="../../../img/novaEscala.PNG" /></p>
-<h4 id="todos-os-campos"><strong>Todos os campos</strong></h4>
+<h4 id="campos-para-preencher"><strong>Campos para preencher</strong></h4>
 <ul>
-<li><code>Id Interno</code> - insira um Id Interno </li>
-<li><code>Nome ou Indentificação do Romaneio de Vendas</code> - Informe um nome</li>
-<li><code>Situação</code> - Informe a situação| <strong>Ativo, Inativo, Em Confêrencia e Fechado</strong></li>
-<li><code>Seguir Tabela de Vendas</code> - Informe se seguirá a tabela de vendas</li>
+<li><code>ID Interno</code> - Insira um ID para identificação da tabela</li>
+<li><code>Nome de Identificação</code> - Insira um nome de identificação da tabela</li>
+<li><code>Situação</code> - Informe qual é a situação da escala</li>
 </ul>
-<h4 id="alocacao-de-vendas">Alocação de Vendas</h4>
+<hr />
+<ol>
+<li>Ativo<ul>
+<li><strong>Quanto a vendas está liberada ou acontecendo está opção deve ser a escolhida</strong></li>
+</ul>
+</li>
+<li>Inativo<ul>
+<li><strong>Caso houve um erro nas vendas e após isso a venda é cancelada está opção deve ser escolhida</strong></li>
+</ul>
+</li>
+<li>Fechado<ul>
+<li><strong>Quando as vendas já tiver ocorrido e finalizada está opção deve estar selecionada</strong></li>
+</ul>
+</li>
+<li>Em Conferência<ul>
+<li><strong>Caso o vendedor volte ao estoque para deixar produtos mas ainda está trabalhando, selecione a opção</strong></li>
+</ul>
+</li>
+</ol>
+<hr />
+<ul>
+<li><code>Seguir Tabela de Vendas</code> - Caso queira que os vendedores sigam a tabela de venda, assinale a opção</li>
+</ul>
+<hr />
+<h2 id="alocacao-de-vendas">Alocação de Vendas</h2>
+<p><strong>Campo com a função de alocar os formandos para a vendas</strong></p>
+<hr />
 <p><img alt="" src="../../../img/alocacaoDeVendas.PNG" /></p>
 <ul>
-<li><code>Tabela de Vendas</code> - Selecione uma Tabela</li>
+<li><code>Tabela de Vendas</code> - Selecione uma tabela de vendas</li>
+<li><strong>Selecione os formandos e clique no botão verde para alocar os formandos desejados</strong></li>
 </ul>
 <hr />
-<p><br></p>
-<h4 id="selecao-de-vendedores">Seleção de Vendedores</h4>
-<p><img alt="" src="../../../img/selecaoDeVendedores.PNG" /></p>
+<h2 id="selecao-de-vendedores">Selecão de Vendedores</h2>
+<p><strong>Campo com a função de cadastrar vendedores para a venda</strong></p>
+<hr />
 <ul>
-<li><code>Selecione o Vendedor</code> - Selecione um Vendedor</li>
+<li><code>Selecionar Vendedor</code> - Selecione o vendedor que deseja cadastrar para a escala
+<img alt="" src="../../../img/selecaoDeVendedores.PNG" /></li>
 </ul>
 <hr />
-<p><br></p>
-<h4 id="comissao">Comissão</h4>
-<p><img alt="" src="../../../img/comissao.PNG" /></p>
-<h5 id="adcionar-comissoes"><strong>Adcionar Comissões</strong>:</h5>
+<h2 id="comissoes">Comissões</h2>
+<p><strong>Campo não obrigatório com a função de cadastrar a comissão da tabela</strong></p>
+<hr />
+<h3 id="nova-comissao"><strong>Nova Comissão</strong></h3>
 <p><img alt="" src="../../../img/novaComiss%C3%A3o2.png" /></p>
+<h4 id="campo-para-cadastro"><strong>Campo para cadastro :</strong></h4>
 <ul>
-<li><code>Tentativa de Venda</code> - Informe o máximo de tentativa</li>
-<li><code>Tentativa</code> - Selecione uma tabela de comissão</li>
+<li><code>Tentativa de Venda</code> - Selecione a quantidade de tentativas</li>
+<li><code>Tentativa</code> - Selecione a tabela de comissão</li>
 </ul>
 <p><img alt="" src="../../../img/cadastroComissao2.PNG" /></p>
 <hr />
-<p><br></p>
-<h4 id="bonus">Bonus</h4>
-<p><img alt="" src="../../../img/Bonus.PNG" /></p>
-<h5 id="adcionar-bonus"><strong>Adcionar Bonus</strong></h5>
+<h4 id="listagem"><strong>Listagem</strong></h4>
+<p><img alt="" src="../../../img/comissao.PNG" /></p>
+<hr />
+<h2 id="bonus">Bônus</h2>
+<p><strong>Campo não obrigatório com a função de cadastrar bonus para vendedores</strong></p>
+<hr />
+<h3 id="cadastro-bonus"><strong>Cadastro Bônus :</strong></h3>
 <p><img alt="" src="../../../img/novoBonus.PNG" /></p>
+<h4 id="campos-para-preencher_1"><strong>Campos para preencher :</strong></h4>
 <ul>
-<li><code>Venda</code> - Selecione a quantidade de tentativas para vendas</li>
-<li><code>Produto</code> - Selecione o produto bonus</li>
-<li><code>Valor</code> - Informe o valor do produto</li>
+<li><code>Venda</code> - Selecione a quantidade de vendas</li>
+<li><code>Produto</code> - Selecione o produto que o vendedor deve vender para ganhar o bonus</li>
+<li><code>Valor</code> - Insira o valor do bonus</li>
 </ul>
 <p><img alt="" src="../../../img/cadastroBonus.PNG" /></p>
-<h4 id="despesas">Despesas</h4>
-<p><img alt="" src="../../../img/despesas.PNG" /></p>
-<h5 id="adcionar-despesa"><strong>Adcionar Despesa</strong></h5>
+<hr />
+<h2 id="despesas">Despesas</h2>
+<p><strong>Campo com a função de cadastrar todas as despesa que o vendedor obteve</strong></p>
+<hr />
+<h3 id="nova-despesa"><strong>Nova Despesa</strong></h3>
 <p><img alt="" src="../../../img/novaDespesa2.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro</strong></h4>
 <ul>
-<li><code>Vendedor</code> - Selecione o vendedor</li>
-<li><code>Categoria</code> - Selecione a categoria do tipo de  custo| <strong>Alimentação, Combustivel, Hospedagem e etc...</strong></li>
-<li><code>Documento</code> - Informe o codigo do documento</li>
-<li><code>Razão Social</code> - Insira o nome Social da empresa| <strong>Nome Formal da Empresa</strong></li>
-<li><code>Descrição</code> - Dê uma descrição para a despesa</li>
-<li><code>Estado</code> - Selecione o estado</li>
-<li><code>Cidade</code> - Selecione a cidade</li>
-<li><code>Valor</code> - Informe o valor dos gastos</li>
-<li><code>Data</code> - Insira uma data</li>
-<li><code>Situação</code> - Infome a situação| <strong>Em Análise, Aguardando Conferêcia, Aprovado e etc...</strong></li>
+<li><code>Vendedor</code> - Selecione o vendedor da despesa</li>
+<li><code>Categoria</code> - Informe o tipo da despesa</li>
+<li><code>Documento</code> - Insira o numero do documento</li>
+<li><code>Razão Social</code> - Insira a razão social do vendedor| <strong>Nome Formal</strong></li>
+<li><code>Descrição</code>- Dê uma descrição para a despesa</li>
+<li><code>Estado</code> - Informe o estado do vendedor</li>
+<li><code>Cidade</code> - Informe a cidade do vendedor</li>
+<li><code>Valor</code> - Insira o valor da despesa</li>
+<li><code>Data</code> - Selecione a data da despesa</li>
+<li><code>Situação</code> - Informe a situação</li>
+<li><code>Gerar Contas à Pagar?</code> - Selecione caso deseje gerar um conta à pagar</li>
 </ul>
 <p><img alt="" src="../../../img/cadastroDespesa2.png" /></p>
+<hr />
 <h2 id="conferencia-de-retorno">Conferência de Retorno</h2>
 <p><strong>Campo com a função de de conferir o retorno do vendedor</strong></p>
 <hr />
