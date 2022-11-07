@@ -47,3 +47,5 @@ body.homepage>div.container>div.row>div.col-md-9 {
     flex: 0 0 100%;
     max-width: 100%;
 }
+
+.ml-auto .nav-item .nav-link {display: none;}
