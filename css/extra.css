@@ -49,3 +49,29 @@ body.homepage>div.container>div.row>div.col-md-9 {
 }
 
 .ml-auto .nav-item .nav-link {display: none;}
+
+.cardB {
+    background: #1ab394;
+}
+
+.test-card {
+    border-radius: 10px;
+    background: #fff;
+}
+
+.test-card h3 {
+    padding-bottom: 15px;
+}
+
+.test-card dl  {
+    margin: -15px 0;    
+}
+
+.test-card dd {
+    margin-top: 10px;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 8px;
+}
