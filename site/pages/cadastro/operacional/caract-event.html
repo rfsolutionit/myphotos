@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="RF Solution IT">
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Caract. de Eventos - MyPhotos</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/docco.min.css">
+        <link href="../../../css/extra.css" rel="stylesheet">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">MyPhotos</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../index.html" class="dropdown-item">Inicio</a>
+</li>
+                                    
+<li>
+    <a href="../../../releases.html" class="dropdown-item">Sobre</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cadastro</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../contrato/temporadas.html" class="dropdown-item">Temporadas</a>
+</li>
+            
+<li>
+    <a href="../contrato/temporadas.html#cursos" class="dropdown-item">Cursos</a>
+</li>
+            
+<li>
+    <a href="../contrato/tipos-de-custos.html" class="dropdown-item">Tipos de Custos</a>
+</li>
+            
+<li>
+    <a href="../contrato/cadastro-de-formatura.html" class="dropdown-item">Cadastro de Formatura</a>
+</li>
+            
+<li>
+    <a href="../contrato/representantes.html" class="dropdown-item">Representantes</a>
+</li>
+            
+<li>
+    <a href="../contrato/faculdade.html" class="dropdown-item">Faculdade</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Gerenciamento</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../gerenciamento/contrato/proposta-comercial.html" class="dropdown-item">Proposta Comercial</a>
+</li>
+            
+<li>
+    <a href="../../gerenciamento/contrato/exec-contratos.html" class="dropdown-item">Execução de Contratos</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Relatório</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../relatorio/contrato/relt-custos.html" class="dropdown-item">Relatório de Custos de Contrato</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/contrato/prog-pagamento.html" class="dropdown-item">Programação de pagamentos</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/contrato/formandos-geral.html" class="dropdown-item">Consulta Geral de Formandos</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Estoque <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cadastro</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../estoque/produtos.html" class="dropdown-item">Produto</a>
+</li>
+            
+<li>
+    <a href="../estoque/prod-item.html" class="dropdown-item">Produto Item</a>
+</li>
+            
+<li>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedores</a>
+</li>
+            
+<li>
+    <a href="../estoque/locais-estoque.html" class="dropdown-item">Locais de Estoque</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Gerenciamento</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../gerenciamento/estoque/mov-avancada.html" class="dropdown-item">Ordem de Movimentação Avançada</a>
+</li>
+            
+<li>
+    <a href="../../gerenciamento/estoque/planilha-prod.html" class="dropdown-item">Planilha de Produtos</a>
+</li>
+            
+<li>
+    <a href="../../gerenciamento/estoque/gest-prod.html" class="dropdown-item">Gestão de Produtos</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Relatório</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../relatorio/estoque/relatorio-prod.html" class="dropdown-item">Relatório de Produtos</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Operacional <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cadastro</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="acess-profissional.html" class="dropdown-item">Acessória do Profissional</a>
+</li>
+            
+<li>
+    <a href="evento-base.html" class="dropdown-item">Evento Base</a>
+</li>
+            
+<li>
+    <a href="caract-event.html" class="dropdown-item active">Caract. de Eventos</a>
+</li>
+            
+<li>
+    <a href="profissionais.html" class="dropdown-item">Profissionais</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Gerenciamento</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../gerenciamento/operacional/repor-ext.html" class="dropdown-item">Reportagens Externos</a>
+</li>
+            
+<li>
+    <a href="../../gerenciamento/operacional/reportagens.html" class="dropdown-item">Reportagens</a>
+</li>
+            
+<li>
+    <a href="../../gerenciamento/operacional/eventos.html" class="dropdown-item">Eventos</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Relatório</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../relatorio/operacional/calendario-de-evento.html" class="dropdown-item">Calendario de Eventos Interno</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/operacional/calendario-event-google.html" class="dropdown-item">Calendario de Eventos Google</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/operacional/prog-pagamento.html" class="dropdown-item">Programação de Pagamentos</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/operacional/relt-reportagens.html" class="dropdown-item">Relatório de Reportagens</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Financeiro <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cadastro</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../financeiro/pag-form.html" class="dropdown-item">Formas de Pagamento</a>
+</li>
+            
+<li>
+    <a href="../estoque/fornecedores.html" class="dropdown-item">Fornecedor</a>
+</li>
+            
+<li>
+    <a href="../financeiro/custo-e-atuacao.html" class="dropdown-item">Centro Custo X Area Atuação</a>
+</li>
+            
+<li>
+    <a href="../financeiro/taxa-cartoes.html" class="dropdown-item">Taxa de cartões</a>
+</li>
+            
+<li>
+    <a href="../financeiro/beneficiarios.html" class="dropdown-item">Beneficiários</a>
+</li>
+            
+<li>
+    <a href="../financeiro/plano-contas.html" class="dropdown-item">Plano de contas</a>
+</li>
+            
+<li>
+    <a href="../financeiro/centro-custo.html" class="dropdown-item">Centro de Custo</a>
+</li>
+            
+<li>
+    <a href="../financeiro/cliente.html" class="dropdown-item">Cliente</a>
+</li>
+            
+<li>
+    <a href="../financeiro/carteiras.html" class="dropdown-item">Carteiras</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cobrança</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../outros/relt-cobranca.html" class="dropdown-item">Relatório de Cobranças</a>
+</li>
+            
+<li>
+    <a href="../../outros/amb-cobranca.html" class="dropdown-item">Ambiente do Cobrador</a>
+</li>
+            
+<li>
+    <a href="../../outros/clientes-cbran.html" class="dropdown-item">Clientes para cobrança</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Conciliação</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../outros/extr-bancario.html" class="dropdown-item">Conferência de Extrato Bancário</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Movimento</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../outros/prog-pagamentos.html" class="dropdown-item">Programação de Pagamentos</a>
+</li>
+            
+<li>
+    <a href="../../outros/transacao.html" class="dropdown-item">Transação</a>
+</li>
+            
+<li>
+    <a href="../../outros/mov-financeiro.html" class="dropdown-item">Movimento Financeiro</a>
+</li>
+            
+<li>
+    <a href="../../outros/folha-pagamento.html" class="dropdown-item">Folha de pagamentos</a>
+</li>
+            
+<li>
+    <a href="../../outros/plat-cartoes.html" class="dropdown-item">Plataformas de Cartões</a>
+</li>
+            
+<li>
+    <a href="../../outros/cobranca-banc.html" class="dropdown-item">Cobrança Bancaria</a>
+</li>
+            
+<li>
+    <a href="../../outros/cheques.html" class="dropdown-item">Cheques</a>
+</li>
+            
+<li>
+    <a href="../../outros/receber.html" class="dropdown-item">Contas a Receber</a>
+</li>
+            
+<li>
+    <a href="../../outros/pagar.html" class="dropdown-item">Contas a pagar</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Relatório</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../relatorio/financeiro/relt-recebimentos.html" class="dropdown-item">Relatório Recebimentos</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/financeiro/demo-plano-contas.html" class="dropdown-item">Demonstrativo Plano Contas</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/financeiro/relt-fluxo-cheques.html" class="dropdown-item">Relatório de Fluxo de Recebimentos de Cheques</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/financeiro/relt-contas-correntes.html" class="dropdown-item">Relatório de Contas Correntes</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/financeiro/provi-financeiro.html" class="dropdown-item">Provisionamento Financeiro</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/financeiro/saldo-carteiras.html" class="dropdown-item">Saldo em Carteiras</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gestor de Vendas <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cadastro</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../gestor/tab-comissoes.html" class="dropdown-item">Tabela de Comissões</a>
+</li>
+            
+<li>
+    <a href="../gestor/vendedores.html" class="dropdown-item">Vendedores</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Gerenciamento</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../gerenciamento/gestor-de-vendas/comissoes-vendedores.html" class="dropdown-item">Comissões de Vendedores Geral</a>
+</li>
+            
+<li>
+    <a href="../../gerenciamento/gestor-de-vendas/pedidos-extras.html" class="dropdown-item">Pedidos Extras</a>
+</li>
+            
+<li>
+    <a href="../../gerenciamento/gestor-de-vendas/mapa-vendas.html" class="dropdown-item">Mapa de Vendas</a>
+</li>
+            
+<li>
+    <a href="../../gerenciamento/gestor-de-vendas/nova-visita.html" class="dropdown-item">Venda Nova Visita</a>
+</li>
+            
+<li>
+    <a href="../../gerenciamento/gestor-de-vendas/tab-vendas.html" class="dropdown-item">Tabela de Vendas</a>
+</li>
+            
+<li>
+    <a href="../../gerenciamento/gestor-de-vendas/esc-vendedores.html" class="dropdown-item">Escala de vendedores</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Relatório</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../relatorio/gestor-de-vendas/pedidos-extras.html" class="dropdown-item">Pedidos Extras</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/gestor-de-vendas/relt-feedback.html" class="dropdown-item">Relatório de Feedbacks</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/gestor-de-vendas/relt-prod.html" class="dropdown-item">Relatório de Produtos</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/gestor-de-vendas/listagem-vendas.html" class="dropdown-item">Listagem de Vendas</a>
+</li>
+            
+<li>
+    <a href="../../relatorio/gestor-de-vendas/analise-vendas.html" class="dropdown-item">Análise de Vendas</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Administrativo <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cadastro</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../administrativo/perfil-user.html" class="dropdown-item">Perfil de Usuário</a>
+</li>
+            
+<li>
+    <a href="../administrativo/user.html" class="dropdown-item">Usuários</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Dashboard</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../outros/relt-geral.html" class="dropdown-item">Relatorio Geral</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Painel do Vendedor <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../vendedor/selecionar-empresa.html" class="dropdown-item">Selecionar Empresa</a>
+</li>
+                                    
+<li>
+    <a href="../../vendedor/visitas.html" class="dropdown-item">Agendamento de Visitas</a>
+</li>
+                                    
+<li>
+    <a href="../../vendedor/contratos.html" class="dropdown-item">Contratos</a>
+</li>
+                                    
+<li>
+    <a href="../../vendedor/feedbacks.html" class="dropdown-item">Feedbacks de Venda</a>
+</li>
+                                    
+<li>
+    <a href="../../vendedor/analise.html" class="dropdown-item">Análise de Vendas</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="evento-base.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="profissionais.html" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#caracteristicas-de-eventos" class="nav-link">Características de Eventos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="caracteristicas-de-eventos">Características de Eventos</h1>
+<p><strong>Campos com a função de cadastrar características para alguns eventos</strong></p>
+<hr />
+<h3 id="nova-caracteristica">Nova característica</h3>
+<p><img alt="" src="../../../img/novaCaracteristica.png" /></p>
+<h4 id="campos-para-cadastro"><strong>Campos para cadastro</strong>:</h4>
+<ul>
+<li><code>Nome da caracterista</code> - Nome para caracteristica</li>
+<li><code>Descricão</code> - De uma descrição detalhada da caracteristica</li>
+<li><code>Ativo</code> - Opção para desmostra se a característa está em uso
+<br></li>
+</ul>
+<p><img alt="" src="../../../img/caracteristicaDeEvento.png" /></p>
+<hr />
+<p><br></p>
+<h3 id="listagem-de-algumas-caracteristacas-de-eventos"><strong>Listagem de algumas caracteristacas de eventos:</strong></h3>
+<p><br>
+<img alt="" src="../../../img/ListagemDeCaracteristicaDeEventos.png" /></p>
+<hr /></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

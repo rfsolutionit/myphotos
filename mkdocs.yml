@@ -1,124 +1,137 @@
 site_name: MyPhotos
 site_description: Documentação MyPhotos.
 site_author: RF Solution IT
-
-#repo_url: https://github.com/rfsolutionit/myphotos
+site_url: ""
+use_directory_urls: false
+# repo_url: https://github.com/rfsolutionit/myphotos
 edit_uri: ""
 
+
+
 nav:
-  - Home: index.md
+  - Home:
+        - Inicio: index.html
+        - Sobre: releases.md 
   - Contratos:
         - Cadastro:
-            - 'Temporadas': 'pages/cadastro/contrato/temporadas.md'
-            - 'Cursos': 'pages/cadastro/contrato/temporadas.md'
-            - 'Tipos de Custos': pages/cadastro/contrato/tipos-de-custos.md
-            - 'Cadastro de Formatura': 'pages/cadastro/contrato/cadastro-de-formatura.md'
-            - 'Representantes': 'pages/cadastro/contrato/representantes.md'
-            - 'Faculdade': 'pages/cadastro/contrato/faculdade.md'
+            - Temporadas: pages/cadastro/contrato/temporadas.md
+            - Cursos: pages/cadastro/contrato/temporadas.html#cursos
+            - Tipos de Custos: pages/cadastro/contrato/tipos-de-custos.md
+            - Cadastro de Formatura: pages/cadastro/contrato/cadastro-de-formatura.md
+            - Representantes: pages/cadastro/contrato/representantes.md
+            - Faculdade: pages/cadastro/contrato/faculdade.md
         - Gerenciamento:
-            - 'Proposta Comercial': 'pages/gerenciamento/contrato/proposta-comercial.md'
-            - 'Execução de Contratos': 'pages/gerenciamento/contrato/exec-contratos.md'
+            - Proposta Comercial: pages/gerenciamento/contrato/proposta-comercial.md
+            - Execução de Contratos: pages/gerenciamento/contrato/exec-contratos.md
         - Relatório: 
-            - 'Relatório de Custos de Contrato': 'pages/relatorio/contrato/relt-custos.md'
-            - 'Programação de pagamentos': 'pages/relatorio/contrato/prog-pagamento.md'
-            - 'Consulta Geral de Formandos': 'pages/relatorio/contrato/formandos-geral.md'
+            - Relatório de Custos de Contrato: pages/relatorio/contrato/relt-custos.md
+            - Programação de pagamentos: pages/relatorio/contrato/prog-pagamento.md
+            - Consulta Geral de Formandos: pages/relatorio/contrato/formandos-geral.md
   - Estoque: 
         - Cadastro:
-            - 'Produto': 'pages/cadastro/estoque/produtos.md'
-            - 'Produto Item': 'pages/cadastro/estoque/prod-item.md'
-            - 'Transferencia de Produtos': 'pages/cadastro/estoque/trans-produto.md'
-            - 'Saida de Produtos': 'pages/cadastro/estoque/saida-prod.md'
-            - 'Serviços': 'pages/cadastro/estoque/servicos.md'
-            - 'Pedidos': 'pages/cadastro/estoque/pedidos.md'
-            - 'Tipos de Produtos': 'pages/cadastro/estoque/tipo-prod.md'
-            - 'Categoria': 'pages/cadastro/estoque/categoria.md'
-            - 'Fornecedores': 'pages/cadastro/estoque/fornecedores.md'
-            - 'Locais de Estoque': 'pages/cadastro/estoque/locais-estoque.md'
+            - Produto: pages/cadastro/estoque/produtos.md
+            - Produto Item: pages/cadastro/estoque/prod-item.md
+            # - Transferencia de Produtos: pages/cadastro/estoque/trans-produto.md
+            # - Saida de Produtos: pages/cadastro/estoque/saida-prod.md
+            # - Serviços: pages/cadastro/estoque/servicos.md
+            # - Pedidos: pages/cadastro/estoque/pedidos.md
+            # - Tipos de Produtos: pages/cadastro/estoque/tipo-prod.md
+            # - Categoria: pages/cadastro/estoque/categoria.md
+            - Fornecedores: pages/cadastro/estoque/fornecedores.md
+            - Locais de Estoque: pages/cadastro/estoque/locais-estoque.md
         - Gerenciamento:
-            - 'Ordem de Movimentação Avançada': 'pages/gerenciamento/estoque/mov-avancada.md'
-            - 'Ordem de Movimentação': 'pages/gerenciamento/estoque/ordem-mov.md'
-            - 'Planilha de Produtos': 'pages/gerenciamento/estoque/planilha-prod.md'
-            - 'Gestão de Produtos': 'pages/gerenciamento/estoque/gest-prod.md'
+            - Ordem de Movimentação Avançada: pages/gerenciamento/estoque/mov-avancada.md
+            # - Ordem de Movimentação: pages/gerenciamento/estoque/ordem-mov.md
+            - Planilha de Produtos: pages/gerenciamento/estoque/planilha-prod.md
+            - Gestão de Produtos: pages/gerenciamento/estoque/gest-prod.md
         - Relatório:
-            - 'Relatório de Produtos': 'pages/relatorio/estoque/relatorio-prod.md'
+            - Relatório de Produtos: pages/relatorio/estoque/relatorio-prod.md
   - Operacional: 
         - Cadastro:
-            - 'Acessória do Profissional': 'pages/cadastro/operacional/acess-profissional.md'
-            - 'Evento Base': 'pages/cadastro/operacional/evento-base.md'
-            - 'Caract. de Eventos': 'pages/cadastro/operacional/caract-event.md'
-            - 'Tabela de Valores': 'pages/cadastro/operacional/tab-valores.md'
-            - 'Profissionais': 'pages/cadastro/operacional/profissionais.md'
+            - Acessória do Profissional: pages/cadastro/operacional/acess-profissional.md
+            - Evento Base: pages/cadastro/operacional/evento-base.md
+            - Caract. de Eventos: pages/cadastro/operacional/caract-event.md
+            # - Tabela de Valores: pages/cadastro/operacional/tab-valores.md
+            - Profissionais: pages/cadastro/operacional/profissionais.md
         - Gerenciamento:
-            - 'Reportagens Externos': 'pages/gerenciamento/operacional/repor-ext.md'
-            - 'Reportagens': 'pages/gerenciamento/operacional/reportagens.md'
-            - 'Eventos': 'pages/gerenciamento/operacional/eventos.md'
+            - Reportagens Externos: pages/gerenciamento/operacional/repor-ext.md
+            - Reportagens: pages/gerenciamento/operacional/reportagens.md
+            - Eventos: pages/gerenciamento/operacional/eventos.md
         - Relatório:
-            - 'Calendario de Eventos Interno': 'pages/relatorio/operacional/calendario-de-evento.md'
-            - 'Calendario de Eventos Google': 'pages/relatorio/operacional/calendario-event-google.md'
-            - 'Programação de Pagamentos':  'pages/relatorio/operacional/prog-pagamento.md'
-            - 'Relatório de Reportagens': 'pages/relatorio/operacional/relt-reportagens.md'
+            - Calendario de Eventos Interno: pages/relatorio/operacional/calendario-de-evento.md
+            - Calendario de Eventos Google: pages/relatorio/operacional/calendario-event-google.md
+            - Programação de Pagamentos:  pages/relatorio/operacional/prog-pagamento.md
+            - Relatório de Reportagens: pages/relatorio/operacional/relt-reportagens.md
   - Financeiro: 
         - Cadastro:
-            - 'Formas de Pagamento': 'pages/cadastro/financeiro/pag-form.md'
-            - 'Fornecedor': 'pages/cadastro/financeiro/fornecedor.md'
-            - 'Centro Custo X Area Atuação': 'pages/cadastro/financeiro/custo-e-atuacao.md'
-            - 'Taxa de cartões': 'pages/cadastro/financeiro/taxa-cartoes.md'
-            - 'Beneficiários': 'pages/cadastro/financeiro/beneficiarios.md'
-            - 'Plano de contas': 'pages/cadastro/financeiro/plano-contas.md'
-            - 'Centro de Custo': 'pages/cadastro/financeiro/centro-custo.md'
-            - 'Cliente': 'pages/cadastro/financeiro/cliente.md'
-            - 'Carteiras': 'pages/cadastro/financeiro/carteiras.md'
+            - Formas de Pagamento: pages/cadastro/financeiro/pag-form.md
+            - Fornecedor: pages/cadastro/estoque/fornecedores.md
+            - Centro Custo X Area Atuação: pages/cadastro/financeiro/custo-e-atuacao.md
+            - Taxa de cartões: pages/cadastro/financeiro/taxa-cartoes.md
+            - Beneficiários: pages/cadastro/financeiro/beneficiarios.md
+            - Plano de contas: pages/cadastro/financeiro/plano-contas.md
+            - Centro de Custo: pages/cadastro/financeiro/centro-custo.md
+            - Cliente: pages/cadastro/financeiro/cliente.md
+            - Carteiras: pages/cadastro/financeiro/carteiras.md
         - Cobrança:
-            - 'Relatório de Cobranças': 'pages/outros/relt-cobranca.md'
-            - 'Ambiente do Cobrador': 'pages/outros/amb-cobranca.md'
-            - 'Clientes para cobrança': 'pages/outros/clientes-cbran.md'
+            - Relatório de Cobranças: pages/outros/relt-cobranca.md
+            - Ambiente do Cobrador: pages/outros/amb-cobranca.md
+            - Clientes para cobrança: pages/outros/clientes-cbran.md
         - Conciliação:
-            - 'Conferência de Extrato Bancário': pages/outros/extr-bancario.md
+            - Conferência de Extrato Bancário: pages/outros/extr-bancario.md
         - Movimento:
-            - 'Programação de Pagamentos': 'pages/outros/prog-pagamentos.md'
-            - 'Transação': 'pages/outros/transacao.md'
-            - 'Movimento Financeiro': 'pages/outros/mov-financeiro.md'
-            - 'Folha de pagamentos': 'pages/outros/folha-pagamento.md'
-            - 'Plataformas de Cartões': 'pages/outros/plat-cartoes.md'
-            - 'Cobrança Bancaria': 'pages/outros/cobranca-banc.md'
-            - 'Cheques': 'pages/outros/cheques.md'
-            - 'Contas a Receber': 'pages/outros/receber.md'
-            - 'Contas a pagar': 'pages/outros/pagar.md'
+            - Programação de Pagamentos: pages/outros/prog-pagamentos.md
+            - Transação: pages/outros/transacao.md
+            - Movimento Financeiro: pages/outros/mov-financeiro.md
+            - Folha de pagamentos: pages/outros/folha-pagamento.md
+            - Plataformas de Cartões: pages/outros/plat-cartoes.md
+            - Cobrança Bancaria: pages/outros/cobranca-banc.md
+            - Cheques: pages/outros/cheques.md
+            - Contas a Receber: pages/outros/receber.md
+            - Contas a pagar: pages/outros/pagar.md
         - Relatório:
-            - 'Relatório Recebimentos': 'pages/relatorio/financeiro/relt-recebimentos.md'
-            - 'Demonstrativo Plano Contas': 'pages/relatorio/financeiro/demo-plano-contas.md'
-            - 'Relatório de Fluxo de Recebimentos de Cheques': 'pages/relatorio/financeiro/relt-fluxo-cheques.md'
-            - 'Provisionamento Financeiro': 'pages/relatorio/financeiro/provi-financeiro.md'
+            - Relatório Recebimentos: pages/relatorio/financeiro/relt-recebimentos.md
+            - Demonstrativo Plano Contas: pages/relatorio/financeiro/demo-plano-contas.md
+            - Relatório de Fluxo de Recebimentos de Cheques: pages/relatorio/financeiro/relt-fluxo-cheques.md
+            - Relatório de Contas Correntes: pages/relatorio/financeiro/relt-contas-correntes.md
+            - Provisionamento Financeiro: pages/relatorio/financeiro/provi-financeiro.md
+            - Saldo em Carteiras: pages/relatorio/financeiro/saldo-carteiras.md
             
   - Gestor de Vendas: 
         - Cadastro:
-            - 'Tabela de Comissões': 'pages/cadastro/gestor/tab-comissoes.md'
-            - 'Vendedores': 'pages/cadastro/gestor/vendedores.md'
+            - Tabela de Comissões: pages/cadastro/gestor/tab-comissoes.md
+            - Vendedores: pages/cadastro/gestor/vendedores.md
         - Gerenciamento:
-            - 'Comissões de Vendedores Geral': 'pages/gerenciamento/gestor-de-vendas/comissoes-vendedores.md'
-            - 'Pedidos Extras': 'pages/gerenciamento/gestor-de-vendas/pedidos-extras.md'
-            - 'Venda Nova Visita': 'pages/gerenciamento/gestor-de-vendas/nova-visita.md'
-            - 'Tabela de Vendas': 'pages/gerenciamento/gestor-de-vendas/tab-vendas.md'
-            - 'Escala de vendedores': 'pages/gerenciamento/gestor-de-vendas/esc-vendedores.md'
+            - Comissões de Vendedores Geral: pages/gerenciamento/gestor-de-vendas/comissoes-vendedores.md
+            - Pedidos Extras: pages/gerenciamento/gestor-de-vendas/pedidos-extras.md
+            - Mapa de Vendas: pages/gerenciamento/gestor-de-vendas/mapa-vendas.md
+            - Venda Nova Visita: pages/gerenciamento/gestor-de-vendas/nova-visita.md
+            - Tabela de Vendas: pages/gerenciamento/gestor-de-vendas/tab-vendas.md
+            - Escala de vendedores: pages/gerenciamento/gestor-de-vendas/esc-vendedores.md
         - Relatório:
-            - 'Pedidos Extras': 'pages/relatorio/gestor-de-vendas/pedidos-extras.md'
-            - 'Conta corrente Vendedos': 'pages/relatorio/gestor-de-vendas/conta-corrente.md'
-            - 'Relatório de Feedbacks': 'pages/relatorio/gestor-de-vendas/relt-feedback.md'
-            - 'Relatório de Produtos': 'pages/relatorio/gestor-de-vendas/relt-prod.md'
-            - 'Listagem de Vendas': 'pages/relatorio/gestor-de-vendas/listagem-vendas.md'
-            - 'Análise de Vendas': 'pages/relatorio/gestor-de-vendas/analise-vendas.md'
+            - Pedidos Extras: pages/relatorio/gestor-de-vendas/pedidos-extras.md
+            # - Conta corrente Vendedos: pages/relatorio/gestor-de-vendas/conta-corrente.md
+            - Relatório de Feedbacks: pages/relatorio/gestor-de-vendas/relt-feedback.md
+            - Relatório de Produtos: pages/relatorio/gestor-de-vendas/relt-prod.md
+            - Listagem de Vendas: pages/relatorio/gestor-de-vendas/listagem-vendas.md
+            - Análise de Vendas: pages/relatorio/gestor-de-vendas/analise-vendas.md
   - Administrativo:
         - Cadastro:
-            - 'Perfil de Usuário': 'pages/cadastro/administrativo/perfil-user.md'
-            - 'Usuários': 'pages/cadastro/administrativo/user.md'
-        - Configurações:
-            - 'Empresa': 'pages/outros/empresa.md'
+            - Perfil de Usuário: pages/cadastro/administrativo/perfil-user.md
+            - Usuários: pages/cadastro/administrativo/user.md
+        # - Configurações:
+            # - Empresa: pages/outros/empresa.md
         - Dashboard:
-            - 'Relatorio Geral': pages/outros/relt-geral.md
-        - Relatório:
-            - 'Acesso': 'pages/relatorio/administrativo/acesso.md'
-  - Sobre:
-    - Releases Notes: releases.md
+            - Relatorio Geral: pages/outros/relt-geral.md
+        # - Relatório:
+            # - Acesso: pages/relatorio/administrativo/acesso.md
+  - Painel do Vendedor: 
+        - Selecionar Empresa: pages/vendedor/selecionar-empresa.md
+        - Agendamento de Visitas: pages/vendedor/visitas.md
+        - Contratos: pages/vendedor/contratos.md
+        - Feedbacks de Venda: pages/vendedor/feedbacks.md
+        - Análise de Vendas: pages/vendedor/analise.md
+  
 theme: flatly
 
 extra_css:
