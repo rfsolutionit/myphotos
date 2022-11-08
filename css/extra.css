@@ -1,3 +1,7 @@
+* {
+    overflow-x: none;
+}
+
 div.col-md-9 h1:first-of-type {
     text-align: center;
     font-size: 60px;
