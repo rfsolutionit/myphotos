@@ -23,7 +23,7 @@
 ***
 ![](../../img/novaCobranca.png)
 
-* **Após clicar você será redirecionado para uma nova abá de um cliente aleatório**
+* **Após clicar você será redirecionado para uma nova aba de um cliente aleatório**
 
 [Realizar Cobrança](https://rfsolutionit.github.io/myphotos/pages/outros/clientes-cbran.html#cobranca)
 ___

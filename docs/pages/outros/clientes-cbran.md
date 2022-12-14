@@ -9,7 +9,7 @@
 * `Data Vencimento Inicio` Insira uma data mínima de vencimentos
 * `Data Vencimento Final` - Insira uma data máxima de vencimentos
 * `Data de Emissão Início` - Informe uma data mínima das emissões
-* `Data de Emissão Final` - Informe a data máxima de emissõs
+* `Data de Emissão Final` - Informe a data máxima de emissões
 * `Data de Recebimento Inicio` - Selecione uma data mínima de recebimentos
 * `Data de Recebimento Final` - Selecione uma data máxima de recebimentos
 * `Situação` - Informe a situação da cobrança| **Pendente, Cliente não Retornou e etc...**
@@ -57,12 +57,12 @@ ___
 ***
 ![](../../img/novaRenegociacao.png)
 
-**Após clicar você será redirecionado par uma nova abá com informações da cobrança**
+**Após clicar você será redirecionado par uma nova aba com informações da cobrança**
 
 ![](../../img/infoCobranca.png)
 
 * `Negativado` - Informe se a cobrança está negativado
-* `Falecido` - Assilane essa opção caso o cliente venha a falecer
+* `Falecido` - Assinale essa opção caso o cliente venha a falecer
 * `Não Consta` - Assinale caso o cliente não consta
 * `Situação` - Informe qual é a siuação do cliente| **Cliente não atende, Cliente não Retornou e etc...**
 ***
@@ -75,22 +75,22 @@ ___
     - `Chat` - Caso for número esta opção será ativada
 ***
 
-* **Logo abaixo tem outras abás**
+* **Logo abaixo tem outras abas**
 
 ## **Parcelas**
 **Função de gerenciar parcelas e criar renegociações**
 
 ![](../../img/listagemParcelas.png)
 
-**Contas a Reber Originais**
+**Contas a Receber Originais**
 
 * `Saldo Vencido` - Valor total das contas que não foram pagas
 * `Saldo Corrigido` - Saldo dos pagamentos vencidos com a correção com juros
-* `Saldo à Vencer`
+* `Saldo à Vencer` - Saldo que o pagamento ainda não venceu
 * `Total Pendente` - Valor a ser pago
 * `Saldo Quitado` - Valor pago
 
-**Contas à Recber Negociadas**
+**Contas à Receber Negociadas**
 
 ![](../../img/contasAReceberNegociadas.png)
 
@@ -157,9 +157,9 @@ ___
 
 ![](../../img/quebraAcordo.png)
 
-**Após clicar uma nova abá aparecerá para confirmar se realmente quer quebrar o contrato**
+**Após clicar uma nova aba aparecerá para confirmar se realmente quer quebrar o contrato**
 
-**Depois da quebra do contato as contas antigas que foram negociadas e não forma pagas continuaram em amarelo mas agora estão ativas, já as contas criadas da renegociação serão apagadas**
+**Depois da quebra do contato as contas antigas que foram negociadas e não foram pagas continuarão em amarelo mas agora estão ativas, já as contas criadas da renegociação serão apagadas**
 
 ***
 
@@ -193,18 +193,18 @@ ___
 ![](../../img/protocolo.png)
 ***
 
-## **Histótico**
+## **Histórico**
 **Campo com a função de gerenciar o histórico de acontecimentos desta conta**
 ***
 ![](../../img/historicoConta.jpg.png)
 ***
 
 ## **Vendas**
-**Campo com a função de gernciar a venda que gerou as parcelas**
+**Campo com a função de gerenciar a venda que gerou as parcelas**
 
 ![](../../img/vendas.png)
 
-* **A opção da lupa tem a função de vizualizar a venda**
+* **A opção da lupa tem a função de visualizar a venda**
 ***
 
 ## **Mais Informações**

@@ -30,7 +30,7 @@
 #### **Filtros de Pesquisa :**
 
 1. Datas
-    - `Data de Vencimento Inicio` - Insira uma data mínima para a pesquisa por dara de vencimemnto
+    - `Data de Vencimento Inicio` - Insira uma data mínima para a pesquisa por data de vencimemnto
     - `Data de Vencimento Final` - Informe uma data máximas para o vencimento
     - `Data de Recebimento Inicial` - Selecione uma data mínima dos recebimentos
     - `Data de Recebimento Final` - Insira uma data máxima dos recebimentos
@@ -39,7 +39,7 @@
 2. Outros Campos
     - `Forma à Receber` - Insira qual é a forma de recebimeto da conta que deseja| **Moeda, Cheque, Boleto e etc...**
     - `Valor Inicial` - Insira uma valor mínimo para das contas
-    - `Valor Final` - Informe o valor máximo das contas que desejá procurar
+    - `Valor Final` - Informe o valor máximo das contas que deseja procurar
     - `Forma Recebida` - Selecione a forma que o pagamento foi recebido| **Moeda, Cheque, Boleto e etc...**
     - `Carteira` - Informe a carteira da conta que deseja procurar
     - `Palavra Chave` - Insira uma palavra chave para a busca
@@ -61,7 +61,7 @@
 
 ![](../../img/contaSeta.png)
 
-* **Logo após clicar você será redirecionado ao uma nova abá**
+* **Logo após clicar você será redirecionado ao uma nova aba**
 * **Vá em adicionar para o recebimento ser feito**
 
 ![](../../img/adicionar.png)
@@ -90,7 +90,7 @@
 
 ![](../../img/movimentar.png)
 
-* **Após isso uma nova abá surgirá com as opções**
+* **Após isso uma nova aba surgirá com as opções**
 ***
 * `Carteira` - Selecione a carteira que deseja movimentar
 * `Vale` - Informe para qual fornecedor deseja movimentar
@@ -150,10 +150,10 @@
 **Despois de conferir a conta, seleione a conta que deseja gerar o boleto**
 
 ![](../../img/foda.png)  
-**Contas que a borda estão em vermelho, um boleto já foi gerado**
+**Contas com a marcação em vermelho são boletos que já foram gerados, caso seja necessário alterar o boleto correspondente a esta conta a receber é necessário fazer primeiramente a baixa ou alteração do boleto no seu sistema bancário**
 
 ![](../../img/fodaAmarela.png) <br> 
-**Contas que a bordas esntão amarelas, já foram recebidas**
+**Contas com a marcação amarela significa que o boleto foi expirado após o prazo limite de dias após o vencimento ou forão baixados manualmente**
 ***
 
 ## **Sicronizar conta**

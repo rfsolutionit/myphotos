@@ -17,5 +17,5 @@
 ![](../../img/listagemClientes.png)
 ***
 
-### **Vizualizar Cobrança**
+### **Visualizar Cobrança**
 ![](../../img/vizuCobranca.png)
