@@ -7,10 +7,10 @@
 
 #### **Campos para cadastro**:
 
-* `Titulo` - Insira um titulo para o local
+* `Titulo` - Insira um título para o local
 * `CEP` - Informe o CEP do local
 * `Logradouro` - Insira o nome da rua onde se localiza o local de estoque
-* `Numero` - Insira o numero de localização do local
+* `Número` - Insira o número de localização do local
 * `Complemento` - Informe um complemento para facilitar a localização
 * `Bairro` - Insira o nome do bairro
 * `Estado` - Selecione o estado onde se localiza o estoque

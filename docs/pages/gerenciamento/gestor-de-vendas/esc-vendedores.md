@@ -17,9 +17,9 @@
 2. Inativo
     - **Caso houve um erro nas vendas e após isso a venda é cancelada está opção deve ser escolhida**
 3. Fechado
-    - **Quando as vendas já tiver ocorrido e finalizada está opção deve estar selecionada**
+    - **Quando as vendas já tiver ocorrido e finalizada, está opção deve estar selecionada**
 4. Em Conferência
-    - **Caso o vendedor volte ao estoque para deixar produtos mas ainda está trabalhando, selecione a opção**
+    - **Caso o vendedor volte ao estoque para deixar produtos, mas ainda está trabalhando, selecione a opção**
 ***
 * `Seguir Tabela de Vendas` - Caso queira que os vendedores sigam a tabela de venda, assinale a opção
 ***
@@ -33,7 +33,7 @@
 * **Selecione os formandos e clique no botão verde para alocar os formandos desejados**
 
 ***
-## Selecão de Vendedores
+## Seleção de Vendedores
 **Campo com a função de cadastrar vendedores para a venda**
 ***
 * `Selecionar Vendedor` - Selecione o vendedor que deseja cadastrar para a escala
@@ -49,7 +49,7 @@
 
 ![](../../../img/novaComiss%C3%A3o2.png)
 
-#### **Campo para cadastro :**
+#### **Campo para cadastro:**
 
 * `Tentativa de Venda` - Selecione a quantidade de tentativas
 * `Tentativa` - Selecione a tabela de comissão
@@ -61,24 +61,24 @@
 ***
 
 ## Bônus
-**Campo não obrigatório com a função de cadastrar bonus para vendedores**
+**Campo não obrigatório com a função de cadastrar bônus para vendedores**
 ***
 
-### **Cadastro Bônus :**
+### **Cadastro Bônus:**
 
 ![](../../../img/novoBonus.PNG)
 
-#### **Campos para preencher :**
+#### **Campos para preencher:**
 
 * `Venda` - Selecione a quantidade de vendas
-* `Produto` - Selecione o produto que o vendedor deve vender para ganhar o bonus
-* `Valor` - Insira o valor do bonus
+* `Produto` - Selecione o produto que o vendedor deve vender para ganhar o bônus
+* `Valor` - Insira o valor do bônus
 
 ![](../../../img/cadastroBonus.PNG)
 ***
 
 ## Despesas
-**Campo com a função de cadastrar todas as despesa que o vendedor obteve**
+**Campo com a função de cadastrar todas as despesas que o vendedor obteve**
 ***
 
 ### **Nova Despesa**
@@ -89,7 +89,7 @@
 
 * `Vendedor` - Selecione o vendedor da despesa
 * `Categoria` - Informe o tipo da despesa
-* `Documento` - Insira o numero do documento
+* `Documento` - Insira o número do documento
 * `Razão Social` - Insira a razão social do vendedor| **Nome Formal**
 * `Descrição`- Dê uma descrição para a despesa
 * `Estado` - Informe o estado do vendedor
@@ -97,30 +97,30 @@
 * `Valor` - Insira o valor da despesa
 * `Data` - Selecione a data da despesa
 * `Situação` - Informe a situação
-* `Gerar Contas à Pagar?` - Selecione caso deseje gerar um conta à pagar
+* `Gerar Contas a Pagar?` - Selecione caso deseje gerar um Conta a Pagar
 
 ![](../../../img/cadastroDespesa2.png)
 
 ***
 
 ## Conferência de Retorno
-**Campo com a função de de conferir o retorno do vendedor**
+**Campo com a função de conferir o retorno do vendedor**
 ***
 
 ![](../../../img/conferirRetorno.jpg)
 
 * **Selecione um Vendedor**
-- **Logo após, novas abás irão aparecer para o análise do retorno**
+- **Logo após, novas Abas irão aparecer para a análise do retorno**
 
 ![](../../../img/vendasfinalizadasVizu.jpg)
 
 ## Comissão de Vendas
-**Campo com o objetivo de análisar a comissão de vendas do vendedor**
+**Campo visando analisar a comissão de vendas do vendedor**
 ***
 ![](../../../img/comissaoDeVendas.jpg)
 
 * **Selecione um Vendedor**
-- **Logo apoós, uma nova abá aparecerá exibindo as vendas de  certo vendedor**
+- **Logo após, uma nova Aba aparecerá exibindo as vendas de  certo vendedor**
 
 ![](../../../img/vendasDeCertoVendedor.jpg)
 <br>

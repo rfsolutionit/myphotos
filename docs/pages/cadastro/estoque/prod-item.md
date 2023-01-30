@@ -13,7 +13,7 @@
 * `Data de Validade` - Informe a data de validade do produto
 * `Quantidade Estimada Mínima` - Insira uma quantidade estimada minima de produtos
 * `Quantidade Estimada Atual` - Insira uma quantidade estimada atual dos produtos
-* `Codigo de Barras` - Informe o codigo de barra do produto
+* `Código de Barras` - Informe o código de barra do produto
 * `Preço de Custo` - Informe o preço de produção do produto
 * `Preço Estimado de Venda` - Insira um preço estimado para venda
 
@@ -21,7 +21,7 @@
 ***
 <br>
 
-### **Listagem dos Item:**
+### **Listagem dos Itens:**
 <br>
 ![](../../../img/itemProduto.png)
 ***

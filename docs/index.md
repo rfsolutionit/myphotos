@@ -89,7 +89,7 @@ O Software MyPhotos é um sistema EPR voltado para empresas de formaturas e even
               <dt class="">Cadastro</dt>
               <dd><a href="https://rfsolutionit.github.io/myphotos/pages/cadastro/operacional/acess-profissional.html">Acessória do Profissional</a></dd>
               <dd><a href="https://rfsolutionit.github.io/myphotos/pages/cadastro/operacional/evento-base.html">Evento Base</a></dd>
-              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/cadastro/operacional/caract-event.html">Caracterista de Evento</a></dd>
+              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/cadastro/operacional/caract-event.html">Característicade Evento</a></dd>
               <dd><a href="https://rfsolutionit.github.io/myphotos/pages/cadastro/operacional/profissionais.html">Profissionais</a></dd>
             </dl>
             <dl class="col-sm-4">
@@ -100,10 +100,10 @@ O Software MyPhotos é um sistema EPR voltado para empresas de formaturas e even
             </dl>
             <dl class="col-sm-4">
               <dt class="">Relatório</dt>
-              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/operacional/calendario-de-evento.html">Calendario de Eventos Interno</a></dd>
-              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/operacional/calendario-event-google.html">Calendario de Eventos Google</a></dd>
+              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/operacional/calendario-de-evento.html">Calendário de Eventos Interno</a></dd>
+              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/operacional/calendario-event-google.html">Calendário de Eventos Google</a></dd>
               <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/operacional/prog-pagamento.html">Programação de Pagamentos</a></dd>
-              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/operacional/relt-reportagens.html">Realtório de Reportagens</a></dd>
+              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/operacional/relt-reportagens.html">Relatório de Reportagens</a></dd>
             </dl>
           </div>
         </p>
@@ -195,8 +195,8 @@ O Software MyPhotos é um sistema EPR voltado para empresas de formaturas e even
             </dl>
             <dl class="col-sm-4">
               <dt class="">Movimento</dt>
-              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/outros/pagar.html">Contas à Pagar</a></dd>
-              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/outros/receber.html">Contas à Receber</a></dd>
+              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/outros/pagar.html">Contas a Pagar</a></dd>
+              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/outros/receber.html">Contas A Receber</a></dd>
               <dd><a href="https://rfsolutionit.github.io/myphotos/pages/outros/folha-pagamento.html">Folha de Pagamento</a></dd>
               <dd><a href="https://rfsolutionit.github.io/myphotos/pages/outros/plat-cartoes.html">Plataforma de Cartões</a></dd>
               <dd><a href="https://rfsolutionit.github.io/myphotos/pages/outros/cobranca-banc.html">Cobrança Bancária / Boletos</a></dd>
@@ -207,8 +207,8 @@ O Software MyPhotos é um sistema EPR voltado para empresas de formaturas e even
             </dl>
             <dl class="col-sm-4">
               <dt class="">Relatório</dt>
-              <dd><a href="">Relatório Recbientos</a></dd>
-              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/financeiro/demo-plano-contas.html">Demosntrativo de Planos de Contas</a></dd>
+              <dd><a href="">Relatório Recebimentos</a></dd>
+              <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/financeiro/demo-plano-contas.html">Demonstrativo de Planos de Contas</a></dd>
               <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/financeiro/relt-fluxo-cheques.html">Relatório de Fluxo de Recebimentos de Cheque</a></dd>
               <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/financeiro/relt-contas-correntes.html">Relatório de Contas Correntes</a></dd>
               <dd><a href="https://rfsolutionit.github.io/myphotos/pages/relatorio/financeiro/provi-financeiro.html">Provisionamento Financeiro</a></dd>
@@ -284,7 +284,7 @@ O Software MyPhotos é um sistema EPR voltado para empresas de formaturas e even
     <div class="card">
       <div class="card-body">
         <h3 class="card-title"><i class="fa-solid fa-bell"></i>  Notificação</h3>
-        <p class="card-text">Botão com a função de exbir notificações</p>
+        <p class="card-text">Botão com a função de exibir notificações</p>
       </div>
     </div>
   </div>

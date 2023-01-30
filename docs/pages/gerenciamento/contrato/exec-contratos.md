@@ -9,21 +9,21 @@
 * `Representante` - Representante do evento que procura
 * `Estado` - Estado onde acontecerá a formatura que procura
 * `Cidade` - Cidade onde acontecerá a formatura que procura
-* `Situção` - Situação de como está o evento que procura
+* `Situação` - Situação de como está o evento que procura
 * `Data inicial da execução` - Dia da execução do evento
 * `Data final da execução` - Dia da final do evento
-* `Data de inicio da assinatura` - Data para o inicio da assinatura 
-* `Data de termino da assinatura` - Data para o fim da assinatura
-* `Padrão` - Qualidade do evento
+* `Data de início da assinatura` - Data para o início da assinatura 
+* `Data de término da assinatura` - Data para o fim da assinatura
+* `Padrão` - Importância do evento para a empresa
 ***
 
-### Listagen de contratos
+### Listagem de contratos
 
 ![](../../../img/execu%C3%A7%C3%A3oContrato.jpg)
 ***
 
-## Vizualizar contrto
-**Função com o objetivo de vizualizar o contrato**
+## Visualizar contrato
+**Função visando visualizar o contrato**
 
 ![](../../../img/vizuContrato.jpg)
 ***
@@ -42,21 +42,21 @@
 ***
 
 ### Formandos
-**Abá Com a função de getar formandos já cadastrado**
+**Aba Com a função de gerenciar formandos já cadastrado**
 ![](../../../img/gerenciarFormandos.jpg)
 
-#### Vizualizar Formando
+#### Visualizar Formando
 
 ![](../../../img/vizuFormando.jpg)
 
 ### Custo do Contrato
-**Campo capaz de gestar adicionar e editar produtos**
+**Campo capaz de gerenciar, adicionar e editar produtos**
 ***
 ![](../../../img/custoDeContratoVizu.png)
 
 
 
-#### Nova entregua
+#### Nova entrega
 
 ##### **Campos para preencher**:
 
@@ -68,7 +68,7 @@
 * `Espécie de Pagamento` - Escolha um meio de pagamento
 * `Data Solicitação` - Insira a data de solicitação
 * `Data Programada para Entrega` - Insira uma data programada para entrega
-* `Conta à Pagar` - Caso a conta n foi paga assinale a opção
+* `Conta a Pagar` - Caso a conta não foi paga assinale a opção
 1. **Tipo prevista**
     - Escolha uma descrição
 2. **Conta a Pagar**
@@ -101,9 +101,9 @@
 * `Data Solicitação` - Insira a data de solicitação
 * `Data Programação` - Selecione uma data programada
 * `Custo Total` - Custo total por cada unidade
-1. Conta á Pagar
+1. Conta a Pagar
     - **Campos para preencher**
-    - Caso o pedido não foi pago assinale a opção 
+    - Caso o pedido não foi pago, assinale a opção 
     - `Data de vencimento` - Insira uma data de vencimento para o pagamento
     - `Fornecedor` - Escolha um fornecedor já cadastrado
     - `Conta Bancária do Fornecedor` - Insira a conta do fornecedor
@@ -119,7 +119,7 @@
 
 ***
 ### Eventos
-**Abá com a função de gerenciar e facilitar o cadastro de novos eventos**
+**Aba com a função de gerenciar e facilitar o cadastro de novos eventos**
 ***
 
 ![](../../../img/eventos.png)

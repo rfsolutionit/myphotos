@@ -8,12 +8,12 @@
 * `Vendedores` - Selecione o vendedor do contrato
 * `Estado` - Selecione o estado onde ocorrerá o contrato
 * `Cidade` - Selecione a cidade onde ocorrerá o contrato
-* `Tabela de comissão` - Informe a tabela de comssião do contrato
+* `Tabela de comissão` - Informe a tabela de comissão do contrato
 * `Quantidade de Fotos Mínimas` - Insira uma quantidade mínima de fotos
 * `Quantidade de Fotos Máxima` - Informe a quantidade máxima de fotos
 * `Data de feedback Inicial` - Insira uma data mínima para os feedbacks
 * `Data de feedback Final` - Insira uma data máxima para procura por feedbacks
-* `Palavra Chave` - Digite uma palavra chave para a procura do formando que deseja
+* `palavra-chave` - Digite uma palavra-chave para a procura do formando que deseja
 <br>
 
 ![](../../../img/campoFiltro.png)
@@ -29,7 +29,7 @@
 
 ![](../../../img/selecionarFormandoOP.jpg)
 
-* **Para que possa selecionar abrir a abá de selecionar formando,pelo menos um formando deve ter a opção ativada**
+* **Para poder selecionar abrir a Aba de selecionar formando, pelo menos um formando deve ter a opção ativada**
 
 * `Selecione o Romaneio` - Selecione um romaneio para distribuição dos produtos
 <br>

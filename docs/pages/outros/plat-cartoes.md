@@ -2,7 +2,7 @@
 **Campo com a função de exibir cartões cadastrados**
 ***
 
-#### **Filtros pra Pesquisa**
+#### **Filtros para Pesquisa**
 
 * `Selecione a Conta` - Selecione uma conta já cadastrada que deseja procurar
 * `Data de Venda Inicial` - Insira uma data mínima de vendas

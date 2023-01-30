@@ -13,9 +13,9 @@
 * `Quantidade Máxima` - Informe uma quantidade máxima para o produto
 * `Tipo` - Selecione o tipo do produto| **Simples ou Composto**
 * `Mensagem` - Descreva o produto
-* `Ind. foto?` - Contém fotos?
+* `Ind. Foto?` - Contém fotos?
 
-* **Produtos compostos, são constituído por mais de um porduto item**
+* **Produtos compostos, são constituídos por mais de um item**
 
 ![](../../../img/cadastroProduto2.png)
 ***

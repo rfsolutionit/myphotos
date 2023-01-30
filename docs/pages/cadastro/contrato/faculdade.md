@@ -14,11 +14,11 @@
 * `CNPJ` - Insira o CNPJ da faculdade
 * `CEP` - Insira o CEP da faculdade
 * `Logradouro` - Insira a rua da faculdade que deseja cadastrar
-* `Numero` - Insira o numero da faculdade
+* `Número` - Insira o número da faculdade
 * `Complemento` - Descreva um complemento para a localização da faculdade
 * `Bairro` - Insira o nome do bairro onde a faculdade se está localizada
-* `Estado` - Insira o nome do estado onde se esta localizada
-* `Cidade` -  Insira o nome da cidadae que a faculdade se localiza
+* `Estado` - Insira o nome do estado onde se está localizada
+* `Cidade` -  Insira o nome da cidade que a faculdade se localiza
 * `Telefone fixo` - Insira o telefone fixo para contato com a faculdade
 * `Telefone celular` - Insira telefone celular para contato
 * `E-mail` - Insira o E-mail para contato

@@ -8,16 +8,16 @@
 
 #### **Campos para cadastro**:
 
-* `Nome da caracterista` - Nome para caracteristica
-* `Descricão` - De uma descrição detalhada da caracteristica
-* `Ativo` - Opção para desmostra se a característa está em uso
+* `Nome da caraterista` - Nome para característica
+* `Descrição` - De uma descrição detalhada da característica
+* `Ativo` - Opção para demonstra se a característica está em uso
 <br>
 
 ![](../../../img/caracteristicaDeEvento.png)
 ***
 <br>
 
-### **Listagem de algumas caracteristacas de eventos:**
+### **Listagem de algumas características de eventos:**
 <br>
 ![](../../../img/ListagemDeCaracteristicaDeEventos.png)
 ***

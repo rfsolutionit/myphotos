@@ -9,7 +9,7 @@
 
 * `Nome do Acessório` - Insira o nome do acessório que deseja cadastrar
 * `Valor` - Informe o valor do produto
-* `Ativo` - Informe se o acessorio será usado
+* `Ativo` - Informe se o acessório será usado
 <br>
 
 ![](../../../img/cadastroAcessorio.png)

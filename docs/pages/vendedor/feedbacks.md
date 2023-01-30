@@ -12,7 +12,7 @@
 
 #### **Campos para Preencher**
 
-* `Data` - Informe a data de chegada para a visista
+* `Data` - Informe a data de chegada para a visita
 * `Hora Chegada` - Insira a hora da chegada
 * `Contato` - Insira uma forma de contato
 * `E-mail` - Informe o E-mail para contato
@@ -27,9 +27,9 @@
 * `Estado` - Informe o estado de localização da pessoa que está sendo visitada
 * `Cidade` - Insira a cidade de moradia em que a pessoa a ser visitada vive
 1. **Negativa da Compra**
-    - `Motivo` - Selecione um motivo para a compra| **Mudou-se, Questões Financeiras, Não Justificado e etc..**
+    - `Motivo` - Selecione um motivo para a compra| **Mudou-se, Questões Financeiras, Não Justificado, etc.**
     - `Foi Solicitado Descarte` - Informe se foi pedido descarte para os produtos
-    - `O Materia foi Apresentado` - Informe se o material foi apresentado para o consumidor
+    - `O Material foi Apresentado` - Informe se o material foi apresentado para o consumidor
 * `Descrição` - Dê uma descrição para a venda
 
 ![](../../img/feedbackVendas.jpg)

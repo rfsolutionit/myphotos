@@ -8,13 +8,13 @@
 * `Forma de Pagamento` - Selecione a forma de pagamento da conta que procura
 * `Conta Contábil (Reduzida)` - Informe qual é o tipo da conta que deseja procurar
 * `Centro Custo` - Informe o tipo de centro de custo da conta que pretende procurar
-* `Palavra Chave` - Insira uma palavra chave para facilitar a procura da conta que deseja procurar
-* `Data de Movimento Inicio` - Informe a data de inicio de movimento das contas que pretende procurar
+* `palavra-chave` - Insira uma palavra-chave para facilitar a procura da conta que deseja procurar
+* `Data de Movimento início` - Informe a data de início de movimento das contas que pretende procurar
 * `Data de Movimento Fim` - Informe a data final dos movimentos da contas
 * `Valor Inicial` - Insira um valor mínimo das contas que deseja procurar
 * `Valor Final` - Insira o valor máximo das contas
 * `Operação` - Informe a operação da conta| **Crédito e Débito**
-* `Situação` - Selecione a situação das contas| **Compensado e À Compensar**
+* `Situação` - Selecione a situação das contas| **Compensado e a Compensar**
 * `Conferidos?` - Informe se a conta é ou não conferidos
 
 ![](../../img/filtroMovimento.png)
@@ -45,11 +45,11 @@
 ![](../../img/listagemMovimento%20.png)
 
 * `Campos em Azul` - **Campos em Azul são pagamentos feitos em Crédito**
-* `Campos em Vermelho` - **Campos em Vermelho são pagamento feitos em Débito**
+* `Campos em Vermelho` - **Campos em Vermelho são pagamentos feitos em Débito**
 ***
 
-### **Conferir Movimentos :**
+### **Conferir Movimentos:**
 <br>
 ![](../../img/conferirMovimento.png)
  
-**Assinale a opção para qonfeiri um movimento**
+**Assinale a opção para conferir um movimento**

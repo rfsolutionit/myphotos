@@ -6,24 +6,24 @@
 
 ![](../../../img/novaReportagem.png)
 
-#### **Campos para preencher :**
+#### **Campos para preencher:**
 
-* `Data de Inicio` - Insira uma data de inicio da reportagem
+* `Data de início` - Insira uma data de início da reportagem
 * `Data de Finalização` - Informe a data de finalização da reportagem
-* `Situação` - Selecione a situação da reportagem| **Em Aberto, Em Andamento e etc...**
-* `Referências` - Insira um referêncial para a reportagem
+* `Situação` - Selecione a situação da reportagem| **Em Aberto, Em Andamento , etc.**
+* `Referências` - Insira um referencial para a reportagem
 
 ![](../../../img/cadastroReportagem.png)
 
-**Após Salvar, novas opção irão aparecer**
+**Após Salvar, novas opções irão aparecer**
 ***
 ### Evento
-**Campo com a função de cadastrar onde a reportagem aconterá**
+**Campo com a função de cadastrar onde a reportagem acontecerá**
 ***
 
 ![](../../../img/cadastroEventoReportagem.png)
 
-* `Contrato / Evento` - Selecio um evento que ocorra no mesmo dia da reportagem
+* `Contrato / Evento` - Selecione um evento que ocorra no mesmo dia da reportagem
 
 **Selecione um Evento que esteja ocorrendo ao mesmo dia da reportagem**
 
@@ -33,7 +33,7 @@
 ***
 
 ### Profissionais
-**Campo com a função de cadastrar funcionario que irão fazer parte da reportagem**
+**Campo com a função de cadastrar funcionário que irão fazer parte da reportagem**
 ***
 
 ![](../../../img/cadastroProfissionaisReportagem.png)
@@ -58,21 +58,21 @@
 ![](../../../img/novaPrevisao.png)
 ***
 
-#### **Campos para cadastro :**
+#### **Campos para cadastro:**
 
-1. Combustivel
+1. Combustível
     * `Descrição` - Dê uma descrição para a despesa
-    * `Nome do Veiculo` - Informe o nome do veiculo que será usado
-    * `Placa` - Insira a placa do veiculo que será usado
-    - `Proprietário` - Informe o nome do proprietario do carro que será usado para locomoção
-    - `Distancia (KM)` - Insira a distacia por quilômetro que provavelmente será percorrido
-    - `Valor (KM)` - Insira o valor que será fasto por quilometro
+    * `Nome do Veículo` - Informe o nome do veículo que será usado
+    * `Placa` - Insira a placa do veículo que será usado
+    - `Proprietário` - Informe o nome do proprietário do carro que será usado para locomoção
+    - `Distancia (KM)` - Insira a distância por quilômetro que provavelmente será percorrido
+    - `Valor (KM)` - Insira o valor que será fasto por quilômetro
     - `Valor Total` - Valor total da despesa 
     - `Detalhes da Despesa` - Dê detalhes da despesas
 2. Outros
-    - `Descirção` - Dê uma descrição da despesa
-    - `Quantidade` - Insira um numero de quantidade
-    - `Valor Unitario` - Informe o valor por unidade desta despesa
+    - `Descrição` - Dê uma descrição da despesa
+    - `Quantidade` - Insira um Número de quantidade
+    - `Valor Unitário` - Informe o valor por unidade desta despesa
     - `Valor Total` - Valor total da despesa
     - `Detalhes da Despesa` - Insira detalhes da despesa
 
@@ -82,14 +82,14 @@
 
 ![](../../../img/listagemDespesasReportagem.png)
 
-**Após criar a previsão de despesas clique em Gerar Adiantamento, um nova abá aparacerá com a função de escolher um Responsavel**
+**Após criar a previsão de despesas clique em Gerar Adiantamento, uma nova Aba aparacerá com a função de escolher um responsável**
 
-* `Selecione o Profissional` - Selecione o profissonal que será responsavel para receber o adiantamento
-* `Forma de Pagamento` - Insira um meio de pagamento| **Moeda, Boleto, Cheque e etc..**
+* `Selecione o Profissional` - Selecione o profissional que será responsável para receber o adiantamento
+* `Forma de Pagamento` - Insira um meio de pagamento| **Moeda, Boleto, Cheque, etc.**
 * `Data do Pagamento` - Informe a data que houve o pagamento
-* `Conta Bancária` - Selecioene uma conta bancária do responsavel
+* `Conta Bancária` - Selecione uma conta bancária do responsável
 
-![](../../../img/profissionalResponsavel.png)
+![](../../../img/profissionalresponsável.png)
 ***
 
 ## **Planejamento de Reportagem**
@@ -98,13 +98,13 @@
 
 ![](../../../img/reportagemPlanejamento.png)
 
-### Vizualizar Evento
-**Campo com a função de gerencia o evento** 
+### Visualizar Evento
+**Campo com a função de gerência o evento** 
 
 ![](../../../img/eventoSla.png)
 
 ### Enviar Planejamento
-**Este campo tem a função de enviar um link para o responsalvel preencher**
+**Este campo tem a função de enviar um link para o responsável preencher**
 
 ![](../../../img/EnviarPlanejamento.png)
 
@@ -117,13 +117,13 @@
 ####  **Campos de planejamento para preencher**
 
 * `Check-in` - Insira a data e hora de chegadas dos funcionários
-* `Check-out` - Insira a data e hora de saida dos funcionarios
-* `Assinado Por` - Informe quem foi o responsavel que preencheu o planejamento
+* `Check-out` - Insira a data e hora de saída dos funcionários
+* `Assinado Por` - Informe quem foi o responsável que preencheu o planejamento
 * `Formandos Presentes` - Valor de quantos formandos estavam presentes
 ***
 1. Funcionários
-    - `Valor Contrato` - Insira qual é o valor pago para o funcionario
-    - `Acessórios` - Informe quais acessorios foram usados pelo funcionário
+    - `Valor Contrato` - Insira qual é o valor pago para o funcionários
+    - `Acessórios` - Informe quais acessórios foram usados pelo funcionário
     - `Valor Adicional` - Valor adicional
     - `Valor Total` - Valor total 
     - `Presente` - Informe se o funcionário esteve presente no evento
@@ -131,18 +131,18 @@
 ![](../../../img/checkEFunc.png)
 
 #### Ficha Técnica
-**Campo com função de dizer quantas fotos ou videos foram feitas e o tamnho dos arquivos**
+**Campo com função de dizer quantas fotos ou Vídeos foram feitas e o tamanho dos arquivos**
 ***
 
 ![](../../../img/novaFichaTecnica.png)
 
-#### **Campos para preencher :**
+#### **Campos para preencher:**
 
 * `Atividade` - Informe qual é a atividade da ficha| **Foto ou Vídeo**
-* `Houve Identificação` - Caso tenha identificação insira o numero de formandos
-* `Quantidade de Arquivos` - Informe qual é a quantidade de fotos ou videos feitos por funcionario
+* `Houve Identificação` - Caso tenha identificação insira o número de formandos
+* `Quantidade de Arquivos` - Informe qual é a quantidade de fotos ou Vídeos feitas pelo funcionário
 * `Tamanho Físico dos Arquivos` - Informe o tamanho em GB dos arquivos
-* `Avaliação` - Dê uma avaliação para o funcionario
+* `Avaliação` - Dê uma avaliação para o funcionário
 
 ![](../../../img/sextou.png)
 
@@ -152,7 +152,7 @@
 ***
 
 ### Características
-**Campo com a função de verificar se foi realizado ou não cada caracterista do evento**
+**Campo com a função de verificar se foi realizado ou não cada característica do evento**
 ***
 ![](../../../img/caracteristicaReportagem.png)
 ***
@@ -168,7 +168,7 @@
 
 ![](../../../img/despesasDaReportagem.png)
 
-* `Status` - Informe qual é o status da despesa| **Pendente, Aprovado, Reprovado e etc..** 
+* `Status` - Informe qual é o status da despesa| **Pendente, Aprovado, Reprovado, etc.** 
 * `Checkado` - Assinale a opção caso a despesa realmente aconteceu
 ***
 
@@ -176,13 +176,13 @@
 
 ![](../../../img/novaDespesa.png)
 
-#### **Campos para preencher :**
+#### **Campos para preencher:**
 
 * `Tipo da despesa` - Insira qual é o tipo de despesa que deseja cadastrar
 * `Descrição` - Dê uma descrição para a despesa
 * `Data` - Insira a data da despesa
 * `Valor` - Insira o valor da despesa
-* `Status` - Informe qua é o status da despesa| **Pendente, Aprovada, Reprovada e etc..**
+* `Status` - Informe qual é o status da despesa| **Pendente, Aprovada, Reprovada, etc.**
 * `Estado` - Insira um Estado
 * `Cidade` - Selecione uma cidade
 
@@ -202,20 +202,20 @@
 
 ![](../../../img/finalizarReportagem.png)
 
-* `Valor da Reportagem` - Valor dos gastos da reportagem como brindes e com os funcionarios
+* `Valor da Reportagem` - Valor dos gastos da reportagem como brindes e com os funcionários
 * `Valor das Despesas` - Valor gasto com o adiantamento
-* `Valor Adiantado Fora da Reportagem` - Valor extra atiantado fora da reportagem por algum motivo
-* `Custo da Reportagem` - Valor total da somas de todos os produtos
+* `Valor Adiantado Fora da Reportagem` - Valor extra adiantado fora da reportagem por algum motivo
+* `Custo da Reportagem` - Valor total das somas de todos os produtos
 
-**Após clicar em finalizar, uma nova abá aparecerá. Após selecionar o recebedor novos campos surgirá**
+**Após clicar em finalizar, uma nova Aba aparecerá. Após selecionar o recebedor novos campos surgirá**
 
 * `Selecione o Recebedor` - Selecione o recebedor
-* `CPF / CNPJ` - Numero do CPF ou CNPJ do Recebedor
+* `CPF / CNPJ` - Número do CPF ou CNPJ do Recebedor
 * `Cidade` - Cidade do Recebedor
-* `Saldo da Conta Anterio` - Saldo da conta antes da reportagem
+* `Saldo da Conta Anterior` - Saldo da conta antes da reportagem
 * `Saldo da Conta Recalculado` - Saldo da conta após a reportagem
 * `Lançamento na Conta Corrente` - Assinale a opção para a conta ser lançada
-* `Forma de Pagameto` - Insira o meio de pagamento
+* `Forma de Pagamento` - Insira o meio de pagamento
 * `Data Pagamento` - Insira data de pagamento
 
 ![](../../../img/finalizarReportagem2.png)
@@ -235,9 +235,9 @@
 
 * `Tipo de Despesa` - Selecione o tipo da despesa que deseja cadastrar  
 * `Status` - Informe qual é o status da despesa
-* `Numero de Registro` - Insira o numero de registro
-* `Razão Social` - Insira a Razão Social da pessoa responsavel da despesja| **Nome Formal**
-* `CPF / CNPJ` - Informe o numero do documento
+* `Número de Registro` - Insira o número de registro
+* `Razão Social` - Insira a Razão Social da pessoa responsável da empresa| **Nome Formal**
+* `CPF / CNPJ` - Informe o número do documento
 * `Descrição` - Dê uma descrição para a despesa
 * `Estado` - Insira um Estado
 * `Cidade` - Selecione uma Cidade
@@ -247,11 +247,11 @@
 1. Responsabilidade
     - `Evento` - Selecione para qual evento esta despesa pertence
     - `Contrato` - Insira qual contrato essa despesa pertence
-    - `Profissional` -Informe qual é o responsavel desta despesa
-2. Conta à pagar
+    - `Profissional` -Informe qual é o responsável desta despesa
+2. Conta a Pagar
     - `Data de Vencimento` - Insira a data de vencimento
     - `Fornecedor` - Informe o fornecedor da conta
-    - `Conta Bacária do Fornecedor` - Informe a conta banacária do fornecedor
+    - `Conta Bancária do Fornecedor` - Informe a conta bancária do fornecedor
     - `Formas de Pagamento` - Insira o meio de pagamento da despesa
     - `Conta Contábil (Reduzida)` - Informe qual é o tipo de gasto da conta
     - `Centro de Custo` - Informe qual é o centro de custo

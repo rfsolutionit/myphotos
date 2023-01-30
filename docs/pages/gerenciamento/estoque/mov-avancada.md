@@ -1,5 +1,5 @@
 # Ordem de Movimentação
-**Campo com a função de cadastrar novas ordens de movimentação**
+**Campo com a função de realizar novas ordens de movimentação**
 ***
 
 ### Nova Ordem
@@ -10,21 +10,21 @@
 
 * `Ordem de Movimentação` - Campos sequencial 
 * `Descrição` - Insira uma descrição para ordem
-* `Referencia` - Insira um referencia| **Nota Fisca, Data e etc...**
+* `Referencia` - Insira um referencia| **Nota Fiscal, Data, etc.**
 * `Local de Estoque Destino` - Selecione um novo local já cadastrado para destinos dos produtos
 * `Portador Destino` - Selecione um novo vendedor para os produtos
 
 ![](../../../img/cadastroOrdemA.jpg)
 
-* **Após salvar novas abás irão aparecer**
+* **Após salvar novas Abas irão aparecer**
 
 ![](../../../img/novaAba.png) 
 
-* **'Para iniciar a movimentção basta inserir o codigo de barras de cada produto, Depos da primeira movimentação aparacerá na tela uma opção para que possa continuar sua movimentação'**
+* **'Para iniciar a movimentação basta inserir o código de barras de cada produto, Depois da primeira movimentação aparacerá na tela uma opção para poder continuar sua movimentação'**
 
 ![](../../../img/iniciarMovimentacao.jpg  ) 
 
-* **Logo após aparecerá os produtos que foram movimentados**
+* **Logo após aparecerá os produtos movimentados**
 
 ![](../../../img/movimentados.jpg)
 
@@ -35,8 +35,8 @@
 
 ***
 
-## Pós Vendas
+## Pós-Vendas
 
-* **Pós a vendas, caso alguns produtos não tenha vendidos, você deverá informar**
+* **Pós a vendas, caso alguns produtos não tenham vendidos, você deverá informar**
 
 ![](../../../img/sobras.jpg)

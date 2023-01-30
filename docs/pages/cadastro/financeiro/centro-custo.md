@@ -8,7 +8,7 @@
 #### **Campos para cadastro**:
 
 * `ID` - Informe um ID para o cadastro
-* `Titulo` - Insira um titulo / nome para localização
+* `Titulo` - Insira um título / nome para localização
 * `Ativo` - Informe se ainda está ativo
 
 ![](../../../img/cadastroCentroDeCusto.png)

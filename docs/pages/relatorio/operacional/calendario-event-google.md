@@ -6,7 +6,7 @@
 
 ![](../../../img/calendarioGoogle.png)
 
-**Após criar e salvar um evento que você decidiu vincular com o google, ele aparacerá nesta abá**
+**Após criar e salvar um evento que você decidiu vincular com o google, ele aparacerá nesta Aba**
 
 <br>
 <br>

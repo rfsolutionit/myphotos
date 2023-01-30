@@ -4,9 +4,9 @@
 #### **Campos para pesquisa**:
 
 * `Selecione o contrato` - Selecione um contrato que deseja pesquisar
-* `Data Venda Inicio` - Insira o inicio da data de venda
+* `Data Venda início` - Insira o início da data de venda
 * `Data Venda final` - Insira a data final das vendas
-* `Selecione um Vendedor` - Selecione o vendendor que deseja procurar
+* `Selecione um Vendedor` - Selecione o vendedor que deseja procurar
 * `Vendido` - Informe se o produto já está vendido| **Sim, Não e Parcial**
 
 ![](../../../img/filtroRelatorio.png)

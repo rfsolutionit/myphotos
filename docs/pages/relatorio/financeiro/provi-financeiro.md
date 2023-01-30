@@ -1,5 +1,5 @@
 # Provisionamento Financeiro
-**Campo com a função de análisar contas à receber e contas à pagar**
+**Campo com a função de analisar contas A Receber e contas a Pagar**
 ***
 
 #### **Campos para Pesquisa :**
@@ -11,34 +11,34 @@
 ***
 <br>
 
-### **Grafico de Análise**
+### **Gráfico de Análise**
 
 ![](../../../img/like.png)
 
-**Clique no grafico e novas abás irão aparecer**
+**Clique no Gráfico e novas Abas irão aparecer**
 
 
-#### **Contas à Receber por Forma de Pagamento**
+#### **Contas A Receber por Forma de Pagamento**
 
 ![](../../../img/contasAReceber.png)
 ***
 
-#### **Contas à Receber por Carteira**
+#### **Contas A Receber por Carteira**
 
 ![](../../../img/contasAReceberPorCarteira.png)
 ***
 
-#### **Contas à Pagar por Contas Contábeis**
+#### **Contas a Pagar por Contas Contábeis**
 
 ![](../../../img/contasAPagarContabeis.png)
 ***
 
-#### **Contas à Pagar por Forma de Pagamento**
+#### **Contas a Pagar por Forma de Pagamento**
 
 ![](../../../img/euvoumorrer.png)
 ***
 
-#### **Contas à pagar por Carteira**
+#### **Contas a Pagar por Carteira**
 
 ![](../../../img/contasAPagarCarteira.png)
 ***

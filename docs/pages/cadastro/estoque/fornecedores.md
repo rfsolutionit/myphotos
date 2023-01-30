@@ -4,7 +4,7 @@
 ### Novo Fornecedor
 ![](../../../img/novoFornecedor.png)
 
-**OBS: Fornecedores são a mesmo que representantes, profissionais, vendedores e etc...**
+**OBS: Fornecedores são a mesmo que representantes, profissionais, vendedores, etc.**
 #### **Campos para cadastro**
 * `CPF/CNPJ` - Selecione **CPF** ou **CNPJ**
 * `Centro Custo` - Selecione um centro de custo
@@ -18,12 +18,12 @@
 * `Padrão` - Função para se tornar vendedor ou fornecedor padrão
 ***
 1. **CNPJ**
-    - `Numero` - Insira o numero do CNPJ do fornecedor
+    - `Número` - Insira o número do CNPJ do fornecedor
     - `Razão Social` - Nome social da empresa do fornecedor
     - `Nome Fantasia` - Nome fantasia da empresa| **Nome de fachada**
     - `IE` - Insira o IE do fornecedor
 2. **CPF** 
-    - `Numero` - Insira o numero do CPF do fornecedor
+    - `Número` - Insira o número do CPF do fornecedor
     - `Nome Completo` - Informe o nome completo do fornecedor
     - `Apelido` - Insira o apelido para encontrar o fornecedor
     - `RG` - Insira o RG do fornecedor
@@ -31,11 +31,11 @@
 3. **Endereço**
     - `CEP` - Informe o CEP do fornecedor
     - `Logradouro` - Insira o nome da rua
-    - `Numero` - Insira o numero da casa ou do apartamento para localização
+    - `Número` - Insira o número da casa ou do apartamento para localização
     - `Complemento` - Informe um complemento para facilitar a localização
     - `Bairro` - Insira o nome do bairro
     - `Estado` - Insira o estado
-    - `Cidade` - Selecione a cidade de residencia do fornecedor
+    - `Cidade` - Selecione a cidade de residência do fornecedor
 <br>
 <br>
 
@@ -51,12 +51,12 @@
 ***
 ![](../../../img/fornecedorEditar.jpg)
 
-* **Descendo a pagina deparar-se com uma área que posibilita gerenciar caracteristicas e o histórico do fornecedor**
+* **Descendo a página deparar-se com uma área que possibilita gerenciar características e o histórico do fornecedor**
 
 ![](../../../img/caracteristica.png)
 ***
-### Caracteristica
-**Campo com a função de gerenciar e casdastrar caracteriticas de um produtos**
+### Característica
+**Campo com a função de gerenciar e cadastrar características de um produtos**
 ***
 ![](../../../img/novaCaracteristica.png)
 
@@ -82,8 +82,8 @@
 
 * `Data Ocorrência Inicial` - Insira uma data mínima para a ocorrência
 * `Data Ocorrência Final` - Insira uma data máxima de ocorrência
-* `Data Efetivaçao Inicial` - Informe uma data miníma de efetivação
-* `Data Efetivação Final` - Selecione uma data máxima de efeticação
+* `Data Efetivação Inicial` - Informe uma data miníma de efetivação
+* `Data Efetivação Final` - Selecione uma data máxima de efetivação
 
 #### **Inserir Gastos ou Receitas**
 
@@ -95,13 +95,13 @@
 * `Valor` - Insira um valor para ser lançado
 * `Data Efetivação` - Informe a data de efetivação
 * `Operação` - Selecione o tipo de operação| **Débito ou Crédito**
-* `Conta Contabíl` - Insira o tipo de gasto da conta que será lançada
+* `Conta Contábil` - Insira o tipo de gasto da conta que será lançada
 * `Centro de Custo` - Informe o tipo de centro de custo
-* `Área de Atuação` - Insira a área de atuação| **Fornecedor, Vendedor, Profissional e etc..**
+* `Área de Atuação` - Insira a área de atuação| **Fornecedor, Vendedor, Profissional, etc.**
 ***
 1. Inserir Movimento 
     - `Carteira` - Selecione uma carteira cadastrada
-    - `Forma de Pagamento` - Informe o meio de pagamento| **Moeda, Cheque, Boleto e etc...**
+    - `Forma de Pagamento` - Informe o meio de pagamento| **Moeda, Cheque, Boleto, etc.**
 
 ![](../../../img/cadastroCreditoEDebito.png)
 
@@ -125,12 +125,12 @@
 
 * `Banco` - Selecione o banco do fornecedor
 * `Tipo Documento` - Informe o tipo do documento do fornecedor
-* `Numero Documento do Titular` - Insira o numero do documento do fornecedor
+* `Número Documento do Titular` - Insira o número do documento do fornecedor
 * `Nome do Titular` - Insira o nome titular do fornecedor
-* `Numero da agência` - Insira o numero da agência do bando do fornecedor
+* `Número da agência` - Insira o número da agência do bando do fornecedor
 * `DV ag` - Insira o digito verificador da agência
 * `Operação` - Informe a operação da conta
-* `Numero da Conta` - Insira o numero da conta do fornecedor
+* `Número da Conta` - Insira o número da conta do fornecedor
 * `DV ct.` - Insira o digito verificador da conta
 * `Tipo Titular` - Selecione o tipo do titular| **Principal, Salario, Pendências e Outros**
 * `Tipo Conta` - Selecione o tipo da conta| **Conta Corrente, Poupança e PIX**

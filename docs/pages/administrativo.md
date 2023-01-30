@@ -4,22 +4,21 @@
 
 ##### **Definições**
 
-O Modulo Administrativo, é um modulo para a adminstração do myphotos e permite cadastrar perfis
-de usuários para que possam gerenciar certos campos do myphotos, além da opção de relatório geral sobre o myphotos
+O módulo Administrativo, é um módulo para a administração do myphotos e permite cadastrar perfis
+de usuários para poderem gerenciar certos campos do myphotos, além da opção de relatório geral sobre o myphotos
 
 O Administrativo está ligado diretamente com o financeiro
 
-##### **Caracteristicas**
+##### **Características**
 
-* Permite cadastrar novos perfils para usuários
+* Permite cadastrar novos perfis para usuários
 * Permite gestar todos os usuários cadastrados
 * Permite ter uma análise geral sobre o myphotos
 
 ##### **Visão Geral**
 
-Neste Modulo tem o objetivo de cadastrar um usuário novo, estes usuários tem seu próprio cargo,
-estes usuários trabalharam em seu devido cargo como na área do estoque, financeiro, contratos
-e etc...
+Neste Modulo tem o objetivo de cadastrar um usuário novo, estes usuários têm  seu próprio cargo,
+estes usuários trabalharam em seu devido cargo como na área do estoque, financeiro, contratos, etc.
 
 Também você pode cadastrar uma nova pessoa para cadastrar um perfil de usuário, basta apenas
 preencher todas as informações

@@ -1,5 +1,5 @@
 # Taxa de Cartões
-**Campo com a função de vizualizar e cadastrar taxas para os cartões**
+**Campo com a função de Visualizar e cadastrar taxas para os cartões**
 ***
 
 * ##### **Selecione uma conta**
@@ -16,7 +16,7 @@
 
 ![](../../../img/configuracaoDeTaxa.png)
 
-### Vizualizar Detalhes da Taxa
+### Visualizar Detalhes da Taxa
 ***
 <br>
 ![](../../../img/detalhes.jpg)

@@ -6,18 +6,18 @@
 
 * `Contrato` - Selecione o contrato que deseja pesquisar
 * `Escala de Vendedores` - Selecione a escala do vendedor
-* `Status de Venda` - Informe o status da venda| **Venda em Andamento, Finalizada com sucesso e etc...**
+* `Status de Venda` - Informe o status da venda| **Venda em Andamento, Finalizada com sucesso, etc.**
 * `Conferida` - Informe se já está conferido| **Sim ou Não**
 * `Com Feedback`
 * `Com Agendamento`
 * `Data de Conclusão inicial` - Informe a data de conclusão inicial
-* `Data de Conclusão Final` - Informe a data de conclusão final
+* `Data de Conclusão` - Informe a data de conclusão
 * `Valor Previsto Inicial` - Insira o valor previsto inicialmente
 * `Valor Previsto Final` - Insira o valor previsto para o final
 * `Formando/Cliente` - Insira o formando/cliente
 * `Valor de Venda Inicial` - Insira o valor da venda inicial
-* `Valor de Venda Final` - Insire o valor da venda final
-* `Data de Movimento Inicio` - Informe a data de inicio do movimento
+* `Valor de Venda Final` - Insira o valor da venda final
+* `Data de Movimento início` - Informe a data de início do movimento
 * `Data de Movimento Fim` - Informe a data final do movimento
 * `Vendedor` - Selecione o vendedor que deseja procurar
 * `Tabela Comissão` - Informe a tabela de comissão do vendedor
@@ -27,7 +27,7 @@
 ![](../../../img/tabelaResultado.jpg)
 
 ## Alterar dados
-**Função com o objetivo de alterar dados da venda de um certo formando escolhido**
+**Função para alterar dados da venda de um certo formando escolhido**
 ***
 ![](../../../img/alterarDados.png)
 
@@ -38,7 +38,7 @@
 * `Vendedor` - Selecione o novo vendedor
 * `Status da Venda` - Informe o novo status da venda
 * `Tabela de Comissão` - Insira a nova tabela de comissão
-* `Conferida` - Informe se a venda está ou não comferida
+* `Conferida` - Informe se a venda está ou não conferida
 
 ![](../../../img/alterarDadosPage.png)
 ***
@@ -51,7 +51,7 @@
 ***
 
 ## Agendamento
-**Objetivo de exibir um relatório de agendaas para venda de um certo formando**
+**Objetivo de exibir um relatório de agendas para venda de um certo formando**
 ***
 ![](../../../img/agendamento.jpg)
 
@@ -60,13 +60,13 @@
 * `Tabela de Vendas` - Nome da Tabela dessa venda
 * `Contrato` - Nome do contrato
 * `Formando` - Nome do formando
-* `Venda` - Numero da Venda
+* `Venda` - Número da Venda
 * `Status` - Status da Venda
 * `Vendedor` - Nome do vendedor
 ***
 
 ## Detalhes da Venda
-**Opção com o objetivo de gerenciar a venda para o formando**
+**Opção visando gerenciar a venda para o formando**
 ***
 ![](../../../img/pessoaVendaDetalhe.jpg)
 
@@ -77,7 +77,7 @@
 * `Tabela de Vendas` - Tabela de vendas do formando
 * `Contrato` - Contrato do formando
 * `Formando` - Nome do formando
-* `Venda` - Numero da Venda
+* `Venda` - Número da Venda
 * `Conferida` - Informe se a venda foi conferida 
 * `Data Movimento` - Insira a data de movimento dos produtos
 * `Data de Conclusão` - Insira a data de conclusão das vendas
@@ -109,9 +109,9 @@
 
 ![](../../../img/tabelaProdutos.jpg)
 
-**Tabela Previsto:** Valor previsto das presa pela venda
+**Tabela Previsto:** Valor previsto das presas pela venda
 
-**Tabela Esperado:** Valor Espera das vendas pelo o vendedor
+**Tabela Esperado:** Valor Espera das vendas pelo vendedor
 
 **Tabela Realizado:** Receita que os vendedores obtiveram
 
@@ -121,7 +121,7 @@
 
 ![](../../../img/tabelaDesconto.png)
 
-#### Condicões de Pagamento
+#### Condições de Pagamento
 
 ![](../../../img/condicaoDePagamento.png)
 
@@ -137,27 +137,27 @@
 * `Papel` - Informe o papel do novo comprador| **Comprador ou Avalista**
 * `Nome` - Insira o nome completo da pessoa a ser cadastrada
 * `Tipo do Documento` - Informe o tipo do documento da pessoa
-* `CPF/CNPJ` - Insira o numero do documento
+* `CPF/CNPJ` - Insira o número do documento
 * `Data de Nascimento` - Informe a data de nascimento do comprador
 * `RG` - Informe o rg do documento
-* `OG. Emissor` - Informe o orgão emissor
-* `UF Org. Emissor` - Informe a unidade federa do orgão emssior
+* `OG. Emissor` - Informe o órgão emissor
+* `UF Org. Emissor` - Informe a unidade federa do órgão emissor
 * `Sexo` - Insira o sexo do emissor
 * `Nome do Pai ou Mãe` - Insira o nome completo da mãe ou do pai do comprador a ser cadastrado
-* `E-mail` - Informe um email para contato
-* `Telefone 1` - Insira um numero de telefone para contato| **Campo Obrigatório**
-* `Telefone 2` - Insira um segundo numero de telefone para contato
-* `Codigo Protocolo Serasa` - Insira o codigo de protocolo do Serasa
+* `E-mail` - Informe um e-mail para contato
+* `Telefone 1` - Insira um Número de telefone para contato| **Campo Obrigatório**
+* `Telefone 2` - Insira um segundo número de telefone para contato
+* `Código Protocolo Serasa` - Insira o Código de protocolo do Serasa
 ***
 1. Endereço
     - `CEP` - Informe o CEP do comprador
     - `Logradouro` - Insira o nome da rua do comprador
-    - `Numero` - Insira o numero da casa ou do apartamento
+    - `Número` - Insira o número da casa ou do apartamento
     - `Complemento` - Insira um complemento para facilitar a localização
     - `Bairro` - Informe o nome do bairro
     - `Estado` - Insira o Estado de moradia do comprador
-    - `Cidade` - Informe a cdidade de moradia do comprador
-    - `Referencia` - Dê uma referencia
+    - `Cidade` - Informe a cidade de moradia do comprador
+    - `Referencia` - Dê uma referência
 
 ![](../../../img/cadastroCompradores.png)
 
@@ -172,25 +172,25 @@
 
 ##### **Campos para o cadastro**:
 
-* `Metodo de Pagamneto`
+* `Método de Pagamento`
 1. Moeda
     - `Valor` - Insira o valor do pagamento
 2. Cheque
     - `Nome do Titular` - Informe o nome do titular
-    - `CPF/CNPJ` - Insira o numero do documento
+    - `CPF/CNPJ` - Insira o número do documento
     - `Banco` - Informe o banco da pessoa
-    - `Agencia` - Informe a agencia da pessoa
-    - `Agência DV` - Insira o Dv da agencia da pessoa
+    - `Agencia` - Informe a agência da pessoa
+    - `Agência DV` - Insira o Dv da agência da pessoa
     - `Conta` - Informe a conta da pessoa
     - `Conta DV` - Insira o Dv da conta
     - `Selecione a Quantidade de Cheques` - Selecione a quantidade de cheques para o pagamento| **De 1 a 24 Cheques**
 3. Cartão de Crédito
     - `Nome Titular` - Informe o nome titular da pessoa
-    - `CPF / CNPJ` - Insira o numero do CPF ou CNPj da pessoa
+    - `CPF / CNPJ` - Insira o número do CPF ou CNPJ da pessoa
     - `Valor` - Insira o valor do pagamento
-    - `Parcelas` - Insira um numero de parcelas para o pagamento
-    - `Codigo Protocolo` - Informe o codigo de protocolo
-    - `Código Maquininha` - Informe o codigo da maquininha
+    - `Parcelas` - Insira um Número de parcelas para o pagamento
+    - `Código Protocolo` - Informe o Código de protocolo
+    - `Código Maquininha` - Informe o Código da maquininha
     - `Data Hora Ocorrência` - Insira a data e a hora da operação
 4. Desconto
     - `Valor` - Valor do pagamento
@@ -203,7 +203,7 @@
 
 ![](../../../img/tabelaPagamento.jpg)
 
-**OBS Empresa: Observações são exibida apenas para a empresa**
+**OBS Empresa: Observações são exibidas apenas para a empresa**
 
 **OBS Recibo: Observação são exibidas para todos incluindo o cliente**
 

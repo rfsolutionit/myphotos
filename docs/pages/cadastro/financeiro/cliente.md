@@ -11,16 +11,16 @@
 * `Tipo do Documento` - Informe o tipo do documento
 * `E-mail` - Insira um E-mail para contato
 * `E-mail Alternativo` - Informe um E-mail alternativo caso seja preciso
-* `Telefone` - Informe um numero de telefone
-* `Celular / Outro` - Insira um numero celular ou um outro meio de contato
+* `Telefone` - Informe um Número de telefone
+* `Celular / Outro` - Insira um Número celular ou outro meio de contato
 * `Nome Contato` - Informe o nome do contato
-* `Area de Atuação` - Informe a área de atuação do cliente
+* `Areá de Atuação` - Informe a área de atuação do cliente
 ***
 1. CPF 
-    - `Numero` - Informe o numero do CPF
+    - `Número` - Informe o número do CPF
     - `Nome` - Insira o nome completo do cliente
 2. CNPJ
-    - `Numero` - Insira o numero do documento do cliente
+    - `Número` - Insira o número do documento do cliente
     - `Nome Fantasia` - Informe o nome Fantasia da Empresa| **Nome de fachada da empresa**
     - `Razão Social` - Insira a Razão social da Empresa| **Nome formal da empresa**
 3. Endereço

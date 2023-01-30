@@ -4,26 +4,26 @@
 
 #### **Campos para filtro**:
 
-* `Temporada` - Selecione a temporada que deseja análisar
-* `Situação` - Informe a situação do contrato| **Aprovado, Em Execução, Pré Aprovado e etc...**
-* `contratos` - Selecione o contrato que deseja análisar
+* `Temporada` - Selecione a temporada que deseja analisar
+* `Situação` - Informe a situação do contrato| **Aprovado, Em Execução, Pré-Aprovado, etc.**
+* `contratos` - Selecione o contrato que deseja analisar
 
 ![](../../img/filtroBacana.PNG)
 
 ### Análise de Resultados
-**Tabela com a função de análisar o resultados dos contratos**
+**Tabela com a função de analisar os resultados dos contratos**
 ![](../../img/reltGeral.jpg)
 
 ### Receitas
 **Tabela com a função de exibir as receitas dos contratos para análise**
 ![](../../img/receitas.jpg)
 
-* **Ao clicar na tabela uma nova tabela sugirá**
+* **Ao clicar uma nova tabela na tabela surgirá**
 
 ![](../../img/outraTabela.jpg)
 
 ### Despesas
-**Tabela com o objetivo de exibir o total de despesas**
+**Tabela visando exibir o total de despesas**
 ![](../../img/despesasTabelas.png)
 ***
 <br>

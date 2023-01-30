@@ -2,11 +2,11 @@
 **Campo de analisar a comissão ganha por vendedores**
 ***
 
-#### **Campos para pesquisa :**
+#### **Campos para pesquisa:**
 
 * `Vendedor` - Selecione o vendedor que você deseja gerenciar sua comissões
 * `Contrato` - Insira o contrato que o vendedor trabalhou
-* `Data de Venda Inicial` - Informe a data de inicio das vendas dos produtos
+* `Data de Venda Inicial` - Informe a data de início das vendas dos produtos
 * `Data de Venda Final` - Informe a data de finalização das vendas dos produtos
 * `Data de Movimentação Inicial` - Insira a data inicial da movimentação dos produtos
 * `Data de Movimentação Final` - Insira a data de finalização de movimentação dos produtos
@@ -24,7 +24,7 @@
 
 ![](../../../img/tbComissaoNProcessadaSeta.jpg)
 
-**É possivel caso preciso, alterar a tabela de comissão**
+**É possível, caso preciso, alterar a tabela de comissão**
 
 ![](../../../img/alterarComissoa.jpg)
 
@@ -35,14 +35,14 @@
 
 ![](../../../img/tbVendasProcessadas.jpg)
 
-**Vizualizar comissões**
+**Visualizar comissões**
 
 ![](../../../img/comissaoVizu.jpg)
 ***
 
 ![](../../../img/pessoaComissoa.jpg)
 
-**Após clicar você sera redirecionado para a abá da venda**
+**Após clicar você sera redirecionado para a Aba da venda**
 
 ![](../../../img/pessoaComissoaSeta.jpg)
 

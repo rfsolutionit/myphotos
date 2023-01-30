@@ -1,12 +1,12 @@
 # Reportagens Externo
-**Campo com a função de gerenciar reportagens alêm de cadastrar novas reportagens**
+**Campo com a função de gerenciar reportagens além de cadastrar novas reportagens**
 ***
 
 ### **Nova Reportagem**
 
 ![](../../../img/novaReportagem.png)
 
-[Cadastrar Repotagem](https://rfsolutionit.github.io/myphotos/pages/gerenciamento/operacional/reportagens.html#nova-reportagem)
+[Cadastrar Reportagem](https://rfsolutionit.github.io/myphotos/pages/gerenciamento/operacional/reportagens.html#nova-reportagem)
 
 ### **Planejamento**
 **Função gerenciar planejamentos já feitos**
@@ -15,15 +15,15 @@
 
 **Após entrar novos campos aparecerá**
 
-##### **Vizualizar Evento**
+##### **Visualizar Evento**
 
 ![](../../../img/eventoSla.png)
 
-**Campo com a função de vizualizar e gerenciar informaçõe do evento**
+**Campo com a função de Visualizar e gerenciar informações do evento**
 
 ![](../../../img/vizuEvento.png)
 ***
 
-##### **Vizualizar Despesa**
+##### **Visualizar Despesa**
 
 ![](../../../img/vizuDespesa.png)

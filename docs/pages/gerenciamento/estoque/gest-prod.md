@@ -20,29 +20,29 @@
 ***
 <br>
 
-##### **Para cadastrarmos uma nova ordem para produção presisamo assinalar a opção**
+##### **Para cadastrarmos uma nova ordem para produção precisamo assinalar a opção**
 
 ![](../../../img/opcaoTodos.png)
 
 * **Para facilitar seu trabalho existe uma opção que possibilita criar uma ordem de produção para todos os formandos**
 
-* **Caso nem todos os formandos seja preciso cadastrar uma ordem de produção, você pode ativar a opção para que todos sejam ativados e dessativar apenas aqueles que não serão utilizados ou assinalar um de cada vez**
+* **Caso nem todos os formandos seja preciso cadastrar uma ordem de produção, você pode ativar a opção para que todos sejam ativados e desativar apenas aqueles que não serão utilizados ou assinalar um de cada vez**
 
 ![](../../../img/totalizadoresSeta.jpg)
 
-* **Depois de ativar a opção aparecerá uma nova opção para cadastrar produtos**
+* **Após ativar a opção aparecerá uma nova opção para cadastrar produtos**
 
 ![](../../../img/bot%C3%A3oProdu%C3%A7%C3%A3o.jpg)
 
 ## Cadastrar Produto para o Formando
-**Neste campo sua função é cadastrar quais produtos foram comprado pelo formando**
+**Neste campo sua função é cadastrar quais produtos foram comprados pelo formando**
 ***
 
 #### **Campos para preencher**:
 
 * `Produto` - Selecione um produto já cadastrado
-* `Codigo de Barras` - Informe o codigo de barra do produto
-* `Quantidade` - Insira a quantidade do produto disponivel do formand| **Recomendado inserir apenas 1 para que possa exportar para outro formandos, depôis altere manualmente**
+* `Código de Barras` - Informe o código de barra do produto
+* `Quantidade` - Insira a quantidade do produto disponível do formando| **Recomendado inserir apenas 1 para poder exportar para outro formandos, depois altere manualmente**
 
 ![](../../../img/cadastroPordutoFormando.jpg)
 ***
@@ -59,9 +59,9 @@
 ***
 ![](../../../img/movimenta%C3%A7%C3%A3o.jpg)
 
-* `Local` - Local onde o produto se está armarzenar
+* `Local` - Local onde o produto se está armazenar
 * `Portador` - Fornecedor / Vendedor do produto
-* `Status` - Status do produto| **Disponivel, Descartado, Extraviado, Vendido, Bonificado**
+* `Status` - Situação  do produto| **Disponível, Descartado, Extraviado, Vendido, Bonificado**
 * `Quantidade` - Quantidade do produto
 
     * **Todos os campos podem ser alterado**
@@ -69,9 +69,9 @@
 ![](../../../img/gerenciarProdutoFormando.png)
 ***
 ## Gerenciar tabela
-**Depois de realizar todos os passos a cima, você porderá gerenciar todos os formantes, agora você poderá alterar manualmente a quantidade de produtos para cada formando**
+**Após realizar todos os passos a cima, você poderá gerenciar todos os formantes, agora você poderá alterar manualmente a quantidade de produtos para cada formando**
 
 ![](../../../img/gerenciaProdutosrFormandos.jpg)
 
-* **Caso queria apagar um campo de um formando, você pode ir na lupa e apagar o produto ou apenas alterar o campo deixando vazio e salve**
+* **Caso queria apagar um campo de um formando, você pode ir à lupa e apagar o produto ou apenas alterar o campo deixando vazio e salve**
     ![](../../../img/apagarCampo.jpg)

@@ -1,48 +1,48 @@
 # Extratos Bancários
-**Campo com a função de gerenciar e vizualizar transações de extratos bancários**
+**Campo com a função de gerenciar e Visualizar transações de extratos bancários**
 ***
-### **Exemplo de listagem de extratos cadastrados :**
+### **Exemplo de listagem de extratos cadastrados:**
 <br>
 ![](../../img/extratosBancarios.png)
 
 **Informações de campos**
 
 * `Carteira` - Nome da carteira
-* `Data Inicio` - Data de criação
+* `Data início` - Data de criação
 * `Data Final` - Data Final
 * `Data Upload` - Data de upload da carteira
 * `Data Ger. Extrato` - Data de gerada do extrato
 * `Banco / Conta` - Banco ou conta
-* `Conciliação` - Numero de conciliações
+* `Conciliação` - Número de conciliações
 
-### **Vizualizar Extrato :**
+### **Visualizar Extrato :**
 
 ![](../../img/vizuExtrato.png)
 
 ![](../../img/listagemVizuExtrato.png)
 
 
-#### **Vizualizar Despesas**
+#### **Visualizar Despesas**
 
 ![](../../img/pessoaExtratoSetaVizu.png)
 
 ##### **Filtros de Pesquisa**
 
-* `Palavra Chave` - Insira uma palavra chave para a pesquisa
-* `Data Inicio` - Insira uma data mínima para a pesquisa 
+* `palavra-chave` - Insira uma palavra-chave para a pesquisa
+* `Data início` - Insira uma data mínima para a pesquisa 
 * `Data Fim` - Informe uma data máxima para a pesquisa
 * `Forma de Pagamento` - Informe o meio de pagamento
-* `Conta Contabíl (Reduzida)` - Selecione o tipo de gasto
+* `Conta Contábil (Reduzida)` - Selecione o tipo de gasto
 * `Tipo Transação` - Selecione o tipo de transação| **Crédito e Débito**
 
 ![](../../img/filtroAlgumaCoisa.jpg)
 
 ![](../../img/despesasEreceitasDaContaSla.PNG)
 
-**Campo com o objetivo de mostra as despesas e as receitas da conta**
+**Campo visando mostra as despesas e as receitas da conta**
 ***
 
-#### **Adicionar Conta À Receber**
+#### **Adicionar Conta A Receber**
 
 ![](../../img/pessoaExtratoContasAReceber.png)
 
@@ -53,20 +53,20 @@
 * `Descrição` - Dê uma descrição para a conta
 * `Categoria` - Selecione o tipo de gasto
 * `Centro de Custo` - Informe o centro de custo
-* `Taxa / Juros` - Insira uma taxa de jurps
+* `Taxa / Juros` - Insira uma taxa de juros
 * `Desconto` - Insira um valor para desconto| **Caso Precise**
 
 ![](../../img/cadastroAi.jpg)
 ***
 
-#### **Transfêrencia Entre Contas / Carteiras**
+#### **Transferência Entre Contas / Carteiras**
 
 ![](../../img/pessoaExtratoContasAReceber.png)
 
-##### **Campos para Preenhcer**
+##### **Campos para Preencher**
 
 * `Valor da Conta no Extrato` - Valor da Conta no Extrato
-* `Conta / Carteira Destino` - Selecione a conta que ocorrerá a transfêrencia
+* `Conta / Carteira Destino` - Selecione a conta que ocorrerá a transferência
 * `Categoria Origem` - Informe o tipo de custo de origem
 * `Centro de Custo Origem` - Informe o centro de custo de origem
 * `Categoria Destino` - Insira um novo tipo de custo

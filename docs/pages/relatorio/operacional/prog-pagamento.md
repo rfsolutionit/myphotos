@@ -1,15 +1,15 @@
 # Programação de Pagamentos
-**Campo com a função contas e cadastrar pagametos**
+**Campo com a função contas e cadastrar pagamentos**
 ***
 
-#### **Campos para pesquisa :**
+#### **Campos para pesquisa:**
 
-* `Data de Vencimento Inicio` - Insira uma data mínima de vencimeto
+* `Data de Vencimento início` - Insira uma data mínima de vencimento
 * `Data de Vencimento Fim` - Insira uma data máxima de vencimento
-* `Data Evento Inicio` - Data mínima de inicio do evento
-* `Data Evento Fim` - Data máxima de inicio do evento
+* `Data Evento início` - Data mínima de início do evento
+* `Data Evento Fim` - Data máxima de início do evento
 * `Situação da Despesa` - Selecione a situação da despesa| **Paga ou Em Aberta**
-* `Palavra Chave` - Insira uma palavra chave para faciliar a pesquias
+* `palavra-chave` - Insira uma palavra-chave para facilitar a pesquisa
 * `Contratos` - Informe o contrato em que o fornecedor que deseja procurar trabalha
 * `Fornecedores` - Informe qual fornecedor deseja procurar
 

@@ -8,14 +8,14 @@
 
 #### **Campos para cadastro :**
 
-* `Tipo do Documento` - Selecione o tido do documento do beneficiario
+* `Tipo do Documento` - Selecione o tido do documento do beneficiário
 * `Número do Documento` - Insira o número do documento
 * `Nome Titular` - Informe o nome do titular
 ***
 1. Endereço
     - `CEP` - Insira o CEP de moradia do beneficiário
     - `Logradouro` - Informe o nome da rua
-    - `Número` - Insira o numero da casa ou apartamento
+    - `Número` - Insira o número da casa ou apartamento
     - `Complemento` - Informe um complemento para facilitar a localização
     - `Bairro` - Insira o nome do bairro
     - `Estado` - Informe o Estado do beneficiário

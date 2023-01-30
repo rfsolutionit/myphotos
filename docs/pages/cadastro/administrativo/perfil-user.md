@@ -9,7 +9,7 @@
 * **Este campo tem a função de cadastrar perfis para usuário, no caso cadastrar em qual local certo usuário trabalhará**
 
 ***
-1. Modulos
+1. Módulos
     - **Contrato**
     - **Estoque**
     - **Operacional**
@@ -18,17 +18,17 @@
     - **Administrativo**
 ***
 
-* **Após escolher um modulo outras opções devem ser escolhida**
+* **Após escolher um módulo outras opções devem ser escolhida**
 ***
 
-1. Formularios Principais
+1. Formulários Principais
     - **Cadastro**
     - **Configuração**
     - **Gerenciamento**
     - **Relatório**
-2. Formularios Extras
-    - **Alguns modulos tem opções extras**
-    - Finaceiro
+2. Formulários Extras
+    - **Alguns módulos têm opções extras**
+    - Financeiro
         - **Cobrança**
         - **Conciliação**
         - **Movimento**
@@ -36,8 +36,8 @@
         - **Dashboard**
 
 ***
-## Formularios Segundarios
-* **Todos os formularios principais tem formularios secundários e pelo menos um deve ser escolhido**
+## Formulários Segundarias
+* **Todos os formulários principais têm formulários secundários e pelo menos um deve ser escolhido**
 
 
 ## Contrato
@@ -55,7 +55,7 @@
     - **Usuários**
 2. Contrato - Gerenciamento
     - **Avaliação de Proposta Contratual**
-    - **Clausualas Contratuais**
+    - **Clausulas Contratuais**
     - **Formando Comercial**
     - **Produto**
     - **Proposta Comercial**
@@ -97,7 +97,7 @@
 1. Operacional - Cadastro
     - **Acessória do Profissional**
     - **Anotação do Evento**
-    - **Caracteristaca do Evento**
+    - **Característica do Evento**
     - **Despesas**
     - **Evento Base**
     - **Formandos do Evento**
@@ -115,8 +115,8 @@
     - **Reportagem**
     - **Reportagem Externa**
 3. Operacional - Relatório
-    - **Calendario de Eventos Google**
-    - **Calendario de Eventos Interno**
+    - **Calendário de Eventos Google**
+    - **Calendário de Eventos Interno**
     - **Programação de Pagamentos**
     - **Relatório de Reportagem**
 
@@ -132,9 +132,9 @@
     - **Produtos para Venda**
     - **Tabela de Comissões**
     - **Vendedores**
-    - **Vendedores Funcionarios**
+    - **Vendedores Funcionários**
 2. Gestor - Gerenciamento
-    - **Comissão dos Vendores**
+    - **Comissão dos Vendedores**
     - **Comissões de Vendedores Geral**
     - **Conferência de Retorno**
     - **Escala de Vendedores**
@@ -171,12 +171,12 @@
 1. Financeiro - Cadastro
     - **Beneficiários**
     - **Carteiras**
-    - **Centro de Custo X Area de Atuação**
+    - **Centro de Custo X Areá de Atuação**
     - **Centro de Custo**
     - **Cliente**
     - **Contas Bancárias de Fornecedores**
     - **Formas de Pagamento**
-    - **Fonecedor**
+    - **Fornecedor**
     - **Plano de Contas**
     - **Taxa de Cartões**
 2. Financeiro - Cobrança
@@ -185,7 +185,7 @@
     - **Detalhes Renegociação**
     - **Relatório de Cobranças**
 3. Financeiro - Conciliação
-    - **Coferencia de Extrato Bancário**
+    - **Conferência de Extrato Bancário**
 4. Financeiro - Movimento
     - **Cheques**
     - **Cobrança Bancária**
@@ -199,7 +199,7 @@
     - **Transação**
 5. Financeiro - Relatório
     - **Demonstrativo Plano Contas**
-    - **Provisionamneto Financeiro**
+    - **Provisionamento Financeiro**
     - **Relatório Conta Corrente**
     - **Relatório de Fluxo de Recebimento de Cheque**
     - **Relatório Recebimentos**

@@ -9,8 +9,8 @@
 
 
 * `Id` - Insira o Id do custo a ser cadastrado.
-* `Nome do Custo` - Insira Nome para a indentificação do custo 
-* `Categoria` - Escolha Tipo de categoria| **Produto, Serviço, Evento e etc...**
+* `Nome do Custo` - Insira um nome para a identificação do custo 
+* `Categoria` - Escolha o Tipo de categoria| **Produto, Serviço, Evento, etc.**
 * `Critério de Contabilização` - Selecione a forma de critério de contabilização| **Unidade ou Formando**
 * `Valor médio Unitário` - Insira valor médio a ser pago por unidade
 

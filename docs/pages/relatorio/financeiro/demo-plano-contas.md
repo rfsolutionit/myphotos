@@ -4,7 +4,7 @@
 
 #### **Campos**
 
-* `Mês de Movimento Incial` - Insira o mês de inicio dos movimentos que você deseja analisar
-* `Mês de Movimento Final` - Insira o mês máximo para os movimetos que você deseja procurar
+* `Mês de Movimento Inicial` - Insira o mês de início dos movimentos que você deseja analisar
+* `Mês de Movimento Final` - Insira o mês máximo para os movimentos que você deseja procurar
 
 ![](../../../img/demostrativoPlanoDeContas.png)

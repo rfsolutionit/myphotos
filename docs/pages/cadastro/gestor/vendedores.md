@@ -7,18 +7,18 @@
 #### **Campos para cadastro**:
 
 * `Tipo do Documento` - Informe o tipo do documento do vendedor
-* `Numero do Documento` - Insira o numero do documento
-* `Nome` - Inforeme o nome completo do vendedor
+* `Número do Documento` - Insira o número do documento
+* `Nome` - Informe o nome completo do vendedor
 * `Nome Fantasia` - Insira o nome fantasia| **Nome de fachada**
-* `Telefone Fixo` - Digite o numero de um telefone fixo para contato
+* `Telefone Fixo` - Digite o número de um telefone fixo para contato
 * `Telefone Celular` - Insira um telefone celular para contato
-* `E-mail` - Digite um email para contato
+* `E-mail` - Digite um e-mail para contato
 * `Área de Atuação` - Informe a sua área de atuação
 ***
 1. Endereço
     - `CEP` - Digite o CEP
     - `Logradouro` - Insira o nome da rua
-    - `Numero` - Insira o nome da casa ou apartamento
+    - `Número` - Insira o nome da casa ou apartamento
     - `Complemento` - Insira um complemento para facilitar a localização
     - `Bairro` - Informe o nome do bairro
     - `Estado` - Selecione o Estado
@@ -26,7 +26,7 @@
 <br>
 
 ![](../../../img/cadastroVendedores.png)
-* **Abaixo você tera uma opção para cadastrar vendores**
+* **Abaixo você terá uma opção para cadastrar vendedores**
 
 ### Novo Vendedor
 
@@ -43,7 +43,7 @@
 
 ![](../../../img/vendedorCadastro.png)
 
-### Conta corrente do vendedor
+### Conta-corrente do vendedor
 
 ![](../../../img/contaCorrente.jpg)
 

@@ -11,14 +11,14 @@
 * `Id Interno` - Insira um ID para se localizado
 * `Nome` - Insira um nome para tabela
 * `Contrato` - Escolha um contrato para essa tabela
-* `Tipo` - Informe o tipo do contrato| **Venda Normal, Antecipada, Pos Contrato e Vituais**
+* `Tipo` - Informe o tipo do contrato| **Venda Normal, Antecipada, Pós-Contrato e Vendas Virtuais**
 
 ![](../../../img/cadastroTabelaVendas.png)
 
 ![](../../../img/seUmDia.jpg)
 ***
 ### Produtos para Venda
-**Opção com o objetivo de exibir e gerenciar ou cadastrar produtos de certo formando**
+**Opção visando exibir e gerenciar ou cadastrar produtos de certo formando**
 ***
 
 * **Selecione um formando**
@@ -32,10 +32,10 @@
 * `Pedido Extra` - Caso for um pedido extra assinale a opção
 * `Produto`- Digite o produto que desejá cadastrar
 * `Quantidade` - Quantidade do Produto
-* `Descarte` - Informe um numero percentual para descarte| **Campo Opcional**
+* `Descarte` - Informe um Número percentual para descarte| **Campo Opcional**
 * `Quantidade Mínima` - Insira uma quantidade mínima para o produto
 * `Valor de Venda` - Insira um valor de venda para o produto
-* `Desconto` - Insira um numero em percentual para desconto| **Campo Opcional**
+* `Desconto` - Insira um Número em percentual para desconto| **Campo Opcional**
 
 ![](../../../img/cadastroProduto3.png)
 
@@ -45,7 +45,7 @@
 ***
 
 ### Formas de Pagamento
-**Opção com o objetivo de gerenciar e cadastrar pagamentos para certo formando**
+**Opção visando gerenciar e cadastrar pagamentos para certo formando**
 ***
 
 #### Nova Forma de Pagamento
@@ -55,9 +55,9 @@
 ##### **Campos para cadastro**:
 
 * `Forma de Pagamento` - Selecione um meio de pagamento
-* `Valor Máximo para Compra Unica` - Insira um valor máximo para compra
-* `Limite Máximo de escala` - Insira um limite máxima
-* `Quantidade Máxima de Parcela` - Insira um numero maximo para parcelas
+* `Valor Máximo para Compra Única` - Insira um valor máximo para compra
+* `Limite Máximo de escala` - Insira um limite máximo
+* `Quantidade Máxima de Parcela` - Insira um Número máximo para parcelas
 
 ![](../../../img/cadastroFormaDePagamento.png)
 
@@ -80,14 +80,14 @@
 * `À Vista` - Assinale a opção caso o pagamento seja a vista
 * `Condições de Pagamento` - Insira um prazo para o pagamento| **De certo mês até certo mês**
 * `Margem de Juros para Venda` - Insira uma margem de juros para o pagamento
-* `Carência` - Informe um numero de dias para carêcia do pagamento
+* `Carência` - Informe um Número de dias para carência do pagamento
 
 ![](../../../img/cadastroCondicaoPagamento.png)
 
 ![](../../../img/tabelaCondicao.jpg)
 
 ### Descontos Especiais
-**Campo com o objetivo de gerenciar e cadastrar descontos especiais para certo formando**
+**Campo visando gerenciar e cadastrar descontos especiais para certo formando**
 ***
 
 #### Novo Desconto
@@ -101,8 +101,8 @@
 ***
 1. Desconto Membros Comissão
     - `Desconto` - Insira o valor do desconto
-2. Desconto produto Especifico
-    - `Produto especifico do Desconto` - Selecione o produto especifico para desconto
+2. Desconto produto Específico
+    - `Produto Específico do Desconto` - Selecione o produto Específico para desconto
     - `Desconto` - Insira um valor para desconto
 3. Desconto Valor Fixo 
     - `Desconto` - Informe um valor para desconto
@@ -118,20 +118,20 @@
 
 #### **Campos**
 
-* `Tipo de Tolerancia do Limite de Desconto` - Selecione o tipo de tolerancia
-* `Margem de Tolerancia` - Informe um porcentual para tolerancia
+* `Tipo de Tolerância do Limite de Desconto` - Selecione o tipo de Tolerância
+* `Margem de Tolerância` - Informe um porcentual para tolerancia
 
 ![](../../../img/configura%C3%A7%C3%A3o.jpg)
 
 ***
 
 ### Expectativa de Venda
-**Opção com o objetivo de gerenciar a expectativa de venda de certo contrato**
+**Opção para gerenciar a expectativa de venda de certo contrato**
 ***
 
 ![](../../../img/tabelaVendas.jpg)
 
-#### **Vizualizar tabela de Venda**:
+#### **Visualizar tabela de Venda**:
 <br>
 ![](../../../img/vendaVizu.jpg)
 
@@ -143,7 +143,7 @@
 **Opção com a função de exibir um relatório de vendas para análise**
 ***
 
-#### Vizualizar Relatório:
+#### Visualizar Relatório:
 <br>
 ![](../../../img/verRelat%C3%B3rio.jpg)
 ***

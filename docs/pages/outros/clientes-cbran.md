@@ -2,17 +2,17 @@
 **Campo com a principal função de renegociação das contas**
 ***
 
-#### **Campos para filtros :**
+#### **Campos para filtros:**
 
-* `Palavra Chave` - Insira uma palavra chave para facilitar a procura
+* `palavra-chave` - Insira uma palavra-chave para facilitar a procura
 * `Carteira` - Informe uma carteira
-* `Data Vencimento Inicio` Insira uma data mínima de vencimentos
+* `Data Vencimento início` Insira uma data mínima de vencimentos
 * `Data Vencimento Final` - Insira uma data máxima de vencimentos
 * `Data de Emissão Início` - Informe uma data mínima das emissões
 * `Data de Emissão Final` - Informe a data máxima de emissões
-* `Data de Recebimento Inicio` - Selecione uma data mínima de recebimentos
+* `Data de Recebimento início` - Selecione uma data mínima de recebimentos
 * `Data de Recebimento Final` - Selecione uma data máxima de recebimentos
-* `Situação` - Informe a situação da cobrança| **Pendente, Cliente não Retornou e etc...**
+* `Situação` - Informe a situação da cobrança| **Pendente, Cliente não Retornou, etc.**
 * `Negativos` - Informe se deseja buscar negativados| **Sim ou Não**
 * `Tipo` - Selecione o tipo da cobrança| **Original ou Renegociadas**
 ***
@@ -31,9 +31,9 @@ ___
 ![](../../img/totalizadoresRenegociacao.jpg.png) 
 
 * `Total Vencido` - Valor total de pagamentos vencidos
-* `Total à Vencer` - Valor que ainda não passou do vencimento
+* `Total a Vencer` - Valor que ainda não passou do vencimento
 * `Total Renegociado` - Valor total de renegociações
-* `Total Renegociado Pago:` - Valor to de renegociações já pago
+* `Total Renegociado Pago:` - Valor total de renegociações já pago
 * `Total Original Pago` - Valor total pago sem renegociações
 * `Quantidade de Clientes` - Quantidade de clientes
 * `Quantidade de Clientes Atendidos` - Quantidade de clientes já atendidos
@@ -43,17 +43,17 @@ ___
 
 ![](../../img/listagemCobranca.png)
 
-* **Campos que estão em vermelho já estão negativados**
+* **Campos que estando em vermelho já estão negativados**
 ***
 
 ## **Listagem de Cobrança por Contas**
 
 ![](../../img/listagemCobrancaConta.png)
 
-* **As duas tabelas tem a mesma função a unica diferença é o meio de busca**
+* **As duas tabelas tem a mesma função a única diferença é o meio de busca**
 ***
 
-## **Cobrança** :
+## **Cobrança**:
 ***
 ![](../../img/novaRenegociacao.png)
 
@@ -62,16 +62,16 @@ ___
 ![](../../img/infoCobranca.png)
 
 * `Negativado` - Informe se a cobrança está negativado
-* `Falecido` - Assinale essa opção caso o cliente venha a falecer
+* `Falecido` - Assinale essa opção caso o cliente faleça
 * `Não Consta` - Assinale caso o cliente não consta
-* `Situação` - Informe qual é a siuação do cliente| **Cliente não atende, Cliente não Retornou e etc...**
+* `Situação` - Informe qual é a situação do cliente| **Cliente não atende, cliente não retornou, etc.**
 ***
 
 ![](../../img/contatoExtra.png)
 
 1. Contato
     - **Caso queira adicionar um contato extra**
-    - `Contato` Insira o contato que deseja adicionar| **Numero de Telefone, E-mail e etc..**
+    - `Contato` Insira o contato que deseja adicionar| **Número de Telefone, E-mail, etc.**
     - `Chat` - Caso for número esta opção será ativada
 ***
 
@@ -86,11 +86,11 @@ ___
 
 * `Saldo Vencido` - Valor total das contas que não foram pagas
 * `Saldo Corrigido` - Saldo dos pagamentos vencidos com a correção com juros
-* `Saldo à Vencer` - Saldo que o pagamento ainda não venceu
+* `Saldo a Vencer` - Saldo que o pagamento ainda não venceu
 * `Total Pendente` - Valor a ser pago
 * `Saldo Quitado` - Valor pago
 
-**Contas à Receber Negociadas**
+**Contas a Receber Negociadas**
 
 ![](../../img/contasAReceberNegociadas.png)
 
@@ -105,14 +105,14 @@ ___
 
 ![](../../img/renegociar.png)
 
-#### **Campos para preencher :**
+#### **Campos para preencher:**
 
 * `Valor da Parcelas` - Valor total das parcelas escolhidas
 * `Tarifa` - Insira um valor de tarifa
 * `Valor Recalculado` - Valor recalculado com o valor das tarifas
-* `Parcelas` - Insira um numero de parcelas
+* `Parcelas` - Insira um Número de parcelas
 * `Juros` - Insira o valor de juros
-* `Valor por Parcela` - Valor atual das pracelas
+* `Valor por Parcela` - Valor atual das parcelas
 * `Valor Atualizado` - Valor total atualizado
 ***
 1. Entrada
@@ -128,7 +128,7 @@ ___
     - `Data` - Insira uma data para o pagamento das parcelas
     - `Valor` - Valor de cada parcela
     - `Carteira de Recebimento` - Carteira de recebimento das parcelas
-    - `Protocolo` - Codigo criado para o cliente verificar qual é sual proposta
+    - `Protocolo` - Código criado para o cliente verificar qual é sua proposta
 
 ![](../../img/propostaDeNegociacao.png)
 
@@ -136,7 +136,7 @@ ___
 ***
 
 ### **Propostas Anteriores**
-**Após salvar uma proposta ela ficará slava nesta opção**
+**Após salvar uma proposta ela ficará salva nesta opção**
 ***
 
 ![](../../img/Proposta.png)
@@ -159,7 +159,7 @@ ___
 
 **Após clicar uma nova aba aparecerá para confirmar se realmente quer quebrar o contrato**
 
-**Depois da quebra do contato as contas antigas que foram negociadas e não foram pagas continuarão em amarelo mas agora estão ativas, já as contas criadas da renegociação serão apagadas**
+**Depois da quebra do contato as contas antigas negociadas e não foram pagas continuarão em amarelo, mas agora estão ativas, já as contas criadas da renegociação serão apagadas**
 
 ***
 

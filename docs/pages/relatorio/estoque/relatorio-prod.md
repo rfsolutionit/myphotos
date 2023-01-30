@@ -1,5 +1,5 @@
 # Relatório de Produtos
-**Campo com a função de exibir todos os produtos de todos os contratos ou apenas um em expecifico**
+**Campo com a função de exibir todos os produtos de todos os contratos ou apenas um em específico**
 ***
 
 #### **Campos para filtro**:

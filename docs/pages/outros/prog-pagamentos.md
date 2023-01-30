@@ -8,7 +8,7 @@
 * `Data Final` - Informe uma data máxima para os pagamentos
 * `Carteira` - Selecione a carteira do pagamento
 * `Formas de Pagamento` - Informe a forma de pagamento
-* `Fornecedores` - Selecione o fornecedor do pagamentos que deseja procurar
+* `Fornecedores` - Selecione o fornecedor do pagamento que deseja procurar
 * `Conta Contábil (Reduzida)` - Informe o tipo de pagamento
 * `Centro de Custo` - Informe o centro de custo do pagamento que deseja procurar
 * `Bancos` - Selecione o banco do pagamento
@@ -22,7 +22,7 @@
 
 ![](../../img/pagamentosSeta.jpg)
 
-* **Asinale os pagamentos que deseja fazer e logo após clique em pagar em lote, após isso uma nova abá aparacerá**
+* **Assinale os pagamentos que deseja fazer e logo após clique em pagar em lote, após isso uma nova Aba aparacerá**
 
 ### Novo Pagamento
 
@@ -30,7 +30,7 @@
 
 #### **Campos para Preencher :**
 
-* `Portador` - Informe a carteira para o pagamneto
+* `Portador` - Informe a carteira para o pagamento
 * `Forma de Pagamento` - Selecione a forma de pagamento
 * `Valor` - Insira o valor que será pago
 * `Data` - Informe a data do pagamento
@@ -42,7 +42,7 @@
 <br>
 ![](../../img/pagamentoIndividual.jpg)
 
-* **Após Entrar você sera encaminhado para uma nova abá com informações do pagamento**
+* **Após Entrar você sera encaminhado para uma nova Aba com informações do pagamento**
 
 ![](../../img/pagamentosPage2.png)
 
@@ -60,6 +60,6 @@
 * `valor Pago` - Informe o valor do pagamento ocorrido
 * `Valor Juros` - Insira um valor de juros| **Caso Precise**
 * `Valor Desconto` - Insira um valor para desconto| **Caso Precise**
-* `Forma de Pagamento` - Selecio o meio de pagamento| **Antecipação, Boleto e etc...**
+* `Forma de Pagamento` - Selecione o meio de pagamento| **Antecipação, Boleto, etc.**
 
 ![](../../img/fazerPagamento.png)

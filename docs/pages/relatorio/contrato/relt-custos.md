@@ -8,7 +8,7 @@
 #### **Campos para pesquisa**:
 
 * `Data` - Insira as datas que deseja procurar
-* `Situação do Brinde` - Informe a situação do pagamento do custo| **Pago e À Pagar**
+* `Situação do Brinde` - Informe a situação do pagamento do custo| **Pago ou a Pagar**
 * `Fornecedores` - Selecione o fornecedor
 * `Brindes` - Escolha o brinde que deseja procurar
 <br>

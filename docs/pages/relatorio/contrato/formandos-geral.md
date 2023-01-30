@@ -1,5 +1,5 @@
 # Consulta geral de formandos 
-**Tabela com a função de exibir formandos cadastrado**
+**Tabela com a função de exibir formandos cadastrados**
 ***
 ### Filtro de Pesquisa
 ![](../../../img/filtroPesquisaFormandos.png)
@@ -14,7 +14,7 @@
 <br>
 <br>
 
-#### Vizualizar Formando
+#### Visualizar Formando
 ![](../../../img/vizuFormandoEimprimir.jpg)
 ***
 <br>

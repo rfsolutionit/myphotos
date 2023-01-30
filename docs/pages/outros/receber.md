@@ -8,9 +8,9 @@
 
 #### **Campos para Cadastro :**
 
-* `Valor` - Insira o valor que reberá
+* `Valor` - Insira o valor que receberá
 * `Data de Vencimento` - Informe a data de vencimento da conta
-* `Descrião` - Dê uma descrição para a conta
+* `Descrição` - Dê uma descrição para a conta
 * `Data de Movimento` - Informe uma data para o movimento
 * `Taxas/Juros` - Insira uma taxa de juros| **Caso Precise**
 * `Descontos` - Insira um valor para desconto| **Caso Precise**
@@ -19,7 +19,7 @@
 * `Contrato` - Informe o contrato do cliente que deseja fazer a cobrança
 * `Carteira` - Informe uma carteira para o recebimento
 * `Centro de Custo` - Selecione o centro de custo da conta
-* `Forma de Recebimento` - Selecione uma forma de recebimento| **Moeda, Cheque, Boleto e etc..**
+* `Forma de Recebimento` - Selecione uma forma de recebimento| **Moeda, Cheque, Boleto, etc.**
 * `Categoria` - Informe o tipo de gasto / Categoria
 * `Parcela da Venda` - Selecione uma pessoa
 * `Recebido` - Informe se já foi recebido
@@ -30,19 +30,19 @@
 #### **Filtros de Pesquisa :**
 
 1. Datas
-    - `Data de Vencimento Inicio` - Insira uma data mínima para a pesquisa por data de vencimemnto
+    - `Data de Vencimento início` - Insira uma data mínima para a pesquisa por data de vencimento
     - `Data de Vencimento Final` - Informe uma data máximas para o vencimento
     - `Data de Recebimento Inicial` - Selecione uma data mínima dos recebimentos
     - `Data de Recebimento Final` - Insira uma data máxima dos recebimentos
     - `Data de Movimento Inicial` - Selecione uma data mínima para a pesquisa
     - `Data de Movimento Final` - Informe uma data máxima
 2. Outros Campos
-    - `Forma à Receber` - Insira qual é a forma de recebimeto da conta que deseja| **Moeda, Cheque, Boleto e etc...**
-    - `Valor Inicial` - Insira uma valor mínimo para das contas
+    - `Forma A Receber` - Insira qual é a forma de recebimento da conta que deseja| **Moeda, Cheque, Boleto, etc.**
+    - `Valor Inicial` - Insira um valor mínimo para das contas
     - `Valor Final` - Informe o valor máximo das contas que deseja procurar
-    - `Forma Recebida` - Selecione a forma que o pagamento foi recebido| **Moeda, Cheque, Boleto e etc...**
+    - `Forma Recebida` - Selecione a forma que o pagamento foi recebido| **Moeda, Cheque, Boleto, etc.**
     - `Carteira` - Informe a carteira da conta que deseja procurar
-    - `Palavra Chave` - Insira uma palavra chave para a busca
+    - `palavra-chave` - Insira uma palavra-chave para a busca
     - `Vendedores` - Informe o vendedor
     - `Situação` - Informe qual é a situação da conta| **Todos, Recebido e Em Abertos**
     - `Status` - Informe o status da conta| **Ativas ou Inativas**
@@ -147,21 +147,21 @@
 
 ![](../../img/recebimentoSeta.png)
 
-**Despois de conferir a conta, seleione a conta que deseja gerar o boleto**
+**Após conferir a conta, selecione a conta que deseja gerar o boleto**
 
 ![](../../img/foda.png)  
 **Contas com a marcação em vermelho são boletos que já foram gerados, caso seja necessário alterar o boleto correspondente a esta conta a receber é necessário fazer primeiramente a baixa ou alteração do boleto no seu sistema bancário**
 
 ![](../../img/fodaAmarela.png) <br> 
-**Contas com a marcação amarela significa que o boleto foi expirado após o prazo limite de dias após o vencimento ou forão baixados manualmente**
+**Contas com a marcação amarela significa que o boleto foi expirado após o prazo limite de dias após o vencimento ou foram baixados manualmente**
 ***
 
-## **Sicronizar conta**
-**A opção tem a função de sincronizar a o banco da conta que foi selecionada**
+## **Sincronizar conta**
+**A opção tem a função de sincronizar ao banco da conta selecionada**
 ***
 
 ![](../../img/recebimentoSeta.png)
 
-**Selecione uma conta que deseja sicronizar com o banco e gerar um boleto**
+**Selecione uma conta que deseja Sincronizar com o banco e gerar um boleto**
 
 ![](../../img/sincronizarBanco.png)

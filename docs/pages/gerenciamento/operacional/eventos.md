@@ -4,34 +4,34 @@
 ### Novo Evento
 ![](../../../img/eventoNovo.png)
 
-! Logo ao entrar, uma nova abá aparecerá em sua tela    
+! Logo ao entrar, uma nova Aba aparecerá em sua tela    
 
 #### **Campos para preencher**:
 
 * `Contratos` - Selecione o contrato que deseja cadastrar o evento
-    * **Após selecionar um contrato uma abá aparecerá**
+    * **Após selecionar um contrato uma Aba aparecerá**
     * ![](../../../img/ai.jpg)
 ***
 1. Dados do Evento
     - `Evento Base` - Selecione um evento base já cadastrado
-    - `Nome do Evnto` - Insira um nome para o evento
-    - `Situação do Evento` - Selecione a situação do evento| **Previsto, Confirmando, Cancelado e etc...**
-    - `Responsável` - Informe o responsável pelo o evento
+    - `Nome do Evento` - Insira um nome para o evento
+    - `Situação do Evento` - Selecione a situação do evento| **Previsto, Confirmando, Cancelado, etc.**
+    - `Responsável` - Informe o responsável pelo evento
     - `Data de Solicitação` - Insira uma data para a solicitação
-    - `Data/hora de Inicio` - Informe uma data e hora para o inicio do evento
+    - `Data/hora de início` - Informe uma data e hora para o início do evento
     - `Data/hora de Finalização` - Informe uma data e hora para a finalização do evento
     - `Liberação` - Informe a liberação do evento|  **Aprovado, Sob aprovação e Reprovado**
-    - `Status` - Infome o status do evento| **Programado, Inativo, Executando e etc...**
+    - `Status` - Informe o status do evento| **Programado, Inativo, Executando, etc.**
     - `Organizador / Empresa` - Insira o nome do organizador ou da empresa que organizará o evento
     - `Contato` - Informe um meio de contato
-    - `Contato da Comisão` - Insira o contato da comissão
-    - `Observações` - De observaçãoes para o evento
+    - `Contato da Comissão` - Insira o contato da comissão
+    - `Observações` - De observações para o evento
 2. Localização - **Caso tenha**
     - `Local do Evento` - Informe o local do evento
     - `Ponto de Referência` - Insira um ponto de referência para localizar
     - `CEP` - Insira o CEP do local
     - `Logradouro` - Nome da rua onde ocorrerá o evento
-    - `Numero` - Digite o Nnumero de localização do local
+    - `Número` - Digite o Número de localização do local
     - `Complemento` - Insira um complemento para facilitar a localização do evento
     - `Bairro` - Insira o nome do bairro
     - `Estado` - Informe o estado onde acontecerá o evento
@@ -42,7 +42,7 @@
 ***
 
 ## Anotações
-**Opção com a função de adicionar anotações para eveto**
+**Opção com a função de adicionar anotações para evento**
 ***
 ![](../../../img/eventosAnota%C3%A7%C3%A3o.jpg)
 
@@ -82,7 +82,7 @@
 * `Espécie de Pagamento` - Escolha um meio de pagamento| **Produto ou dinheiro**
 * `Data Solicitação` - Insira a data de solicitação
 * `Data Programada para Entrega` - Insira uma data programada para entrega dos custos
-* `Conta à Pagar` - Caso a conta n foi paga assinale a opção
+* `Conta a Pagar` - Caso a conta não foi paga assinale a opção
 1. **Tipo prevista**
     - Escolha uma descrição
 2. **Conta a Pagar**
@@ -107,15 +107,15 @@
 ![](../../../img/eventosEditar.jpg)
 ***
 
-## Cadastro de Caracteristicas :
-**Campo com a função de cadatrar caracteristacas de eventos**
+## Cadastro de Características:
+**Campo com a função de cadastrar características  de eventos**
 ***
 
 ![](../../../img/cadastroCaracteristicaEvento.png)
 
-#### **Campos para preencher :**
+#### **Campos para preencher:**
 
-* `Caracteristica` - Selecione uma caracteristica para o evento
-* `Observações` - Dê uma observação para a caracteristca do evento
+* `Característica` - Selecione uma Característica para o evento
+* `Observações` - Dê uma observação para a Característica do evento
 
 ![](../../../img/cadastroCaracteristcaEvento.png)

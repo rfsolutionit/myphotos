@@ -1,5 +1,5 @@
 # Saldo de Carteiras
-**Campo com a função de análisar o saldos das carteiras**
+**Campo com a função de análisar o saldo das carteiras**
 ***
 
 #### **Campos para pesquisa :**
@@ -16,6 +16,6 @@
 ***
 <br>
 
-[Vizualizar Carteira](https://rfsolutionit.github.io/myphotos/pages/outros/mov-financeiro.html)
+[Visualizar Carteira](https://rfsolutionit.github.io/myphotos/pages/outros/mov-financeiro.html)
 
-**Vizualizar carteira te leva diretamente para a pagina de movimento financeiro**
+**Visualizar carteira te leva diretamente para a página de movimento financeiro**

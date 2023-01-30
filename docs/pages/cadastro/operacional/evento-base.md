@@ -5,9 +5,9 @@
 
 ![](../../../img/novoEventoBase.png)
 
-#### **Capos para cadastro**:
+#### **Capôs para cadastro**:
 
-* `Código Interno` - Insira um codigo interno
+* `Código Interno` - Insira um código interno
 * `Nome Evento` - Informe o nome do evento
 * `Plano de Contas` - Selecione um plano de contas já cadastrado
 * `Centro de Custo`- Escolha um centro de custo para o evento

@@ -9,7 +9,7 @@
 * `Nome` - Insira o nome do usuário a ser cadastrado
 * `Data de Nascimento` - Informe a data de nascimento do usuário
 * `Sexo` - Informe o sexo do usuário
-* `CPF` - Insira o numero do CPF do usuario
+* `CPF` - Insira o número do CPF do usuario
 * `RG` - Insira o numerio do RG do novo usuário
 * `CNH` - Informe a CNH do usuario
 * `Cargo` - Informe o cargo do usuario
@@ -17,7 +17,7 @@
 1. Endereço
     - `CEP` - Informe o CEP do usuário
     - `Logradouro` - Insira o nome da rua de moradia do usuário
-    - `Numero` - Insira o numero da casa ou do apartamento do usuário
+    - `Número` - Insira o número da casa ou do apartamento do usuário
     - `Complemento` - Informe um complemento para facilitar a localização do usuario
     - `Bairro` - Informe o nome do Bairro de moradia do usuário
     - `Estado` - Selecione o Estado

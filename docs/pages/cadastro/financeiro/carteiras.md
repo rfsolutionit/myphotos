@@ -13,11 +13,11 @@
 * `Beneficiário` - Selecione um beneficiário já cadastrado
 * `Ativo` - Informe se a carteira ainda está ativa
 * `Agência` - Insira o número a agência
-* `DV` - Informe o digito verificador da agencia| **Se SICREDI infomar o posto**
-* `Operação` - Informe o codigo da operação
-* `Conta` - Digite o numero da conta
+* `DV` - Informe o digito verificador da agencia| **Se SICREDI informar o posto**
+* `Operação` - Informe o Código da operação
+* `Conta` - Digite o número da conta
 * `DV conta` - Informe o digito verificado da conta
-* `Convênio` - Informe o número do convênio| **Se o SICREDI informar a conta sem o digito verficador**
+* `Convênio` - Informe o número do convênio| **Se o SICREDI informar a conta sem o dígito verificador**
 * `Carteira` - Informe a carteira
 * `Var. Cart` - Informe a variação da carteira
 * `Limite de Cheque Especial` - Insira um limite em reais para o cheque especial
