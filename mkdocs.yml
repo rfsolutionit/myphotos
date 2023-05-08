@@ -139,7 +139,8 @@ nav:
         - Feedbacks de Venda: pages/vendedor/feedbacks.md
         - Análise de Vendas: pages/vendedor/analise.md
   
-theme: flatly
+theme: 
+    name: 'flatly'
 
 extra_css:
     - css/extra.css
